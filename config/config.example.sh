@@ -1,21 +1,33 @@
 #!/usr/bin/env bash
 ###############################################################################
-# Odoo 19 JSON-2 API Reference Tests
+# Odoo 19 JSON-2 API Reference
 #
-# Begleitprojekt zum Referenzwerk
+# Companion Repository to the reference book
 # "PlentyOne → Odoo 19 Enterprise Migration"
 #
 # Copyright (c) 2026 HQ GmbH
 # https://www.hqgmbh.de
 #
-# Autor:
+# Repository
+# https://github.com/hqgmbh/plenty-erp2odoo
+#
+# Author
 # Mathias Goldhan
 #
-# Dieses Beispiel wurde gegen Odoo 19 validiert und dient ausschließlich
-# Demonstrations- und Testzwecken.
+# SPDX-License-Identifier: Apache-2.0
 #
-# Repository:
-# https://github.com/hqgmbh/plenty-erp2odoo
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+#
+# This example has been practically validated against Odoo 19 and is part of
+# the official API reference implementation published by HQ GmbH.
 ###############################################################################
 
 export ODOO_URL="https://odoo.example.com"
