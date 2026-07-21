@@ -80,7 +80,7 @@ Trotzdem sollten sämtliche Tests zunächst gegen ein Entwicklungs- oder Staging
 
 # Referenzwerk
 
-Dieses Repository ergänzt das Buch
+Dieses Repository ergänzt das Tutorial
 
 **PlentyOne → Odoo 19 Enterprise Migration**
 
