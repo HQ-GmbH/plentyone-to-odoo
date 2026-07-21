@@ -1,0 +1,11 @@
+config.sh
+
+*.log
+
+.DS_Store
+
+.idea
+
+.vscode
+
+.env
