@@ -36,17 +36,6 @@ Die Beispiele dienen als reproduzierbare Referenz für
 
 ---
 
-# Projektstruktur
-
-```text
-curl/
-docs/
-examples/
-results/
-```
-
----
-
 # Voraussetzungen
 
 * Odoo 19
