@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+###############################################################################
+# Prometheus Performance API Reference
+# PlentyOne -> Odoo 19 Enterprise Migration
+# Copyright (c) 2026 HQ GmbH — https://www.hqgmbh.de
+# Repository: https://github.com/hqgmbh/plenty-erp2odoo
+# SPDX-License-Identifier: Apache-2.0
+###############################################################################
+source ../config.sh
+# Voraussetzung: PROMETHEUS_URL in ../config.sh, z. B. http://prometheus:9090.
+set -euo pipefail
+: "${PROMETHEUS_URL:?Set PROMETHEUS_URL in config.sh}"
+curl -sS --fail-with-body -G "${PROMETHEUS_URL%/}/api/v1/query" --data-urlencode 'query=1 - (node_filesystem_avail_bytes{fstype!~"tmpfs|overlay"} / node_filesystem_size_bytes{fstype!~"tmpfs|overlay"})'
