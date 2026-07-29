@@ -72,6 +72,21 @@ und [`MIGRATION_NOTES.md`](MIGRATION_NOTES.md).
 
 ---
 
+# Shopware 6.7 Admin API Reference Tests
+
+Im Ordner [`shopware/`](shopware/) liegt ein drittes Gegenstück - wieder
+dieselben Test-IDs (A001-G020), aber gegen die Shopware 6.7 Admin API. Wie bei
+`plenty/` inklusive expliziter `GAP:`-Hinweise, wo Shopware kein Äquivalent
+bietet (z.B. Serie E/Einkauf komplett, Serie F/Lager und G/Buchhaltung
+überwiegend - siehe [`shopware/README.md`](shopware/README.md)).
+
+**Wie bei `plenty/`:** Die `shopware/`-Skripte wurden auf Basis der offiziellen
+Shopware-Dokumentation und des OpenAPI-Schemas erstellt, **nicht** gegen eine
+echte Shopware-Instanz getestet. `UNVERIFIZIERT`-Markierungen im Kommentarkopf
+vor produktivem Einsatz beachten.
+
+---
+
 # Lizenz
 
 Apache-2.0 License
@@ -84,8 +99,8 @@ Die Beispiele unter `odoo/` wurden produktiv getestet.
 
 Trotzdem sollten sämtliche Tests zunächst gegen ein Entwicklungs- oder Staging-System durchgeführt werden.
 
-Die Beispiele unter `plenty/` wurden **nicht** gegen eine reale Plenty-Instanz
-verifiziert (siehe Abschnitt "Plenty REST API Reference Tests" oben) und sind
+Die Beispiele unter `plenty/` und `shopware/` wurden **nicht** gegen eine
+reale Instanz verifiziert (siehe jeweiligen Abschnitt oben) und sind
 entsprechend vorsichtiger zu behandeln.
 
 ---

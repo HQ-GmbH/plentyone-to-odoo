@@ -37,3 +37,8 @@ export ODOO_API_KEY="YOUR_API_KEY"
 export PLENTY_URL="https://p12345.my.plentysystems.com"
 export PLENTY_USERNAME="YOUR_BACKEND_USERNAME"
 export PLENTY_PASSWORD="YOUR_BACKEND_PASSWORD"
+
+# Shopware 6.7 Admin API (siehe ../shopware) - OAuth2 client_credentials.
+export SHOPWARE_URL="https://shop.example.com"
+export SHOPWARE_CLIENT_ID="YOUR_INTEGRATION_CLIENT_ID"
+export SHOPWARE_CLIENT_SECRET="YOUR_INTEGRATION_CLIENT_SECRET"

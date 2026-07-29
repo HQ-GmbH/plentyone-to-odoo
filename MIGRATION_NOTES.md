@@ -1,17 +1,23 @@
-# Migrationsnotizen: Plenty REST API → Odoo 19 JSON-2 API
+# Migrationsnotizen: Odoo 19 JSON-2 API ↔ Plenty REST API ↔ Shopware 6.7 Admin API
 
 Diese Datei verdichtet die `Migrationshinweis:`-Kommentare aus den einzelnen
-Testskripten in [`plenty/`](plenty/) zu einer themensortierten Übersicht. Sie
-ist die Wissensgrundlage für das geplante Migrationstool
-(PlentyOne → Odoo 19 Enterprise). Für den Beleg/Quellenverweis eines
-einzelnen Punkts: Testskript mit derselben Test-ID in `plenty/` öffnen.
+Testskripten in [`plenty/`](plenty/) und [`shopware/`](shopware/) zu einer
+themensortierten Übersicht. Sie ist die Wissensgrundlage für das geplante
+Migrationstool (PlentyOne → Odoo 19 Enterprise, mit Shopware als drittem
+Vergleichspunkt). Für den Beleg/Quellenverweis eines einzelnen Punkts: das
+Testskript mit derselben Test-ID im jeweiligen Ordner öffnen.
 
-Status-Kennzeichnung: Aussagen ohne Zusatz sind aus der offiziellen
-Plenty-OpenAPI-Spec bzw. den offiziellen Guides verifiziert. Aussagen mit
+Status-Kennzeichnung: Aussagen ohne Zusatz sind aus der jeweiligen offiziellen
+OpenAPI-Spec bzw. den offiziellen Guides verifiziert. Aussagen mit
 **UNVERIFIZIERT** sind plausible Annahmen, die vor einer produktiven
-Migration gegen eine echte Plenty-Testinstanz zu prüfen sind.
+Migration gegen eine echte Test-Instanz zu prüfen sind.
+
+**Teil A (Abschnitte 1-8) behandelt Plenty ↔ Odoo. Teil B (Abschnitte 9-16)
+behandelt Shopware ↔ Odoo/Plenty.**
 
 ---
+
+# Teil A: Plenty REST API ↔ Odoo
 
 ## 1. Authentifizierung & Sessions
 
@@ -265,7 +271,7 @@ migrieren, weil es dort keinen Zielort dafür gibt.
   wie die spezialisierten `book`-Endpunkte.
 * Detailstruktur der "4 VAT-Sätze" pro Land im `/rest/vat`-Datensatz.
 
-## Quellen
+## Quellen (Teil A)
 
 * Offizielles OpenAPI-v3-Schema: `github.com/plentymarkets/api-doc`
   (`plentymarkets/openApiV3/openApiV3.json`)
@@ -273,3 +279,246 @@ migrieren, weil es dort keinen Zielort dafür gibt.
   (Getting Started, Contact Data, Item Data, Order Data, Order Search,
   Purchase Orders, Bulk Routes)
 * `knowledge.plentyone.com/de-de/manual/main/auftraege/order-statuses.html`
+
+---
+
+# Teil B: Shopware 6.7 Admin API ↔ Odoo/Plenty
+
+Quelle fürs Schema: offizielles OpenAPI-v3-Dokument, direkt vom
+`shopware/admin-api-reference`-GitHub-Repo (`latest`-Branch, `info.version`
+= `6.7.12.1`) sowie live per `GET /api/_info/openapi3.json` von jeder
+Shopware-Instanz selbst abrufbar. Zusätzlich zum Abgleich herangezogen: das
+Schema mit aktiviertem kostenpflichtigem Commercial-Plugin
+(`SwagCommercial-adminapi.json`, `6.7.9.0`).
+
+## 9. Authentifizierung & Sessions
+
+| | Odoo (JSON-2) | Plenty (REST) | Shopware (Admin API) |
+|---|---|---|---|
+| Credential | statischer API-Key | Benutzername/Passwort | Integration (Client-ID/Secret) |
+| Token | - (Key direkt als Bearer) | `POST /rest/login` → 24h | `POST /api/oauth/token` (`client_credentials`) → **nur 600s (10 Min.)** |
+| Refresh | - | `POST /rest/login/refresh` | keins bei `client_credentials` - einfach neu anfragen |
+| Fehlerformat | eigenes | `{"error","message"}` (nur 1 Beispiel belegt) | vollständiges **JSON:API**-Format (`{"errors":[{"status","title","detail",...}]}`), für beide Content-Types identisch |
+
+**Konsequenz:** Shopwares Token ist mit 10 Minuten der kürzeste der drei APIs
+(Plenty: 24h, Odoo: kein Ablauf). Ein Migrationstool muss den Token praktisch
+bei jedem längeren Batch-Job neu anfordern, nicht nur gelegentlich auffrischen.
+Positiv: Shopwares Fehlerformat ist das einzige der drei APIs, das im Schema
+selbst vollständig spezifiziert ist.
+
+## 10. API-Mechanik allgemein - Shopwares Criteria-System ist der beste Treffer der ganzen Recherche
+
+Shopwares generisches `POST /api/search/{entity}`-Muster (Criteria-Objekt mit
+`filter`/`sort`/`page`/`limit`/`associations`/`fields`/`total-count-mode`)
+kommt Odoos ORM-Semantik **deutlich näher** als Plentys flache
+Query-Parameter:
+
+| Odoo-Konzept | Plenty | Shopware |
+|---|---|---|
+| `fields=[...]` (Sparse Fieldset) | nicht möglich, immer volles Objekt | **möglich** über `"fields":[...]` im Criteria-Body |
+| `order=` (Sortierung) | nicht möglich (bei Contacts) | **möglich**, serverseitig, für praktisch jedes Feld |
+| Domain `[('id','in',[...])]` | nicht möglich, nur Einzel-ID | **möglich** über `{"type":"equalsAny",...}` |
+| Domain `not in` | nicht möglich | **möglich** über `{"type":"not","queries":[...]}` |
+| Domain `'|'`/`'&'`-Verschachtelung | nicht möglich | **möglich** über `{"type":"multi","operator":"and"/"or"/"nand"/"nor"}` |
+| `ilike` (generisch, jedes Feld) | nur einzelne Felder haben fuzzy-Varianten (z.B. `contactEmail`) | **generisch** über `{"type":"contains",...}` auf jedem String-Feld |
+| `read_group()` | **kein Äquivalent** | **`POST /api/aggregate/{entity}`** mit `terms` (group-by) + `count`/`sum`/`avg`/`min`/`max`/`stats` |
+| Verschachtelte Prefetches | `?with=...` (flach) | `"associations":{...}` (rekursiv verschachtelbar, mit eigenen Filtern je Assoziation) |
+| `search_count()` | `totalsCount` im Envelope (immer vorhanden) | `"total-count-mode":"exact"` explizit anfordern (Performance-Trade-off per Default deaktiviert) |
+
+**Wichtiger Kuriositäten-Fund:** `POST`/`PATCH` liefern bei Shopware per
+Default **gar keinen Response-Body** - nur mit `?_response=detail` (oder
+`basic`) wird die erzeugte/geänderte Ressource zurückgegeben. Leicht zu
+übersehen, wenn man Odoo/Plenty-Gewohnheiten (Antwort kommt immer mit)
+überträgt.
+
+**Weiterer Unterschied:** Shopware-IDs sind **UUIDs** (36-Zeichen-Strings),
+nicht Integer wie bei Odoo/Plenty. Ein Migrationstool braucht für Shopware
+zwingend eine externe ID-Zuordnungstabelle (Odoo/Plenty-Integer ↔
+Shopware-UUID) - kein direktes numerisches Mapping möglich.
+
+**Bulk-Import:** `POST /api/_action/sync` mit `action":"upsert"` ist ein
+echtes Upsert (Create ODER Update in einem Call, mehrere Entities gemischt
+möglich) - kommt Odoos `load()` näher als Plentys `batch_update` (das nur
+Updates kann, kein Bulk-Create).
+
+## 11. Kontakte / Partner (`res.partner` ↔ `customer`/`customer-address`)
+
+Anders als bei Plenty (Contact+Account+Address über drei Ressourcen verteilt)
+ist Shopwares `customer`-Entity dem Odoo-Modell in mancher Hinsicht näher,
+in anderer Hinsicht weiter entfernt:
+
+| Aspekt | Odoo | Plenty | Shopware |
+|---|---|---|---|
+| Name/E-Mail direkt am Hauptobjekt | ja | nein (Options-Array/Adresse) | **ja** (`firstName`/`lastName`/`email` direkte Felder) |
+| Aktiv/Archiviert-Flag | ja (`active`) | **nein** | **ja** (`active`) |
+| Verschachtelter Write (Kontakt+Adresse in einem Call) | ja (ein Modell) | nein (zwingend 2 Calls) | **ja** (Client vergibt eigene UUIDs, referenziert sie im selben Payload) |
+| Kunde/Lieferant in derselben Tabelle | ja (`customer_rank`/`supplier_rank`) | ja (`typeId`) | **nein** - `customer` ist AUSSCHLIESSLICH Kunden; kein Lieferantenkonzept überhaupt |
+| Eltern-Kind-Beziehung (Firma → Ansprechpartner) | ja (`parent_id`) | ja (Account↔Contact-Relation) | **nein** - nur ein Freitextfeld `company`, keine strukturelle Verknüpfung |
+| Adresstyp (Rechnung/Lieferung) | String-Feld am Adressdatensatz | konfigurierbare Integer-ID | **kein Typ an der Adresse selbst** - `defaultBillingAddressId`/`defaultShippingAddressId` referenzieren stattdessen vom Customer aus |
+
+**Wichtigste Einzelerkenntnis:** Shopware **invertiert** das bei Plenty
+beobachtete Problem. Bei Plenty/Odoo muss "nur Kunden" erst aus einer
+gemischten Tabelle herausgefiltert werden (Rang/typeId). Bei Shopware ist die
+Trennung bereits strukturell vorgegeben (`customer` = ausschließlich Kunden) -
+dafür fehlt umgekehrt jedes Konzept für Lieferanten komplett (0 Treffer für
+`vendor`/`supplier` in 665 Pfaden). `product-manufacturer` ist reine
+Marken-/Marketinginfo, kein Adress-/Einkaufskonzept.
+
+Ein per Admin-API angelegter Auftrag speichert übrigens einen **Snapshot**
+der Kundendaten zum Bestellzeitpunkt (`order-customer`), keine reine
+Fremdschlüssel-Referenz - spätere Adressänderungen am Kunden wirken sich NICHT
+rückwirkend auf vergangene Aufträge aus (anders zu erwarten, wenn man von
+Odoo/Plenty-FK-Semantik ausgeht).
+
+## 12. Artikel / Produkte (`product.template` ↔ `product`)
+
+Shopwares `product`-Entity ist (anders als Plentys Item+Variation-Trennung)
+ein einzelnes Modell für sowohl eigenständige Produkte als auch Varianten
+(über `parentId`/`children`) - näher an Odoos Struktur.
+
+| Odoo-Feld | Shopware-Entsprechung |
+|---|---|
+| `default_code` (SKU) | `productNumber` |
+| `list_price` | `price` - **Array** von Preisobjekten (ein Eintrag je Währung), speichert **gross UND net gleichzeitig** (kein einzelner Preis mit implizit abgeleitetem Steuersatz) |
+| `standard_price` | `purchasePrices` (ebenfalls ein Price-Array, "Actual/cost price") |
+| `taxes_id`/`supplier_taxes_id` | nur EIN `taxId`-Feld - keine getrennte Einkaufssteuer (identische Lücke wie bei Plenty) |
+| `uom_id`/`uom_po_id` | nur EIN `unitId`-Feld; `purchaseUnit`/`referenceUnit` sind **keine zweite Masseinheit**, sondern numerische Mengenangaben für die Grundpreisanzeige (z.B. "Preis pro 100ml" nach PAngV) - leicht mit einer echten Einkaufseinheit zu verwechseln |
+| `detailed_type` (consu/service/combo) | **kein Feld dafür** - keine Achse Ware/Dienstleistung am Produkt überhaupt |
+| `active` | `active` (direkter Treffer) |
+| Verfügbarer Bestand (`virtual_available`) | `availableStock` (readOnly, = `stock` minus offene Bestellungen) |
+
+**Fazit:** Die Produktseite ist bei Shopware insgesamt die am saubersten
+übertragbare Entität der ganzen Drei-API-Recherche (neben `tax`/`vat`).
+
+## 13. Bestellungen (`sale.order` ↔ `order`) - drei getrennte State-Maschinen
+
+**Zentraler Unterschied zu Odoo UND Plenty:** Shopware hat **keinen**
+einheitlichen Auftragsstatus, sondern **drei unabhängige State-Maschinen**
+auf drei verschiedenen Entities:
+
+* `order.state` (Gesamtstatus: `open`/`in_progress`/`cancelled`/`completed`)
+* `order_transaction.state` (Zahlungsstatus, u.a. `open`/`paid`/`paid_partially`/`refunded`/`cancelled`)
+* `order_delivery.state` (Lieferstatus, u.a. `open`/`shipped`/`shipped_partially`/`returned`)
+
+Odoos einzelnes `invoice_status`-Feld am `sale.order` entspricht damit am
+ehesten `order_transaction.state`, ist aber strukturell getrennt vom
+Hauptstatus - keine Zusammenfassung in einem Feld wie bei Odoo.
+
+**`stateId` ist eine instanzabhängige UUID, kein Enum-Wert!** Anders als
+Odoos feste String-Enums oder Plentys numerisches Statussystem verweist
+`stateId` auf einen Datensatz in der `state_machine_state`-Tabelle - der
+konkrete UUID-Wert ist PRO INSTANZ unterschiedlich. Robuster Filteransatz:
+über die Assoziation nach `stateMachineState.technicalName` filtern statt
+eine `stateId`-UUID hart zu kodieren (**UNVERIFIZIERT**, aber nach dem
+allgemeinen Shopware-DAL-Muster technisch plausibel).
+
+Statusübergänge laufen über eigene Aktions-Endpunkte:
+`POST /api/_action/order/{id}/state/{transition}` (und analog für
+`order_transaction`/`order_delivery`). Die exakten `technicalName`-Werte der
+Standard-Transitions (z.B. `process`, `cancel`) sind **UNVERIFIZIERT** - im
+Schema selbst nicht als Enum hinterlegt; vor Nutzung per
+`GET /api/_action/order/{id}/state` die für den konkreten Auftrag verfügbaren
+Transitions abfragen.
+
+**Weitere Unterschiede:**
+
+* `amountNet`/`amountTotal` sind **gespeicherte** Felder direkt am Order
+  (anders als bei Plenty, wo die Summe aus `orderItems` berechnet werden
+  muss) - näher an Odoo.
+* `order-line-item` ist eine **eigene, separat adressierbare Entity** mit
+  eigenem Suchendpunkt (anders als Plentys eingebettetes `orderItems`-Array) -
+  näher an Odoos `sale.order.line`.
+* Der Kunde ist NICHT direkt am Order-Objekt (kein `customerId`-Feld dort),
+  sondern über die separate `order-customer`-Assoziation verknüpft (Snapshot,
+  siehe Abschnitt 11).
+* Auftragserstellung per Admin-API ist **unüblich und aufwendig**: Pflichtfelder
+  wie `itemRounding`/`totalRounding` (Rundungskonfiguration) und die
+  instanzabhängige `stateId` machen einen direkten POST auf `/api/order`
+  komplizierter als bei Odoo/Plenty. In der Praxis entstehen Shopware-Aufträge
+  über die Store-API/den Checkout-Flow, nicht über die Admin-API.
+* Rechnungen/Gutschriften sind wie bei Plenty nur **PDF-Dokumente**
+  (`document`-Entity, `documentType` u.a. `invoice`/`credit_note`/
+  `delivery_note`) ohne Buchungssatz dahinter.
+* `salesChannelId` ist die dritte, eigenständige Auspraegung der "wie bilde
+  ich Mandanten/Unternehmen ab"-Frage (Odoo: `company_id` = rechtliche
+  Einheit; Plenty: `plentyId` = Webshop; Shopware: `salesChannelId` =
+  Vertriebskanal).
+
+## 14. Lager & Bestand - deutlich weniger als bei Plenty
+
+Der größte Rückschritt gegenüber Plenty: Shopware Core kennt **nur ein
+einzelnes `stock`-Integer-Feld pro Produkt** - keine Bestandsbewegungshistorie,
+kein Beleg-/Picking-Konzept, keine Lagerorte.
+
+**Bemerkenswerter Schema-Fund:** Die Entity-Definitionen `Warehouse`,
+`WarehouseGroup`, `ProductWarehouse`, `OrderProductWarehouse` existieren
+bereits im Core-Schema - aber **ohne zugehörige HTTP-Pfade** und ohne jede
+Verknüpfung vom `Product`-Schema aus. Im Schema mit aktiviertem
+(kostenpflichtigem) Commercial-Plugin sind exakt dieselben Entities voll
+ausgestattet (`/api/warehouse` etc.). **Multi-Warehouse/"Advanced Inventory"
+ist damit ein reines Feature des kostenpflichtigen Shopware-Commercial-Plugins,
+nicht des Open-Source-Cores** - das ist keine Vermutung, sondern direkt aus
+dem Schema-Vergleich abgeleitet (siehe `shopware/F001-*.sh`, `F003-*.sh`).
+
+| Odoo/Plenty-Konzept | Shopware Core |
+|---|---|
+| `stock.quant`/`VariationStock` (Bestand je Lager) | nur ein globaler `stock`-Wert je Produkt, keine Lageraufschlüsselung |
+| `virtual_available`/`netStock` | `availableStock` (readOnly, = stock minus offene Bestellungen) - der einzige echte Treffer |
+| `stock.picking`/Bestandsbewegungen | **kein Äquivalent** - keine Bewegungshistorie überhaupt |
+| Inkrementelles Buchen ("+5 Stück") | **nicht möglich** - nur PATCH des absoluten `stock`-Werts, Lost-Update-Risiko bei paralleler Änderung |
+| `stock.location`-Baum | **kein Äquivalent** (ohne Commercial-Plugin) |
+| `stock.picking.type` | **kein Äquivalent** |
+
+**Konsequenz für das Migrationstool:** Wer Odoo/Plenty-Mehrlagerdaten nach
+Shopware migrieren will, braucht entweder das kostenpflichtige
+Commercial-Plugin oder muss auf den einfachen globalen `stock`-Wert
+reduzieren (Informationsverlust).
+
+## 15. Buchhaltung - noch weniger als bei Plenty
+
+Bestätigt (alle 419 Schema-Namen durchsucht): **kein** Journal-/Buchungssatz-
+Modell, **keine** Vendor-Bills (folgt aus dem fehlenden Lieferantenkonzept,
+Abschnitt 11), und - anders als Plenty - **auch keine
+Buchhaltungs-Export-Konfiguration** (Plenty hat immerhin
+`/rest/accounting/locations/posting_accounts` für ein DATEV-artiges Mapping;
+bei Shopware Core fehlt selbst das komplett).
+
+| Vorhanden bei Shopware | Deckt ab | Deckt NICHT ab |
+|---|---|---|
+| `order-transaction` | Zahlungsvorgang (Betrag/Status/Zahlungsmethode) | Buchungssatz, Konten |
+| `tax` | Steuersätze (`taxRate`, `name`) - direkter Treffer, wie Plentys `vat` | Kontenplan |
+| `document` (`invoice`/`credit_note`/...) | Rechnung/Gutschrift als **PDF** | Buchungssatz dahinter |
+| `payment-method` | Zahlungsarten-Stammdaten | Bankjournal/Kontostand |
+
+**Fazit:** Buchhaltung ist bei Shopware eine noch klarere Fremdaufgabe als bei
+Plenty - üblicherweise übernehmen Drittanbieter-Plugins (z.B. für
+DATEV-Export) diese Aufgabe komplett außerhalb des Cores, ohne dass der Core
+dafür überhaupt eine Konfigurationsstruktur mitbringt.
+
+## 16. Offene Punkte für weitere Recherche (Shopware)
+
+* Exakte `technicalName`-Werte der Standard-Transitions für `order`/
+  `order_transaction`/`order_delivery` (z.B. `process`, `cancel`) - im Schema
+  nicht als Enum hinterlegt, nur empirisch per
+  `GET /api/_action/order/{id}/state` zu ermitteln.
+* Konkrete `accountType`-Enum-Werte am Customer (vermutlich `private`/
+  `business`, im Schema nicht als Enum dokumentiert).
+* Verhalten bei unbekannten JSON-Feldern in `POST`/`PATCH`-Bodies (strikt
+  abgelehnt oder stillschweigend ignoriert?).
+* Ob `stateMachineState.technicalName` als Assoziations-Filterpfad exakt so
+  funktioniert wie angenommen (D009/G007-G009 in `shopware/`).
+* Ob dokumentierte Rate-Limits existieren (im Schema nur eine
+  429-Fehlerkomponente ohne Verknüpfung an einem konkreten Endpunkt - deutet
+  auf "nicht offiziell dokumentiert", nicht zwingend "nicht vorhanden").
+
+## Quellen (Teil B)
+
+* Offizielles OpenAPI-v3-Schema: `github.com/shopware/admin-api-reference`
+  (`latest`-Branch, entspricht `6.7.12.1`) sowie live per
+  `GET /api/_info/openapi3.json` jeder Shopware-Instanz
+* Schema mit Commercial-Plugin zum Abgleich: `SwagCommercial-adminapi.json`
+  (`6.7.9.0`)
+* `developer.shopware.com/docs/guides/development/integrations-api/*`
+  (Auth/Rate-Limits/Pagination)
+* `developer.shopware.com/docs/guides/plugins/plugins/checkout/order/using-the-state-machine.html`
+  (Standard-Zustände der drei Order-State-Maschinen)
