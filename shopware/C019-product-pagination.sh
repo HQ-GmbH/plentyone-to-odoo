@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/C019-product-pagination.sh
 #
+# Plenty-Pendant:
+# plenty/C019-product-pagination.sh
+#
 # Beschreibung:
 # Demonstriert Pagination bei Produkten.
 ###############################################################################

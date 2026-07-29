@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/B007-partner-fields_get.sh
 #
+# Plenty-Pendant:
+# plenty/B007-partner-fields_get.sh
+#
 # Beschreibung:
 # Liest Feldmetadaten des Customer-Modells (siehe A007).
 ###############################################################################

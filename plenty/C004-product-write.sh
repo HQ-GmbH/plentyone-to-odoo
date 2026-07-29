@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/C004-product-write.sh
 #
+# Shopware-Pendant:
+# shopware/C004-product-write.sh
+#
 # Beschreibung:
 # Aktualisiert den Namen einer Variation.
 ###############################################################################

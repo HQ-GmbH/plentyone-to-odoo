@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/D019-sale-order-invoices.sh
 #
+# Plenty-Pendant:
+# plenty/D019-sale-order-invoices.sh
+#
 # Beschreibung:
 # Erzeugt das Rechnungsdokument (PDF) eines Auftrags.
 #

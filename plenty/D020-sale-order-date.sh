@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/D020-sale-order-date.sh
 #
+# Shopware-Pendant:
+# shopware/D020-sale-order-date.sh
+#
 # Beschreibung:
 # Filtert Auftraege nach Erstellungsdatum.
 ###############################################################################

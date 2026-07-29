@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/F016-stock-location-search.sh
 #
+# Plenty-Pendant:
+# plenty/F016-stock-location-search.sh
+#
 # Beschreibung:
 # Kein Aequivalent: keine Lagerplatz-/Location-Struktur im Core.
 ###############################################################################

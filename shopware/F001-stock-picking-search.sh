@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/F001-stock-picking-search.sh
 #
+# Plenty-Pendant:
+# plenty/F001-stock-picking-search.sh
+#
 # Beschreibung:
 # Kein Aequivalent: Shopware Core hat kein Transferbeleg-/Picking-Konzept.
 #

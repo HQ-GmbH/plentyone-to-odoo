@@ -5,6 +5,12 @@
 # Copyright (c) 2026 HQ GmbH — https://www.hqgmbh.de
 # Repository: https://github.com/hqgmbh/plenty-erp2odoo
 # SPDX-License-Identifier: Apache-2.0
+#
+# Plenty-Pendant:
+# plenty/F007-stock-picking-assigned.sh
+#
+# Shopware-Pendant:
+# shopware/F007-stock-picking-assigned.sh
 ###############################################################################
 source ../config.sh
 # Voraussetzungen: ../config.sh setzt ODOO_URL und ODOO_API_KEY.

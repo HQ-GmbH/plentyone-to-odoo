@@ -3,6 +3,12 @@
 # Test-ID: B007
 #
 # Liest Felddefinitionen des Partner-Modells.
+#
+# Plenty-Pendant:
+# plenty/B007-partner-fields_get.sh
+#
+# Shopware-Pendant:
+# shopware/B007-partner-fields_get.sh
 ###############################################################################
 
 source ../config.sh

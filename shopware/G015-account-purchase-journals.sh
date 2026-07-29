@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/G015-account-purchase-journals.sh
 #
+# Plenty-Pendant:
+# plenty/G015-account-purchase-journals.sh
+#
 # Beschreibung:
 # Kein Aequivalent: siehe G013 und B016 (kein Einkauf).
 ###############################################################################

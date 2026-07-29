@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/D016-sale-order-salesperson.sh
 #
+# Plenty-Pendant:
+# plenty/D016-sale-order-salesperson.sh
+#
 # Beschreibung:
 # Kein Aequivalent: Shopware kennt keine interne Vertriebsperson-Zuordnung am
 # Auftrag.

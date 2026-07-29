@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/E020-purchase-order-bills.sh
 #
+# Shopware-Pendant:
+# shopware/E020-purchase-order-bills.sh
+#
 # Beschreibung:
 # Erzeugt das Rechnungsdokument einer Nachbestellung.
 #

@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/E010-purchase-order-search-count.sh
 #
+# Plenty-Pendant:
+# plenty/E010-purchase-order-search-count.sh
+#
 # Beschreibung:
 # Kein Aequivalent zu Odoos purchase order search count: Ermittelt die
 # Gesamtanzahl aller Einkaufsauftraege.

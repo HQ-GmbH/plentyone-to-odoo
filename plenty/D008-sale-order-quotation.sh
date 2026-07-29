@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/D008-sale-order-quotation.sh
 #
+# Shopware-Pendant:
+# shopware/D008-sale-order-quotation.sh
+#
 # Beschreibung:
 # Listet Angebote (orderType=7 'Offer' - naechste Entsprechung zu draft/sent).
 #

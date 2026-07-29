@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/G016-account-bank-journals.sh
 #
+# Plenty-Pendant:
+# plenty/G016-account-bank-journals.sh
+#
 # Beschreibung:
 # Naeherung: listet konfigurierte Zahlungsmethoden.
 #

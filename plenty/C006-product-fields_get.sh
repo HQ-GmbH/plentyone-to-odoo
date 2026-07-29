@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/C006-product-fields_get.sh
 #
+# Shopware-Pendant:
+# shopware/C006-product-fields_get.sh
+#
 # Beschreibung:
 # Liest Feldmetadaten des Variation-Request-Schemas (Naeherung).
 #

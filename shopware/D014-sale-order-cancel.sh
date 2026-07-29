@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/D014-sale-order-cancel.sh
 #
+# Plenty-Pendant:
+# plenty/D014-sale-order-cancel.sh
+#
 # Beschreibung:
 # Stornoiert einen Auftrag.
 ###############################################################################

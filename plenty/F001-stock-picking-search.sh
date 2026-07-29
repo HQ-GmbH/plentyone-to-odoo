@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/F001-stock-picking-search.sh
 #
+# Shopware-Pendant:
+# shopware/F001-stock-picking-search.sh
+#
 # Beschreibung:
 # Listet Bestandsbewegungen eines Lagers (naechste Entsprechung zu
 # stock.picking).

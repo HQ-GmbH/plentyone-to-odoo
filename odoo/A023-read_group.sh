@@ -1,6 +1,12 @@
 #!/usr/bin/env bash
 ###############################################################################
 # Test-ID: A023
+#
+# Plenty-Pendant:
+# plenty/A023-read_group.sh
+#
+# Shopware-Pendant:
+# shopware/A023-read_group.sh
 ###############################################################################
 
 source ../config.sh

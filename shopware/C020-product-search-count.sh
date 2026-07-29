@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/C020-product-search-count.sh
 #
+# Plenty-Pendant:
+# plenty/C020-product-search-count.sh
+#
 # Beschreibung:
 # Ermittelt die Gesamtanzahl aktiver Produkte.
 ###############################################################################

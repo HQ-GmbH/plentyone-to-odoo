@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/B010-partner-email.sh
 #
+# Shopware-Pendant:
+# shopware/B010-partner-email.sh
+#
 # Beschreibung:
 # Sucht einen Kontakt per exakter E-Mail-Adresse.
 #

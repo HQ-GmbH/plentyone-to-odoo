@@ -11,6 +11,12 @@
 # https://github.com/hqgmbh/plenty-erp2odoo
 #
 # SPDX-License-Identifier: Apache-2.0
+#
+# Plenty-Pendant:
+# plenty/D003-sale-order-read.sh
+#
+# Shopware-Pendant:
+# shopware/D003-sale-order-read.sh
 ###############################################################################
 
 source ../config.sh

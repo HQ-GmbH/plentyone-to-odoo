@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/B005-partner-unlink.sh
 #
+# Shopware-Pendant:
+# shopware/B005-partner-unlink.sh
+#
 # Beschreibung:
 # Loescht einen vorhandenen Testkontakt.
 ###############################################################################

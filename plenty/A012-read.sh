@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A012-read.sh
 #
+# Shopware-Pendant:
+# shopware/A012-read.sh
+#
 # Beschreibung:
 # Liest einen Kontakt inkl. aller vorhandenen Felder.
 #

@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/F014-stock-quant-search.sh
 #
+# Plenty-Pendant:
+# plenty/F014-stock-quant-search.sh
+#
 # Beschreibung:
 # Listet aktuelle Bestandszahlen mehrerer Produkte (Sparse Fieldset).
 #

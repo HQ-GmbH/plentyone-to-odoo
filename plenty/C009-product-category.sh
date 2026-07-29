@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/C009-product-category.sh
 #
+# Shopware-Pendant:
+# shopware/C009-product-category.sh
+#
 # Beschreibung:
 # Sucht Variationen einer bestimmten Kategorie.
 #

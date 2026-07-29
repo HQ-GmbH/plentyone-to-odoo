@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/C014-product-purchase-tax.sh
 #
+# Shopware-Pendant:
+# shopware/C014-product-purchase-tax.sh
+#
 # Beschreibung:
 # Kein Aequivalent: Plenty kennt keinen separaten Einkaufssteuersatz.
 #

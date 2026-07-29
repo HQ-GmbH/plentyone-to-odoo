@@ -3,6 +3,12 @@
 # Test-ID: A030
 #
 # Einfacher Benchmark der search_read()-Methode.
+#
+# Plenty-Pendant:
+# plenty/A030-benchmark-search_read.sh
+#
+# Shopware-Pendant:
+# shopware/A030-benchmark-search_read.sh
 ###############################################################################
 
 source ../config.sh

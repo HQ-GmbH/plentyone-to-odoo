@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/C016-product-purchase-uom.sh
 #
+# Shopware-Pendant:
+# shopware/C016-product-purchase-uom.sh
+#
 # Beschreibung:
 # Kein Aequivalent: Plenty kennt keine separate Einkaufseinheit.
 ###############################################################################

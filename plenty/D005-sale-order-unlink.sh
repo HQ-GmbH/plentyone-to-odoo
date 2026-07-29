@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/D005-sale-order-unlink.sh
 #
+# Shopware-Pendant:
+# shopware/D005-sale-order-unlink.sh
+#
 # Beschreibung:
 # Loescht einen Verkaufsauftrag.
 ###############################################################################

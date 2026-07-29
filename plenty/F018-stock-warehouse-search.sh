@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/F018-stock-warehouse-search.sh
 #
+# Shopware-Pendant:
+# shopware/F018-stock-warehouse-search.sh
+#
 # Beschreibung:
 # Listet alle Lager.
 ###############################################################################

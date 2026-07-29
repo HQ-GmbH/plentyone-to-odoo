@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/B015-partner-customers.sh
 #
+# Shopware-Pendant:
+# shopware/B015-partner-customers.sh
+#
 # Beschreibung:
 # Listet alle Kontakte vom Typ Kunde.
 ###############################################################################

@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/F017-stock-location-internal.sh
 #
+# Plenty-Pendant:
+# plenty/F017-stock-location-internal.sh
+#
 # Beschreibung:
 # Kein Aequivalent: siehe F016.
 ###############################################################################

@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/D019-sale-order-invoices.sh
 #
+# Shopware-Pendant:
+# shopware/D019-sale-order-invoices.sh
+#
 # Beschreibung:
 # Erzeugt/liest das Rechnungsdokument eines Auftrags.
 #

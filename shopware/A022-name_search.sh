@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A022-name_search.sh
 #
+# Plenty-Pendant:
+# plenty/A022-name_search.sh
+#
 # Beschreibung:
 # Fuehrt eine unscharfe Namenssuche durch (contains-Filter).
 #

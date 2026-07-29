@@ -1,6 +1,12 @@
 #!/usr/bin/env bash
 ###############################################################################
 # Test-ID: A028
+#
+# Plenty-Pendant:
+# plenty/A028-offset-limit.sh
+#
+# Shopware-Pendant:
+# shopware/A028-offset-limit.sh
 ###############################################################################
 
 source ../config.sh

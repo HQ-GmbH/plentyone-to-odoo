@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/C017-product-active.sh
 #
+# Shopware-Pendant:
+# shopware/C017-product-active.sh
+#
 # Beschreibung:
 # Aktiviert eine Variation.
 #

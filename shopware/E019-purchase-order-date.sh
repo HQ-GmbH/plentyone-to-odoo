@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/E019-purchase-order-date.sh
 #
+# Plenty-Pendant:
+# plenty/E019-purchase-order-date.sh
+#
 # Beschreibung:
 # Kein Aequivalent zu Odoos purchase order date: Filtert Einkaufsauftraege nach
 # Datum.

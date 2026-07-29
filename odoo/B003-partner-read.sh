@@ -3,6 +3,12 @@
 # Test-ID: B003
 #
 # Liest einen vorhandenen Partner.
+#
+# Plenty-Pendant:
+# plenty/B003-partner-read.sh
+#
+# Shopware-Pendant:
+# shopware/B003-partner-read.sh
 ###############################################################################
 
 source ../config.sh

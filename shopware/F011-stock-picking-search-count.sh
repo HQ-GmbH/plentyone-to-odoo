@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/F011-stock-picking-search-count.sh
 #
+# Plenty-Pendant:
+# plenty/F011-stock-picking-search-count.sh
+#
 # Beschreibung:
 # Kein Aequivalent: siehe F010.
 ###############################################################################

@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/D006-sale-order-fields_get.sh
 #
+# Shopware-Pendant:
+# shopware/D006-sale-order-fields_get.sh
+#
 # Beschreibung:
 # Liest Feldmetadaten des Order-POST-Schemas (Naeherung).
 ###############################################################################

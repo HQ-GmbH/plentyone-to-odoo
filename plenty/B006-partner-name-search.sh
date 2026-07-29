@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/B006-partner-name-search.sh
 #
+# Shopware-Pendant:
+# shopware/B006-partner-name-search.sh
+#
 # Beschreibung:
 # Sucht Kontakte per Name-oder-ID-Suchfeld.
 ###############################################################################

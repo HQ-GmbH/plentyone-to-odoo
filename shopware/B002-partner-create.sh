@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/B002-partner-create.sh
 #
+# Plenty-Pendant:
+# plenty/B002-partner-create.sh
+#
 # Beschreibung:
 # Legt einen neuen Firmenkunden inkl. Adresse in EINEM verschachtelten Request
 # an.

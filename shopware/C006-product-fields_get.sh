@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/C006-product-fields_get.sh
 #
+# Plenty-Pendant:
+# plenty/C006-product-fields_get.sh
+#
 # Beschreibung:
 # Liest Feldmetadaten des Product-Modells aus dem live abrufbaren Schema.
 ###############################################################################

@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/D007-sale-order-customer.sh
 #
+# Shopware-Pendant:
+# shopware/D007-sale-order-customer.sh
+#
 # Beschreibung:
 # Listet Verkaufsauftraege eines bestimmten Kunden.
 ###############################################################################

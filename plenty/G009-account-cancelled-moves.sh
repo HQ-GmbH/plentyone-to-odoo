@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/G009-account-cancelled-moves.sh
 #
+# Shopware-Pendant:
+# shopware/G009-account-cancelled-moves.sh
+#
 # Beschreibung:
 # Listet stornierte Verkaufsauftraege (statusId=8 'Storniert').
 #

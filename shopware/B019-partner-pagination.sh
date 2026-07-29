@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/B019-partner-pagination.sh
 #
+# Plenty-Pendant:
+# plenty/B019-partner-pagination.sh
+#
 # Beschreibung:
 # Demonstriert Pagination bei Kunden (Seite 2, 20 Eintraege).
 ###############################################################################

@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/F010-stock-picking-pagination.sh
 #
+# Plenty-Pendant:
+# plenty/F010-stock-picking-pagination.sh
+#
 # Beschreibung:
 # Kein Aequivalent: keine paginierbare Bewegungshistorie im Core vorhanden.
 ###############################################################################

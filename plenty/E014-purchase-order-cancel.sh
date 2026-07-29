@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/E014-purchase-order-cancel.sh
 #
+# Shopware-Pendant:
+# shopware/E014-purchase-order-cancel.sh
+#
 # Beschreibung:
 # Stornoiert eine Nachbestellung.
 #

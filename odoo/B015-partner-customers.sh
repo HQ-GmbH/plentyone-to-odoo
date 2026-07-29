@@ -3,6 +3,12 @@
 # Test-ID: B015
 #
 # Liefert alle Kunden.
+#
+# Plenty-Pendant:
+# plenty/B015-partner-customers.sh
+#
+# Shopware-Pendant:
+# shopware/B015-partner-customers.sh
 ###############################################################################
 
 source ../config.sh

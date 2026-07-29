@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/G002-account-move-read.sh
 #
+# Plenty-Pendant:
+# plenty/G002-account-move-read.sh
+#
 # Beschreibung:
 # Liest eine einzelne Zahlungstransaktion.
 ###############################################################################

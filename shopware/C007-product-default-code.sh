@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/C007-product-default-code.sh
 #
+# Plenty-Pendant:
+# plenty/C007-product-default-code.sh
+#
 # Beschreibung:
 # Sucht ein Produkt per exakter Artikelnummer (SKU).
 ###############################################################################

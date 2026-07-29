@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/C015-product-uom.sh
 #
+# Plenty-Pendant:
+# plenty/C015-product-uom.sh
+#
 # Beschreibung:
 # Liest die Mengeneinheit und die Grundpreis-Angaben eines Produkts.
 #

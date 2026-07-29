@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A025-ilike-domain.sh
 #
+# Shopware-Pendant:
+# shopware/A025-ilike-domain.sh
+#
 # Beschreibung:
 # Sucht Kontakte per unscharfem E-Mail-Abgleich (ilike-Aequivalent).
 #

@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/B008-partner-companies.sh
 #
+# Plenty-Pendant:
+# plenty/B008-partner-companies.sh
+#
 # Beschreibung:
 # Listet Firmenkunden (accountType=business, UNVERIFIZIERT).
 #

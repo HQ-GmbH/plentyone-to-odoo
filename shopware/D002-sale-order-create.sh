@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/D002-sale-order-create.sh
 #
+# Plenty-Pendant:
+# plenty/D002-sale-order-create.sh
+#
 # Beschreibung:
 # Legt einen neuen Auftrag an (komplex, in der Praxis unueblich).
 #

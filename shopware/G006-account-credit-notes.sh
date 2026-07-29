@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/G006-account-credit-notes.sh
 #
+# Plenty-Pendant:
+# plenty/G006-account-credit-notes.sh
+#
 # Beschreibung:
 # Erzeugt ein Gutschrift-Dokument (PDF) zu einem Auftrag.
 #

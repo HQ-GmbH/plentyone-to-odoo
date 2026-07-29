@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A009-pagination.sh
 #
+# Plenty-Pendant:
+# plenty/A009-pagination.sh
+#
 # Beschreibung:
 # Demonstriert Pagination ueber page/limit.
 #

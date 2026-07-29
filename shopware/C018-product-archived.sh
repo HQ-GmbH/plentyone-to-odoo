@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/C018-product-archived.sh
 #
+# Plenty-Pendant:
+# plenty/C018-product-archived.sh
+#
 # Beschreibung:
 # Listet deaktivierte Produkte.
 ###############################################################################

@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A024-search_fetch.sh
 #
+# Shopware-Pendant:
+# shopware/A024-search_fetch.sh
+#
 # Beschreibung:
 # Listet Kontakte mit eingeschlossenen Relationen (entspricht dem
 # search()+read()-Verhalten von search_fetch()).

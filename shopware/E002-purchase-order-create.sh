@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/E002-purchase-order-create.sh
 #
+# Plenty-Pendant:
+# plenty/E002-purchase-order-create.sh
+#
 # Beschreibung:
 # Kein Aequivalent zu Odoos purchase order create: Legt einen neuen
 # Einkaufsauftrag an.

@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/D001-sale-order-search.sh
 #
+# Plenty-Pendant:
+# plenty/D001-sale-order-search.sh
+#
 # Beschreibung:
 # Listet Bestellungen.
 #

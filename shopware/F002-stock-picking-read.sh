@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/F002-stock-picking-read.sh
 #
+# Plenty-Pendant:
+# plenty/F002-stock-picking-read.sh
+#
 # Beschreibung:
 # Kein Aequivalent: siehe F001.
 ###############################################################################

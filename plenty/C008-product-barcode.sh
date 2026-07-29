@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/C008-product-barcode.sh
 #
+# Shopware-Pendant:
+# shopware/C008-product-barcode.sh
+#
 # Beschreibung:
 # Sucht eine Variation per Barcode.
 ###############################################################################

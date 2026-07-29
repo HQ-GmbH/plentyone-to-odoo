@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/G018-account-receivable.sh
 #
+# Plenty-Pendant:
+# plenty/G018-account-receivable.sh
+#
 # Beschreibung:
 # Kein Aequivalent: kein Debitorenkonto mit Saldo.
 ###############################################################################

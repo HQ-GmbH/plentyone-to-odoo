@@ -3,6 +3,12 @@
 # Test-ID: B016
 #
 # Liefert alle Lieferanten.
+#
+# Plenty-Pendant:
+# plenty/B016-partner-suppliers.sh
+#
+# Shopware-Pendant:
+# shopware/B016-partner-suppliers.sh
 ###############################################################################
 
 source ../config.sh

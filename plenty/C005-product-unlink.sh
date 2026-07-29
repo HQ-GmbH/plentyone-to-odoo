@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/C005-product-unlink.sh
 #
+# Shopware-Pendant:
+# shopware/C005-product-unlink.sh
+#
 # Beschreibung:
 # Loescht eine Variation.
 #

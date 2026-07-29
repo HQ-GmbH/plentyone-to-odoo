@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/F003-stock-picking-fields_get.sh
 #
+# Plenty-Pendant:
+# plenty/F003-stock-picking-fields_get.sh
+#
 # Beschreibung:
 # Zeigt die im Schema vorhandenen, aber unverknuepften Warehouse-Definitionen
 # (Beleg fuer den Commercial-Gate-Befund aus F001).

@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A005-search_read.sh
 #
+# Shopware-Pendant:
+# shopware/A005-search_read.sh
+#
 # Beschreibung:
 # Listet Kontakte inkl. Adress- und Firmen-Relationen (per ?with=).
 #

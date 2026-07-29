@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/D018-sale-order-pagination.sh
 #
+# Plenty-Pendant:
+# plenty/D018-sale-order-pagination.sh
+#
 # Beschreibung:
 # Demonstriert Pagination bei Auftraegen.
 ###############################################################################

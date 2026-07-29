@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/B004-partner-write.sh
 #
+# Plenty-Pendant:
+# plenty/B004-partner-write.sh
+#
 # Beschreibung:
 # Aktualisiert den Firmennamen eines bestehenden Kunden.
 ###############################################################################

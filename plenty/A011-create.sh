@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A011-create.sh
 #
+# Shopware-Pendant:
+# shopware/A011-create.sh
+#
 # Beschreibung:
 # Legt einen neuen Testkontakt an.
 #

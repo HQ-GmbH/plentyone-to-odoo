@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/B019-partner-pagination.sh
 #
+# Shopware-Pendant:
+# shopware/B019-partner-pagination.sh
+#
 # Beschreibung:
 # Demonstriert Pagination (Seite 2, 20 Eintraege).
 ###############################################################################

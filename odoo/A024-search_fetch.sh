@@ -1,6 +1,12 @@
 #!/usr/bin/env bash
 ###############################################################################
 # Test-ID: A024
+#
+# Plenty-Pendant:
+# plenty/A024-search_fetch.sh
+#
+# Shopware-Pendant:
+# shopware/A024-search_fetch.sh
 ###############################################################################
 
 source ../config.sh

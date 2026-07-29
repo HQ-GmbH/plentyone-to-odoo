@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/E006-purchase-order-fields_get.sh
 #
+# Plenty-Pendant:
+# plenty/E006-purchase-order-fields_get.sh
+#
 # Beschreibung:
 # Kein Aequivalent zu Odoos purchase order fields_get: Liest Feldmetadaten
 # eines Einkaufsauftrags.

@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/E013-purchase-order-confirm.sh
 #
+# Plenty-Pendant:
+# plenty/E013-purchase-order-confirm.sh
+#
 # Beschreibung:
 # Kein Aequivalent zu Odoos purchase order confirm: Bestaetigt einen
 # Einkaufsauftrag.

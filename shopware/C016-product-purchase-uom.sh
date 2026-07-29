@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/C016-product-purchase-uom.sh
 #
+# Plenty-Pendant:
+# plenty/C016-product-purchase-uom.sh
+#
 # Beschreibung:
 # Kein Aequivalent: keine separate Einkaufseinheit, nur eine numerische
 # Grundpreismenge.

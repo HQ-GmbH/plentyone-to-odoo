@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A010-domain.sh
 #
+# Shopware-Pendant:
+# shopware/A010-domain.sh
+#
 # Beschreibung:
 # Filtert Kontakte vom Typ Kunde (typeId=1).
 #

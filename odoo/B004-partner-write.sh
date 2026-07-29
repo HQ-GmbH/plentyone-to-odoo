@@ -3,6 +3,12 @@
 # Test-ID: B004
 #
 # Aktualisiert einen bestehenden Partner.
+#
+# Plenty-Pendant:
+# plenty/B004-partner-write.sh
+#
+# Shopware-Pendant:
+# shopware/B004-partner-write.sh
 ###############################################################################
 
 source ../config.sh

@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/G003-account-move-fields_get.sh
 #
+# Plenty-Pendant:
+# plenty/G003-account-move-fields_get.sh
+#
 # Beschreibung:
 # Liest Feldmetadaten des OrderTransaction-Modells.
 ###############################################################################

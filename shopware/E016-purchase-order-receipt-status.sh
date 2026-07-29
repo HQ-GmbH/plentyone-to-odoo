@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/E016-purchase-order-receipt-status.sh
 #
+# Plenty-Pendant:
+# plenty/E016-purchase-order-receipt-status.sh
+#
 # Beschreibung:
 # Kein Aequivalent zu Odoos purchase order receipt status: Prueft den
 # Wareneingangsstatus eines Einkaufsauftrags.

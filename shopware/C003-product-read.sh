@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/C003-product-read.sh
 #
+# Plenty-Pendant:
+# plenty/C003-product-read.sh
+#
 # Beschreibung:
 # Liest ein einzelnes Produkt.
 ###############################################################################

@@ -5,6 +5,12 @@
 # Copyright (c) 2026 HQ GmbH — https://www.hqgmbh.de
 # Repository: https://github.com/hqgmbh/plenty-erp2odoo
 # SPDX-License-Identifier: Apache-2.0
+#
+# Plenty-Pendant:
+# plenty/D012-sale-order-lines.sh
+#
+# Shopware-Pendant:
+# shopware/D012-sale-order-lines.sh
 ###############################################################################
 # Voraussetzung: SALE_ORDER_ID ist eine gültige sale.order-ID.
 # Beispiel: SALE_ORDER_ID=123 ./D012-sale-order-lines.sh

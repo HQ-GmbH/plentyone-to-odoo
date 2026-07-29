@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/G013-account-journal-search.sh
 #
+# Plenty-Pendant:
+# plenty/G013-account-journal-search.sh
+#
 # Beschreibung:
 # Kein Aequivalent: kein Journal-Konzept vorhanden.
 ###############################################################################

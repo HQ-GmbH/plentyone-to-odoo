@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A027-not-in-domain.sh
 #
+# Shopware-Pendant:
+# shopware/A027-not-in-domain.sh
+#
 # Beschreibung:
 # Filtert Kontakte clientseitig aus, die NICHT in einer ID-Liste sind.
 #

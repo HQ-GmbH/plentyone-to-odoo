@@ -14,6 +14,12 @@
 #
 # Beschreibung:
 # Sucht alle Rechnungsadressen.
+#
+# Plenty-Pendant:
+# plenty/B011-partner-invoice-address.sh
+#
+# Shopware-Pendant:
+# shopware/B011-partner-invoice-address.sh
 ###############################################################################
 
 source ../config.sh

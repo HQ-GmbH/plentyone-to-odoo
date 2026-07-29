@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/E013-purchase-order-confirm.sh
 #
+# Shopware-Pendant:
+# shopware/E013-purchase-order-confirm.sh
+#
 # Beschreibung:
 # Bucht eine Nachbestellung (spezialisierter book-Endpunkt).
 #

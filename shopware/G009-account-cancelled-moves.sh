@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/G009-account-cancelled-moves.sh
 #
+# Plenty-Pendant:
+# plenty/G009-account-cancelled-moves.sh
+#
 # Beschreibung:
 # Listet stornierte Auftraege (order.state technicalName=cancelled).
 ###############################################################################

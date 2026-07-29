@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/D003-sale-order-read.sh
 #
+# Plenty-Pendant:
+# plenty/D003-sale-order-read.sh
+#
 # Beschreibung:
 # Liest einen Auftrag inkl. Positionen und Zahlungs-/Lieferstatus.
 ###############################################################################

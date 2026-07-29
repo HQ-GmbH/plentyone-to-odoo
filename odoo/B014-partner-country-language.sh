@@ -3,6 +3,12 @@
 # Test-ID: B014
 #
 # Zeigt Land und Sprache.
+#
+# Plenty-Pendant:
+# plenty/B014-partner-country-language.sh
+#
+# Shopware-Pendant:
+# shopware/B014-partner-country-language.sh
 ###############################################################################
 
 source ../config.sh

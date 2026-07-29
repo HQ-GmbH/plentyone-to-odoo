@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/C001-product-search.sh
 #
+# Shopware-Pendant:
+# shopware/C001-product-search.sh
+#
 # Beschreibung:
 # Listet Variationen (verkaufbare Artikeleinheiten) ohne Filter.
 #

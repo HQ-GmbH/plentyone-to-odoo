@@ -1,6 +1,12 @@
 #!/usr/bin/env bash
 # Odoo 19 JSON-2 API Reference | PlentyOne -> Odoo 19 Enterprise Migration
 # Copyright (c) 2026 HQ GmbH | SPDX-License-Identifier: Apache-2.0
+#
+# Plenty-Pendant:
+# plenty/E016-purchase-order-receipt-status.sh
+#
+# Shopware-Pendant:
+# shopware/E016-purchase-order-receipt-status.sh
 source ../config.sh
 set -euo pipefail
 STATUS="${STATUS:-pending}"

@@ -3,6 +3,12 @@
 # Test-ID: B009
 #
 # Sucht ausschließlich Privatpersonen.
+#
+# Plenty-Pendant:
+# plenty/B009-partner-individuals.sh
+#
+# Shopware-Pendant:
+# shopware/B009-partner-individuals.sh
 ###############################################################################
 
 source ../config.sh

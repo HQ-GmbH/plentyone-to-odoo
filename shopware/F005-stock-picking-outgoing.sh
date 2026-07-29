@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/F005-stock-picking-outgoing.sh
 #
+# Plenty-Pendant:
+# plenty/F005-stock-picking-outgoing.sh
+#
 # Beschreibung:
 # Verringert den Lagerbestand eines Produkts (absolutes Setzen).
 #

@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/G017-account-chart-search.sh
 #
+# Shopware-Pendant:
+# shopware/G017-account-chart-search.sh
+#
 # Beschreibung:
 # Naeherung: listet die Kontenzuordnung fuer den Buchhaltungsexport.
 #

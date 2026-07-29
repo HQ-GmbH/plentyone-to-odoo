@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A016-invalid-model.sh
 #
+# Shopware-Pendant:
+# shopware/A016-invalid-model.sh
+#
 # Beschreibung:
 # Ruft eine nicht existierende Ressource ab (erwartet 404).
 ###############################################################################

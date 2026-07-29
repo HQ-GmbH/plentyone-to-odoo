@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A020-search-count.sh
 #
+# Plenty-Pendant:
+# plenty/A020-search-count.sh
+#
 # Beschreibung:
 # Ermittelt die Gesamtanzahl aller Kunden.
 #

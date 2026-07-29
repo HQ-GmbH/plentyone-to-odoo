@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/G018-account-receivable.sh
 #
+# Shopware-Pendant:
+# shopware/G018-account-receivable.sh
+#
 # Beschreibung:
 # Kein Aequivalent: kein Debitorenkonto/Forderungssaldo in Plenty selbst.
 ###############################################################################

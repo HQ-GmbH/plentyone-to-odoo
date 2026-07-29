@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A015-load.sh
 #
+# Shopware-Pendant:
+# shopware/A015-load.sh
+#
 # Beschreibung:
 # Aktualisiert mehrere Kontakte in einem Bulk-Aufruf.
 #

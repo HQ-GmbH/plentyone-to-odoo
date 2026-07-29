@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/B018-partner-archived.sh
 #
+# Plenty-Pendant:
+# plenty/B018-partner-archived.sh
+#
 # Beschreibung:
 # Listet deaktivierte Kunden.
 ###############################################################################

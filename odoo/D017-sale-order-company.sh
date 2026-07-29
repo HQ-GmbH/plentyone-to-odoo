@@ -5,6 +5,12 @@
 # Copyright (c) 2026 HQ GmbH — https://www.hqgmbh.de
 # Repository: https://github.com/hqgmbh/plenty-erp2odoo
 # SPDX-License-Identifier: Apache-2.0
+#
+# Plenty-Pendant:
+# plenty/D017-sale-order-company.sh
+#
+# Shopware-Pendant:
+# shopware/D017-sale-order-company.sh
 ###############################################################################
 # Voraussetzung: COMPANY_ID ist eine res.company-ID.
 source ../config.sh

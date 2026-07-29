@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A008-order.sh
 #
+# Shopware-Pendant:
+# shopware/A008-order.sh
+#
 # Beschreibung:
 # Sortiert Kontakte clientseitig nach Vorname (kein serverseitiges order=).
 #

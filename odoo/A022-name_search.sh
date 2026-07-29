@@ -21,6 +21,12 @@
 #
 # Erwartetes Ergebnis:
 # Liste passender Partner.
+#
+# Plenty-Pendant:
+# plenty/A022-name_search.sh
+#
+# Shopware-Pendant:
+# shopware/A022-name_search.sh
 ###############################################################################
 
 source ../config.sh

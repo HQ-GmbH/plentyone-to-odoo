@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A016-invalid-model.sh
 #
+# Plenty-Pendant:
+# plenty/A016-invalid-model.sh
+#
 # Beschreibung:
 # Ruft eine nicht existierende Entity ab (erwartet 404).
 ###############################################################################

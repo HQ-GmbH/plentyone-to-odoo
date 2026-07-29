@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/F013-stock-move-available.sh
 #
+# Plenty-Pendant:
+# plenty/F013-stock-move-available.sh
+#
 # Beschreibung:
 # Liest den verfuegbaren (reservierungsbereinigten) Bestand eines Produkts.
 #

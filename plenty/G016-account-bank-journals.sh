@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/G016-account-bank-journals.sh
 #
+# Shopware-Pendant:
+# shopware/G016-account-bank-journals.sh
+#
 # Beschreibung:
 # Naeherung: listet konfigurierte Zahlungsarten (Payment Methods).
 #

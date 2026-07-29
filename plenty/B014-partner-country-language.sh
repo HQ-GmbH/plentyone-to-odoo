@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/B014-partner-country-language.sh
 #
+# Shopware-Pendant:
+# shopware/B014-partner-country-language.sh
+#
 # Beschreibung:
 # Zeigt Sprache (Contact) und Land (primaere Adresse) eines Kontakts.
 #

@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/E018-purchase-order-pagination.sh
 #
+# Shopware-Pendant:
+# shopware/E018-purchase-order-pagination.sh
+#
 # Beschreibung:
 # Demonstriert Pagination bei Nachbestellungen.
 ###############################################################################

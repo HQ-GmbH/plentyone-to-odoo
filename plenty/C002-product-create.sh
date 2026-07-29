@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/C002-product-create.sh
 #
+# Shopware-Pendant:
+# shopware/C002-product-create.sh
+#
 # Beschreibung:
 # Legt einen neuen Artikel inkl. erster Variation an - zwei Schritte.
 #

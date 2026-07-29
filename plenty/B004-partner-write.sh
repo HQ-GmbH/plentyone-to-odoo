@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/B004-partner-write.sh
 #
+# Shopware-Pendant:
+# shopware/B004-partner-write.sh
+#
 # Beschreibung:
 # Aktualisiert den Namen ueber die primaere Adresse eines Kontakts.
 #

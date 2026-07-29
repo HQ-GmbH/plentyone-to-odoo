@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A007-fields_get.sh
 #
+# Plenty-Pendant:
+# plenty/A007-fields_get.sh
+#
 # Beschreibung:
 # Liest Feldmetadaten des Customer-Modells aus dem live abrufbaren OpenAPI-
 # Schema der Instanz.

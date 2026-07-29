@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/D009-sale-order-confirmed.sh
 #
+# Shopware-Pendant:
+# shopware/D009-sale-order-confirmed.sh
+#
 # Beschreibung:
 # Listet bestaetigte/in Bearbeitung befindliche Verkaufsauftraege ueber einen
 # Statusbereich.

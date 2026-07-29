@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/G001-account-move-search.sh
 #
+# Plenty-Pendant:
+# plenty/G001-account-move-search.sh
+#
 # Beschreibung:
 # Naeherung: listet Zahlungstransaktionen (order-transaction) - kein Journal-
 # Aequivalent vorhanden.

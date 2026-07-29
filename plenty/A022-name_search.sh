@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A022-name_search.sh
 #
+# Shopware-Pendant:
+# shopware/A022-name_search.sh
+#
 # Beschreibung:
 # Fuehrt eine unscharfe Namenssuche ueber Volltext durch.
 #

@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A023-read_group.sh
 #
+# Plenty-Pendant:
+# plenty/A023-read_group.sh
+#
 # Beschreibung:
 # Gruppiert Kunden nach Status und zaehlt sie (echte Aggregation).
 #

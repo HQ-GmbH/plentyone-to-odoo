@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/E003-purchase-order-read.sh
 #
+# Plenty-Pendant:
+# plenty/E003-purchase-order-read.sh
+#
 # Beschreibung:
 # Kein Aequivalent zu Odoos purchase order read: Liest einen Einkaufsauftrag.
 #

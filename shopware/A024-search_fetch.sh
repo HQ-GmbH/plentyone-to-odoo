@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A024-search_fetch.sh
 #
+# Plenty-Pendant:
+# plenty/A024-search_fetch.sh
+#
 # Beschreibung:
 # Listet Kunden inkl. Assoziationen (entspricht dem search()+read()-Verhalten
 # von search_fetch()).

@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/E002-purchase-order-create.sh
 #
+# Shopware-Pendant:
+# shopware/E002-purchase-order-create.sh
+#
 # Beschreibung:
 # Legt eine neue Nachbestellung bei einem Lieferanten an.
 #

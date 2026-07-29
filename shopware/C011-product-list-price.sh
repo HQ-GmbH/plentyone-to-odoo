@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/C011-product-list-price.sh
 #
+# Plenty-Pendant:
+# plenty/C011-product-list-price.sh
+#
 # Beschreibung:
 # Liest die Verkaufspreise eines Produkts.
 #

@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A003-invalid-endpoint.sh
 #
+# Plenty-Pendant:
+# plenty/A003-invalid-endpoint.sh
+#
 # Beschreibung:
 # Ruft einen nicht existierenden Kunden-Pfad ab (erwartet 404 im JSON:API-
 # Fehlerformat).

@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A014-unlink.sh
 #
+# Shopware-Pendant:
+# shopware/A014-unlink.sh
+#
 # Beschreibung:
 # Loescht einen Testkontakt.
 ###############################################################################

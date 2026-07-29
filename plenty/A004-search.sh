@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A004-search.sh
 #
+# Shopware-Pendant:
+# shopware/A004-search.sh
+#
 # Beschreibung:
 # Listet Kontakte ohne Filter (Basis-Suche).
 #

@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/D007-sale-order-customer.sh
 #
+# Plenty-Pendant:
+# plenty/D007-sale-order-customer.sh
+#
 # Beschreibung:
 # Listet Auftraege eines bestimmten Kunden.
 #

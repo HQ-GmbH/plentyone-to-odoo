@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/E019-purchase-order-date.sh
 #
+# Shopware-Pendant:
+# shopware/E019-purchase-order-date.sh
+#
 # Beschreibung:
 # Filtert Nachbestellungen nach Erstellungsdatum.
 ###############################################################################

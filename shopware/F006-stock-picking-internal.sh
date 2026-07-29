@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/F006-stock-picking-internal.sh
 #
+# Plenty-Pendant:
+# plenty/F006-stock-picking-internal.sh
+#
 # Beschreibung:
 # Kein Aequivalent: keine Mehrlagerverwaltung im Core, daher keine internen
 # Umlagerungen.

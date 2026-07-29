@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/F006-stock-picking-internal.sh
 #
+# Shopware-Pendant:
+# shopware/F006-stock-picking-internal.sh
+#
 # Beschreibung:
 # Verlagert Bestand zwischen zwei Lagern (interne Umlagerung).
 #

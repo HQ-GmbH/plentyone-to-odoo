@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/G017-account-chart-search.sh
 #
+# Plenty-Pendant:
+# plenty/G017-account-chart-search.sh
+#
 # Beschreibung:
 # Kein Aequivalent: kein Kontenplan und keine Buchhaltungs-Export-Konfiguration
 # im Core.

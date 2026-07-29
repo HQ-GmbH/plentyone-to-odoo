@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/F009-stock-picking-cancel.sh
 #
+# Shopware-Pendant:
+# shopware/F009-stock-picking-cancel.sh
+#
 # Beschreibung:
 # Kein Storno gebuchter Bewegungen - Korrektur per Gegenbuchung.
 #

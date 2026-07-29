@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/C017-product-active.sh
 #
+# Plenty-Pendant:
+# plenty/C017-product-active.sh
+#
 # Beschreibung:
 # Aktiviert ein Produkt.
 ###############################################################################

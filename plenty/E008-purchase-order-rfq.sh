@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/E008-purchase-order-rfq.sh
 #
+# Shopware-Pendant:
+# shopware/E008-purchase-order-rfq.sh
+#
 # Beschreibung:
 # Listet Nachbestellungen im fruehen Bearbeitungsstadium (Statusbereich).
 #

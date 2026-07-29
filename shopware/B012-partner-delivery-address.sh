@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/B012-partner-delivery-address.sh
 #
+# Plenty-Pendant:
+# plenty/B012-partner-delivery-address.sh
+#
 # Beschreibung:
 # Liest die Lieferadresse eines Kunden.
 ###############################################################################

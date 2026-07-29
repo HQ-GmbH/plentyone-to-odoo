@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/B017-partner-active.sh
 #
+# Shopware-Pendant:
+# shopware/B017-partner-active.sh
+#
 # Beschreibung:
 # Kein Aequivalent: Plenty-Kontakte kennen kein active/archiviert-Flag.
 #

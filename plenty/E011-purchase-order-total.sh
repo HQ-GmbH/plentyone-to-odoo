@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/E011-purchase-order-total.sh
 #
+# Shopware-Pendant:
+# shopware/E011-purchase-order-total.sh
+#
 # Beschreibung:
 # Berechnet die Bestellsumme clientseitig aus den Positionen.
 #

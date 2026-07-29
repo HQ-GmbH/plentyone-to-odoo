@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/G005-account-vendor-bills.sh
 #
+# Plenty-Pendant:
+# plenty/G005-account-vendor-bills.sh
+#
 # Beschreibung:
 # Kein Aequivalent: siehe B016/E-Serie - kein Lieferantenkonzept, also auch
 # keine Eingangsrechnungen.

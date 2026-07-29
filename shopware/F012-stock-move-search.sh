@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/F012-stock-move-search.sh
 #
+# Plenty-Pendant:
+# plenty/F012-stock-move-search.sh
+#
 # Beschreibung:
 # Kein Aequivalent: keine granulare Bewegungs-Entity pro Produkt.
 ###############################################################################

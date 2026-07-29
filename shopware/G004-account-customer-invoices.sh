@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/G004-account-customer-invoices.sh
 #
+# Plenty-Pendant:
+# plenty/G004-account-customer-invoices.sh
+#
 # Beschreibung:
 # Erzeugt das Rechnungsdokument (PDF) eines Auftrags (siehe D019).
 ###############################################################################

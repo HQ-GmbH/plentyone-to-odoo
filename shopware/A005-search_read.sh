@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A005-search_read.sh
 #
+# Plenty-Pendant:
+# plenty/A005-search_read.sh
+#
 # Beschreibung:
 # Listet Kunden mit gezielter Feldauswahl (Sparse Fieldset via Criteria).
 #

@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/F020-stock-inventory-count.sh
 #
+# Plenty-Pendant:
+# plenty/F020-stock-inventory-count.sh
+#
 # Beschreibung:
 # Korrigiert den Lagerbestand nach einer Inventurzaehlung (identisch zu F004:
 # absolutes Setzen).

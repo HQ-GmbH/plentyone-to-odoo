@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/E011-purchase-order-total.sh
 #
+# Plenty-Pendant:
+# plenty/E011-purchase-order-total.sh
+#
 # Beschreibung:
 # Kein Aequivalent zu Odoos purchase order total: Berechnet die Bestellsumme.
 #

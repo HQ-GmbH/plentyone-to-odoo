@@ -1,6 +1,12 @@
 #!/usr/bin/env bash
 # Odoo 19 JSON-2 API Reference | PlentyOne -> Odoo 19 Enterprise Migration
 # Copyright (c) 2026 HQ GmbH | SPDX-License-Identifier: Apache-2.0
+#
+# Plenty-Pendant:
+# plenty/E017-purchase-order-company.sh
+#
+# Shopware-Pendant:
+# shopware/E017-purchase-order-company.sh
 source ../config.sh
 # Beispiel: COMPANY_ID=1 ./E017-purchase-order-company.sh
 set -euo pipefail

@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/C010-product-type.sh
 #
+# Plenty-Pendant:
+# plenty/C010-product-type.sh
+#
 # Beschreibung:
 # Kein Aequivalent: Produkte haben kein Feld fuer Ware/Dienstleistung.
 ###############################################################################

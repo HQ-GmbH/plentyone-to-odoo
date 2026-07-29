@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/E014-purchase-order-cancel.sh
 #
+# Plenty-Pendant:
+# plenty/E014-purchase-order-cancel.sh
+#
 # Beschreibung:
 # Kein Aequivalent zu Odoos purchase order cancel: Stornoiert einen
 # Einkaufsauftrag.

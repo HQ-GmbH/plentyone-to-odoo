@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A012-read.sh
 #
+# Plenty-Pendant:
+# plenty/A012-read.sh
+#
 # Beschreibung:
 # Liest einen Kunden inkl. aller vorhandenen Felder.
 ###############################################################################

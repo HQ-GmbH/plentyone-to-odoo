@@ -3,6 +3,12 @@
 # Test-ID: B002
 #
 # Erstellt einen neuen Partner.
+#
+# Plenty-Pendant:
+# plenty/B002-partner-create.sh
+#
+# Shopware-Pendant:
+# shopware/B002-partner-create.sh
 ###############################################################################
 
 source ../config.sh

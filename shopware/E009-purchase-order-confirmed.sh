@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/E009-purchase-order-confirmed.sh
 #
+# Plenty-Pendant:
+# plenty/E009-purchase-order-confirmed.sh
+#
 # Beschreibung:
 # Kein Aequivalent zu Odoos purchase order confirmed: Listet bestaetigte
 # Einkaufsauftraege.

@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/E001-purchase-order-search.sh
 #
+# Shopware-Pendant:
+# shopware/E001-purchase-order-search.sh
+#
 # Beschreibung:
 # Listet Nachbestellungen/Einkaufsauftraege (orderType=12 'Reorder').
 #

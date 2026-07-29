@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/C013-product-sales-tax.sh
 #
+# Shopware-Pendant:
+# shopware/C013-product-sales-tax.sh
+#
 # Beschreibung:
 # Liest den Steuersatz (vatId) einer Variation.
 #

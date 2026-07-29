@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/C010-product-type.sh
 #
+# Shopware-Pendant:
+# shopware/C010-product-type.sh
+#
 # Beschreibung:
 # Filtert Variationen nach Bundle-Status (naeherungsweise 'Produkttyp').
 #

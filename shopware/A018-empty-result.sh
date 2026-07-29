@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A018-empty-result.sh
 #
+# Plenty-Pendant:
+# plenty/A018-empty-result.sh
+#
 # Beschreibung:
 # Filtert auf eine garantiert nicht existierende Kunden-ID.
 #

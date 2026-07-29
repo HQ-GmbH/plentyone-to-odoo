@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A014-unlink.sh
 #
+# Plenty-Pendant:
+# plenty/A014-unlink.sh
+#
 # Beschreibung:
 # Loescht einen Testkunden.
 #

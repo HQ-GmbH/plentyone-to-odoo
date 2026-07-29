@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A003-invalid-endpoint.sh
 #
+# Shopware-Pendant:
+# shopware/A003-invalid-endpoint.sh
+#
 # Beschreibung:
 # Ruft einen nicht existierenden Kontakt-Pfad ab (erwartet 404).
 ###############################################################################

@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/G005-account-vendor-bills.sh
 #
+# Shopware-Pendant:
+# shopware/G005-account-vendor-bills.sh
+#
 # Beschreibung:
 # Kein Aequivalent: Plenty kennt kein Lieferantenrechnungs-/Bill-Konzept.
 ###############################################################################

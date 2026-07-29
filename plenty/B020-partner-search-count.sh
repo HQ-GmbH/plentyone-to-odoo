@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/B020-partner-search-count.sh
 #
+# Shopware-Pendant:
+# shopware/B020-partner-search-count.sh
+#
 # Beschreibung:
 # Ermittelt die Gesamtanzahl aller Kontakte.
 ###############################################################################

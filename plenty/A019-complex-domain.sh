@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A019-complex-domain.sh
 #
+# Shopware-Pendant:
+# shopware/A019-complex-domain.sh
+#
 # Beschreibung:
 # Kombiniert zwei Filter (Kundentyp + Land).
 #

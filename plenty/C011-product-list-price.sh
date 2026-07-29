@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/C011-product-list-price.sh
 #
+# Shopware-Pendant:
+# shopware/C011-product-list-price.sh
+#
 # Beschreibung:
 # Liest die Verkaufspreise einer Variation.
 #

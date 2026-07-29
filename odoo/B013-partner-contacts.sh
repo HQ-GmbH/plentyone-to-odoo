@@ -3,6 +3,12 @@
 # Test-ID: B013
 #
 # Liefert Kontakte mit Parent-Unternehmen.
+#
+# Plenty-Pendant:
+# plenty/B013-partner-contacts.sh
+#
+# Shopware-Pendant:
+# shopware/B013-partner-contacts.sh
 ###############################################################################
 
 source ../config.sh

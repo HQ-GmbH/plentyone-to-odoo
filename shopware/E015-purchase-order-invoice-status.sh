@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/E015-purchase-order-invoice-status.sh
 #
+# Plenty-Pendant:
+# plenty/E015-purchase-order-invoice-status.sh
+#
 # Beschreibung:
 # Kein Aequivalent zu Odoos purchase order invoice status: Prueft den
 # Rechnungsstatus eines Einkaufsauftrags.

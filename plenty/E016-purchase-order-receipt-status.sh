@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/E016-purchase-order-receipt-status.sh
 #
+# Shopware-Pendant:
+# shopware/E016-purchase-order-receipt-status.sh
+#
 # Beschreibung:
 # Liest gebuchte Wareneingangs-Transaktionen einer Nachbestellung.
 #

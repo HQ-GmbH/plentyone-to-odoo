@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/E003-purchase-order-read.sh
 #
+# Shopware-Pendant:
+# shopware/E003-purchase-order-read.sh
+#
 # Beschreibung:
 # Liest eine Nachbestellung inkl. Positionen.
 ###############################################################################

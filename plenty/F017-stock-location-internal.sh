@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/F017-stock-location-internal.sh
 #
+# Shopware-Pendant:
+# shopware/F017-stock-location-internal.sh
+#
 # Beschreibung:
 # Listet Lagerplaetze eines bestimmten Lagers.
 ###############################################################################

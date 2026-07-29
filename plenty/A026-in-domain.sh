@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A026-in-domain.sh
 #
+# Shopware-Pendant:
+# shopware/A026-in-domain.sh
+#
 # Beschreibung:
 # Liest mehrere Kontakte per ID (kein serverseitiger IN-Filter vorhanden).
 #

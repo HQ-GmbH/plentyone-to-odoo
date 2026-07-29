@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/D004-sale-order-write.sh
 #
+# Shopware-Pendant:
+# shopware/D004-sale-order-write.sh
+#
 # Beschreibung:
 # Weist einem Auftrag einen anderen Bearbeiter (ownerId) zu.
 #

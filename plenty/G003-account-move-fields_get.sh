@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/G003-account-move-fields_get.sh
 #
+# Shopware-Pendant:
+# shopware/G003-account-move-fields_get.sh
+#
 # Beschreibung:
 # Liest Feldmetadaten des Payment-POST-Schemas (Naeherung).
 ###############################################################################

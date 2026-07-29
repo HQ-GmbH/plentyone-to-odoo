@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/B007-partner-fields_get.sh
 #
+# Shopware-Pendant:
+# shopware/B007-partner-fields_get.sh
+#
 # Beschreibung:
 # Liest Feldmetadaten des Contact-Modells (Naeherung, siehe A007).
 ###############################################################################

@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/E004-purchase-order-write.sh
 #
+# Shopware-Pendant:
+# shopware/E004-purchase-order-write.sh
+#
 # Beschreibung:
 # Aktualisiert die Lieferantenzuordnung einer Nachbestellung.
 ###############################################################################

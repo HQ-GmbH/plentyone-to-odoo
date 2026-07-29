@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/G008-account-posted-moves.sh
 #
+# Shopware-Pendant:
+# shopware/G008-account-posted-moves.sh
+#
 # Beschreibung:
 # Naeherung: listet alle Zahlungstransaktionen (kein 'posted'-Filter
 # verifiziert).

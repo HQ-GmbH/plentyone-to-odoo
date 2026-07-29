@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/E012-purchase-order-lines.sh
 #
+# Plenty-Pendant:
+# plenty/E012-purchase-order-lines.sh
+#
 # Beschreibung:
 # Kein Aequivalent zu Odoos purchase order lines: Listet die Positionen eines
 # Einkaufsauftrags.

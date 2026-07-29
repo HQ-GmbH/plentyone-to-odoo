@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/F019-stock-picking-types.sh
 #
+# Shopware-Pendant:
+# shopware/F019-stock-picking-types.sh
+#
 # Beschreibung:
 # Gruppiert Lager nach Lagertyp (naeherungsweise 'Operationstypen').
 #

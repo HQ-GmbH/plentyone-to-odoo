@@ -5,6 +5,12 @@
 # Copyright (c) 2026 HQ GmbH — https://www.hqgmbh.de
 # Repository: https://github.com/hqgmbh/plenty-erp2odoo
 # SPDX-License-Identifier: Apache-2.0
+#
+# Plenty-Pendant:
+# plenty/D020-sale-order-date.sh
+#
+# Shopware-Pendant:
+# shopware/D020-sale-order-date.sh
 ###############################################################################
 # Optional: DATE_FROM im ISO-Format, Standardwert 2026-01-01.
 source ../config.sh

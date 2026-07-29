@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/G007-account-draft-moves.sh
 #
+# Plenty-Pendant:
+# plenty/G007-account-draft-moves.sh
+#
 # Beschreibung:
 # Naeherung: Zahlungstransaktionen im Anfangsstatus (technicalName=open,
 # UNVERIFIZIERT-Filterpfad wie D009).

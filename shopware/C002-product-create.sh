@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/C002-product-create.sh
 #
+# Plenty-Pendant:
+# plenty/C002-product-create.sh
+#
 # Beschreibung:
 # Legt ein neues Testprodukt an.
 #

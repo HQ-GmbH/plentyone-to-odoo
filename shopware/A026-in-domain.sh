@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A026-in-domain.sh
 #
+# Plenty-Pendant:
+# plenty/A026-in-domain.sh
+#
 # Beschreibung:
 # Sucht mehrere Kunden per ID-Liste (equalsAny-Filter).
 #

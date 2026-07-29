@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/B001-partner-search.sh
 #
+# Plenty-Pendant:
+# plenty/B001-partner-search.sh
+#
 # Beschreibung:
 # Sucht Kunden per unscharfem Firmennamen-Abgleich.
 ###############################################################################

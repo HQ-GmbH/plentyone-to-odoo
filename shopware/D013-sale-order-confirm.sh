@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/D013-sale-order-confirm.sh
 #
+# Plenty-Pendant:
+# plenty/D013-sale-order-confirm.sh
+#
 # Beschreibung:
 # Setzt den Auftragsstatus auf die naechste Transition (process).
 #

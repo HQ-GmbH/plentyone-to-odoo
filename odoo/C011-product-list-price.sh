@@ -11,6 +11,12 @@
 # https://github.com/hqgmbh/plenty-erp2odoo
 #
 # SPDX-License-Identifier: Apache-2.0
+#
+# Plenty-Pendant:
+# plenty/C011-product-list-price.sh
+#
+# Shopware-Pendant:
+# shopware/C011-product-list-price.sh
 ###############################################################################
 
 source ../config.sh

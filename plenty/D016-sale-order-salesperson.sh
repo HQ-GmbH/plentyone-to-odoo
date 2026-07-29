@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/D016-sale-order-salesperson.sh
 #
+# Shopware-Pendant:
+# shopware/D016-sale-order-salesperson.sh
+#
 # Beschreibung:
 # Listet Auftraege eines bestimmten Bearbeiters (ownerId).
 ###############################################################################

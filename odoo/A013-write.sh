@@ -4,6 +4,12 @@
 # Companion Repository: https://github.com/hqgmbh/plenty-erp2odoo
 # Copyright (c) 2026 HQ GmbH
 # SPDX-License-Identifier: Apache-2.0
+#
+# Plenty-Pendant:
+# plenty/A013-write.sh
+#
+# Shopware-Pendant:
+# shopware/A013-write.sh
 ###############################################################################
 
 source ../config.sh

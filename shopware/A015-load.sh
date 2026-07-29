@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A015-load.sh
 #
+# Plenty-Pendant:
+# plenty/A015-load.sh
+#
 # Beschreibung:
 # Importiert mehrere Kunden per Bulk-Sync-Action.
 #

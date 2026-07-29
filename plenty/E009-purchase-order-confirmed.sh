@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/E009-purchase-order-confirmed.sh
 #
+# Shopware-Pendant:
+# shopware/E009-purchase-order-confirmed.sh
+#
 # Beschreibung:
 # Listet bestaetigte/gebuchte Nachbestellungen.
 ###############################################################################

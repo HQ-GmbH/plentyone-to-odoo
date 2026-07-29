@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/B009-partner-individuals.sh
 #
+# Plenty-Pendant:
+# plenty/B009-partner-individuals.sh
+#
 # Beschreibung:
 # Listet Privatkunden (Kehrseite von B008, UNVERIFIZIERT).
 #

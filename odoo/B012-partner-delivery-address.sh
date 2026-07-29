@@ -3,6 +3,12 @@
 # Test-ID: B012
 #
 # Liefert alle Lieferadressen.
+#
+# Plenty-Pendant:
+# plenty/B012-partner-delivery-address.sh
+#
+# Shopware-Pendant:
+# shopware/B012-partner-delivery-address.sh
 ###############################################################################
 
 source ../config.sh

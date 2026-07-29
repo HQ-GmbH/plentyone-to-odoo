@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/F008-stock-picking-done.sh
 #
+# Plenty-Pendant:
+# plenty/F008-stock-picking-done.sh
+#
 # Beschreibung:
 # Kein Aequivalent: keine Bewegungshistorie mit einem 'erledigt'-Status.
 ###############################################################################

@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/B013-partner-contacts.sh
 #
+# Plenty-Pendant:
+# plenty/B013-partner-contacts.sh
+#
 # Beschreibung:
 # Kein Aequivalent: Shopware-Kunden haben keine Eltern-Kind-Hierarchie zwischen
 # Kundendatensaetzen.

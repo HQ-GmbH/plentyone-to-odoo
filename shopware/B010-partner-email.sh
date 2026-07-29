@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/B010-partner-email.sh
 #
+# Plenty-Pendant:
+# plenty/B010-partner-email.sh
+#
 # Beschreibung:
 # Sucht einen Kunden per exakter E-Mail-Adresse.
 ###############################################################################

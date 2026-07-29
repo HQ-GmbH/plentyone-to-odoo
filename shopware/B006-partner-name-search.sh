@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/B006-partner-name-search.sh
 #
+# Plenty-Pendant:
+# plenty/B006-partner-name-search.sh
+#
 # Beschreibung:
 # Sucht Kunden per unscharfem Nachnamen-Abgleich.
 ###############################################################################

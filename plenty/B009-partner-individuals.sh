@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/B009-partner-individuals.sh
 #
+# Shopware-Pendant:
+# shopware/B009-partner-individuals.sh
+#
 # Beschreibung:
 # Listet Kontakte ohne verknuepfte Firmen-Accounts (Privatpersonen).
 #

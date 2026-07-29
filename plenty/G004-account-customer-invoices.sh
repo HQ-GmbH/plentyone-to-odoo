@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/G004-account-customer-invoices.sh
 #
+# Shopware-Pendant:
+# shopware/G004-account-customer-invoices.sh
+#
 # Beschreibung:
 # Erzeugt das Rechnungsdokument (PDF) eines Verkaufsauftrags.
 #

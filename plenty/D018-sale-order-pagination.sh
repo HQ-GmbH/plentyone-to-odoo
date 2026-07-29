@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/D018-sale-order-pagination.sh
 #
+# Shopware-Pendant:
+# shopware/D018-sale-order-pagination.sh
+#
 # Beschreibung:
 # Demonstriert Pagination bei Verkaufsauftraegen.
 ###############################################################################

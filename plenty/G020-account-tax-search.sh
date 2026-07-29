@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/G020-account-tax-search.sh
 #
+# Shopware-Pendant:
+# shopware/G020-account-tax-search.sh
+#
 # Beschreibung:
 # Listet die konfigurierten Steuersaetze (VAT).
 #

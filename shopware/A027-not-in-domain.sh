@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A027-not-in-domain.sh
 #
+# Plenty-Pendant:
+# plenty/A027-not-in-domain.sh
+#
 # Beschreibung:
 # Schliesst mehrere Kunden per ID-Liste aus (not+equalsAny verschachtelt).
 #

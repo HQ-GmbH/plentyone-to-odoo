@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/F010-stock-picking-pagination.sh
 #
+# Shopware-Pendant:
+# shopware/F010-stock-picking-pagination.sh
+#
 # Beschreibung:
 # Demonstriert Pagination der Bestandsbewegungshistorie.
 ###############################################################################

@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A029-order-desc.sh
 #
+# Shopware-Pendant:
+# shopware/A029-order-desc.sh
+#
 # Beschreibung:
 # Sortiert Kontakte clientseitig absteigend nach Vorname.
 #

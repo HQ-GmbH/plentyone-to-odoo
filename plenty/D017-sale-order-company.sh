@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/D017-sale-order-company.sh
 #
+# Shopware-Pendant:
+# shopware/D017-sale-order-company.sh
+#
 # Beschreibung:
 # Listet Auftraege eines bestimmten Webshops/Mandanten (plentyId).
 #

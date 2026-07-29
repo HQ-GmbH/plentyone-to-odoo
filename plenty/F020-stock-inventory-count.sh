@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/F020-stock-inventory-count.sh
 #
+# Shopware-Pendant:
+# shopware/F020-stock-inventory-count.sh
+#
 # Beschreibung:
 # Bucht eine Inventurzaehlung fuer eine Variation.
 ###############################################################################

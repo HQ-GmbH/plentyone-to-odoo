@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/B017-partner-active.sh
 #
+# Plenty-Pendant:
+# plenty/B017-partner-active.sh
+#
 # Beschreibung:
 # Deaktiviert einen Kunden.
 #

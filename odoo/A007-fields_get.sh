@@ -4,6 +4,12 @@
 # Companion Repository: https://github.com/hqgmbh/plenty-erp2odoo
 # Copyright (c) 2026 HQ GmbH
 # SPDX-License-Identifier: Apache-2.0
+#
+# Plenty-Pendant:
+# plenty/A007-fields_get.sh
+#
+# Shopware-Pendant:
+# shopware/A007-fields_get.sh
 ###############################################################################
 
 source ../config.sh

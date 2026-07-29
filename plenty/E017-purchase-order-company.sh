@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/E017-purchase-order-company.sh
 #
+# Shopware-Pendant:
+# shopware/E017-purchase-order-company.sh
+#
 # Beschreibung:
 # Listet Nachbestellungen eines bestimmten Webshops/Mandanten.
 ###############################################################################

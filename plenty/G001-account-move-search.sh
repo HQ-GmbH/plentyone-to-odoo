@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/G001-account-move-search.sh
 #
+# Shopware-Pendant:
+# shopware/G001-account-move-search.sh
+#
 # Beschreibung:
 # Naeherung: listet Zahlungstransaktionen (kein Journal-Aequivalent vorhanden).
 #

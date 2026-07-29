@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A013-write.sh
 #
+# Shopware-Pendant:
+# shopware/A013-write.sh
+#
 # Beschreibung:
 # Aktualisiert die E-Mail-Option eines bestehenden Kontakts.
 #

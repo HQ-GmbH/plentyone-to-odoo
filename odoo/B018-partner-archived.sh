@@ -3,6 +3,12 @@
 # Test-ID: B018
 #
 # Liefert alle archivierten Partner.
+#
+# Plenty-Pendant:
+# plenty/B018-partner-archived.sh
+#
+# Shopware-Pendant:
+# shopware/B018-partner-archived.sh
 ###############################################################################
 
 source ../config.sh

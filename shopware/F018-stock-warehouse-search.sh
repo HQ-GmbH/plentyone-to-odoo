@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/F018-stock-warehouse-search.sh
 #
+# Plenty-Pendant:
+# plenty/F018-stock-warehouse-search.sh
+#
 # Beschreibung:
 # Kein Aequivalent im Core: siehe F001/F003 fuer den Commercial-Plugin-Befund.
 ###############################################################################

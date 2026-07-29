@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/G013-account-journal-search.sh
 #
+# Shopware-Pendant:
+# shopware/G013-account-journal-search.sh
+#
 # Beschreibung:
 # Kein Aequivalent: kein Journal-Konzept vorhanden.
 ###############################################################################

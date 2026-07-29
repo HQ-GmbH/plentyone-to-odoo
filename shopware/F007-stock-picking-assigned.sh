@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/F007-stock-picking-assigned.sh
 #
+# Plenty-Pendant:
+# plenty/F007-stock-picking-assigned.sh
+#
 # Beschreibung:
 # Kein Aequivalent: kein Reservierungs-/Picking-Zwischenstatus.
 ###############################################################################

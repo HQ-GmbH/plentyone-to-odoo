@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/D012-sale-order-lines.sh
 #
+# Shopware-Pendant:
+# shopware/D012-sale-order-lines.sh
+#
 # Beschreibung:
 # Listet die Positionen eines Verkaufsauftrags.
 #

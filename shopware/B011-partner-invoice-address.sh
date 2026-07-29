@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/B011-partner-invoice-address.sh
 #
+# Plenty-Pendant:
+# plenty/B011-partner-invoice-address.sh
+#
 # Beschreibung:
 # Liest die Rechnungsadresse eines Kunden.
 #

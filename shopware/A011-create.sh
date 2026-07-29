@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A011-create.sh
 #
+# Plenty-Pendant:
+# plenty/A011-create.sh
+#
 # Beschreibung:
 # Legt einen neuen Testkunden an.
 #

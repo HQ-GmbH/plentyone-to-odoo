@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A013-write.sh
 #
+# Plenty-Pendant:
+# plenty/A013-write.sh
+#
 # Beschreibung:
 # Aktualisiert die E-Mail-Adresse eines bestehenden Kunden.
 #

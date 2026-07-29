@@ -6,6 +6,12 @@
 #
 # ACHTUNG:
 # Nur Testdaten löschen.
+#
+# Plenty-Pendant:
+# plenty/B005-partner-unlink.sh
+#
+# Shopware-Pendant:
+# shopware/B005-partner-unlink.sh
 ###############################################################################
 
 source ../config.sh

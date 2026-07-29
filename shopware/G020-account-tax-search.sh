@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/G020-account-tax-search.sh
 #
+# Plenty-Pendant:
+# plenty/G020-account-tax-search.sh
+#
 # Beschreibung:
 # Listet die konfigurierten Steuersaetze.
 #

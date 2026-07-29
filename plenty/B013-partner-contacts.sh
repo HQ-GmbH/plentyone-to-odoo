@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/B013-partner-contacts.sh
 #
+# Shopware-Pendant:
+# shopware/B013-partner-contacts.sh
+#
 # Beschreibung:
 # Listet alle Kontakte (Ansprechpartner) einer Firma (Account).
 #

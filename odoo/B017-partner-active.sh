@@ -3,6 +3,12 @@
 # Test-ID: B017
 #
 # Liefert alle aktiven Partner.
+#
+# Plenty-Pendant:
+# plenty/B017-partner-active.sh
+#
+# Shopware-Pendant:
+# shopware/B017-partner-active.sh
 ###############################################################################
 
 source ../config.sh

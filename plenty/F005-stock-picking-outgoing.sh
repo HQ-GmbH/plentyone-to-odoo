@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/F005-stock-picking-outgoing.sh
 #
+# Shopware-Pendant:
+# shopware/F005-stock-picking-outgoing.sh
+#
 # Beschreibung:
 # Bucht einen Warenausgang.
 ###############################################################################

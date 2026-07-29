@@ -1,6 +1,12 @@
 #!/usr/bin/env bash
 ###############################################################################
 # Test-ID: A029
+#
+# Plenty-Pendant:
+# plenty/A029-order-desc.sh
+#
+# Shopware-Pendant:
+# shopware/A029-order-desc.sh
 ###############################################################################
 
 source ../config.sh

@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/F012-stock-move-search.sh
 #
+# Shopware-Pendant:
+# shopware/F012-stock-move-search.sh
+#
 # Beschreibung:
 # Listet Bestandsbewegungen fuer eine bestimmte Variation.
 #

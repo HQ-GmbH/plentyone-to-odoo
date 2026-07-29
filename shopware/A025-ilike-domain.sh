@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A025-ilike-domain.sh
 #
+# Plenty-Pendant:
+# plenty/A025-ilike-domain.sh
+#
 # Beschreibung:
 # Sucht Kunden per unscharfem E-Mail-Abgleich (ilike-Aequivalent).
 #

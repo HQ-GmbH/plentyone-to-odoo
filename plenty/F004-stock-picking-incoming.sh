@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/F004-stock-picking-incoming.sh
 #
+# Shopware-Pendant:
+# shopware/F004-stock-picking-incoming.sh
+#
 # Beschreibung:
 # Bucht einen Wareneingang (reasonId=180 'Incoming items - purchase order').
 #

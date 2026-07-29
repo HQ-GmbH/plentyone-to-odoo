@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A021-fields_get_attributes.sh
 #
+# Shopware-Pendant:
+# shopware/A021-fields_get_attributes.sh
+#
 # Beschreibung:
 # Liest ausgewaehlte Attribute der Feldmetadaten (Naeherung).
 #

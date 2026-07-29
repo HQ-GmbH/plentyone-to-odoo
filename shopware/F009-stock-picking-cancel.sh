@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/F009-stock-picking-cancel.sh
 #
+# Plenty-Pendant:
+# plenty/F009-stock-picking-cancel.sh
+#
 # Beschreibung:
 # Kein Aequivalent: kein Storno einer Bestandsbuchung moeglich, da keine
 # einzelnen Buchungen existieren.

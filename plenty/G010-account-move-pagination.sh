@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/G010-account-move-pagination.sh
 #
+# Shopware-Pendant:
+# shopware/G010-account-move-pagination.sh
+#
 # Beschreibung:
 # Demonstriert Pagination bei Zahlungstransaktionen.
 ###############################################################################

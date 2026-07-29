@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A009-pagination.sh
 #
+# Shopware-Pendant:
+# shopware/A009-pagination.sh
+#
 # Beschreibung:
 # Demonstriert Pagination ueber page/itemsPerPage.
 #

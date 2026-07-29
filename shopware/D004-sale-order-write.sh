@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/D004-sale-order-write.sh
 #
+# Plenty-Pendant:
+# plenty/D004-sale-order-write.sh
+#
 # Beschreibung:
 # Aktualisiert den internen Kommentar eines Auftrags.
 #

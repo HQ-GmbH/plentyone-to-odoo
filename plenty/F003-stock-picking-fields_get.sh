@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/F003-stock-picking-fields_get.sh
 #
+# Shopware-Pendant:
+# shopware/F003-stock-picking-fields_get.sh
+#
 # Beschreibung:
 # Liest Feldmetadaten des Wareneingangs-Schemas (Naeherung).
 ###############################################################################

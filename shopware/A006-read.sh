@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A006-read.sh
 #
+# Plenty-Pendant:
+# plenty/A006-read.sh
+#
 # Beschreibung:
 # Liest einen einzelnen Kunden per ID.
 #

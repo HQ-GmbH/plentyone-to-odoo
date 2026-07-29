@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/B016-partner-suppliers.sh
 #
+# Plenty-Pendant:
+# plenty/B016-partner-suppliers.sh
+#
 # Beschreibung:
 # Kein Aequivalent: Shopware Core hat kein Lieferanten-/Vendor-Konzept.
 #

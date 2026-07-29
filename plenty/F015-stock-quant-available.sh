@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/F015-stock-quant-available.sh
 #
+# Shopware-Pendant:
+# shopware/F015-stock-quant-available.sh
+#
 # Beschreibung:
 # Listet nur Lagerbestaende mit positivem Bestand.
 ###############################################################################

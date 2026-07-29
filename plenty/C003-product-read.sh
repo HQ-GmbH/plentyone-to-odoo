@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/C003-product-read.sh
 #
+# Shopware-Pendant:
+# shopware/C003-product-read.sh
+#
 # Beschreibung:
 # Liest eine einzelne Variation.
 ###############################################################################

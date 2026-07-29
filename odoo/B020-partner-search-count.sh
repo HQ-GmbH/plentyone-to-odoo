@@ -21,6 +21,12 @@
 #
 # Erwartetes Ergebnis:
 # Integer mit der Anzahl der res.partner-Datensätze.
+#
+# Plenty-Pendant:
+# plenty/B020-partner-search-count.sh
+#
+# Shopware-Pendant:
+# shopware/B020-partner-search-count.sh
 ###############################################################################
 
 source ../config.sh

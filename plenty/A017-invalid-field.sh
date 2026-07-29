@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A017-invalid-field.sh
 #
+# Shopware-Pendant:
+# shopware/A017-invalid-field.sh
+#
 # Beschreibung:
 # Sendet eine unbekannte Eigenschaft im Request-Body.
 #

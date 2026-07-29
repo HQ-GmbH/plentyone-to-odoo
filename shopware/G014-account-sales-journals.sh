@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/G014-account-sales-journals.sh
 #
+# Plenty-Pendant:
+# plenty/G014-account-sales-journals.sh
+#
 # Beschreibung:
 # Kein Aequivalent: siehe G013.
 ###############################################################################

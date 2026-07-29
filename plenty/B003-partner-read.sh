@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/B003-partner-read.sh
 #
+# Shopware-Pendant:
+# shopware/B003-partner-read.sh
+#
 # Beschreibung:
 # Liest einen Kontakt inkl. Adressen, Firmen-Verknuepfung und Optionen.
 ###############################################################################

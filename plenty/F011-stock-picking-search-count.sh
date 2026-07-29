@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/F011-stock-picking-search-count.sh
 #
+# Shopware-Pendant:
+# shopware/F011-stock-picking-search-count.sh
+#
 # Beschreibung:
 # Ermittelt die Gesamtanzahl der Bestandsbewegungen eines Lagers.
 ###############################################################################

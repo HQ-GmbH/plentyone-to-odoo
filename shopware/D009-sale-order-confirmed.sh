@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/D009-sale-order-confirmed.sh
 #
+# Plenty-Pendant:
+# plenty/D009-sale-order-confirmed.sh
+#
 # Beschreibung:
 # Listet abgeschlossene Auftraege ueber den technicalName der verknuepften
 # State-Maschine (praktikabler als eine hartcodierte stateId).

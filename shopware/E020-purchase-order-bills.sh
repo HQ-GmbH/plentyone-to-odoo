@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/E020-purchase-order-bills.sh
 #
+# Plenty-Pendant:
+# plenty/E020-purchase-order-bills.sh
+#
 # Beschreibung:
 # Kein Aequivalent zu Odoos purchase order bills: Erzeugt eine Eingangsrechnung
 # zu einem Einkaufsauftrag.

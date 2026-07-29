@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/G011-account-move-search-count.sh
 #
+# Shopware-Pendant:
+# shopware/G011-account-move-search-count.sh
+#
 # Beschreibung:
 # Ermittelt die Gesamtanzahl aller Zahlungstransaktionen.
 ###############################################################################

@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/G014-account-sales-journals.sh
 #
+# Shopware-Pendant:
+# shopware/G014-account-sales-journals.sh
+#
 # Beschreibung:
 # Kein Aequivalent: siehe G013.
 ###############################################################################

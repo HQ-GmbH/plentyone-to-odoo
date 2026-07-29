@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/D002-sale-order-create.sh
 #
+# Shopware-Pendant:
+# shopware/D002-sale-order-create.sh
+#
 # Beschreibung:
 # Legt einen neuen Verkaufsauftrag fuer einen Kunden an.
 #

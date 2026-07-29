@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/D006-sale-order-fields_get.sh
 #
+# Plenty-Pendant:
+# plenty/D006-sale-order-fields_get.sh
+#
 # Beschreibung:
 # Liest Feldmetadaten des Order-Modells aus dem live abrufbaren Schema.
 ###############################################################################

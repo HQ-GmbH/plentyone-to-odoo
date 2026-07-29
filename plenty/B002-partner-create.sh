@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/B002-partner-create.sh
 #
+# Shopware-Pendant:
+# shopware/B002-partner-create.sh
+#
 # Beschreibung:
 # Legt einen neuen Firmenkontakt inkl. Adresse (Name) an - zwei Schritte.
 #

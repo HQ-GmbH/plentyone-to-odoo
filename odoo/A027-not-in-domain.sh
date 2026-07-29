@@ -1,6 +1,12 @@
 #!/usr/bin/env bash
 ###############################################################################
 # Test-ID: A027
+#
+# Plenty-Pendant:
+# plenty/A027-not-in-domain.sh
+#
+# Shopware-Pendant:
+# shopware/A027-not-in-domain.sh
 ###############################################################################
 
 source ../config.sh

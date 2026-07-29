@@ -3,6 +3,12 @@
 # Test-ID: B010
 #
 # Sucht Partner anhand einer E-Mail-Adresse.
+#
+# Plenty-Pendant:
+# plenty/B010-partner-email.sh
+#
+# Shopware-Pendant:
+# shopware/B010-partner-email.sh
 ###############################################################################
 
 source ../config.sh

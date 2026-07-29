@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/G015-account-purchase-journals.sh
 #
+# Shopware-Pendant:
+# shopware/G015-account-purchase-journals.sh
+#
 # Beschreibung:
 # Kein Aequivalent: siehe G013.
 ###############################################################################

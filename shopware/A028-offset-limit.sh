@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A028-offset-limit.sh
 #
+# Plenty-Pendant:
+# plenty/A028-offset-limit.sh
+#
 # Beschreibung:
 # Dritte Ergebnisseite mit 20 Eintraegen.
 ###############################################################################

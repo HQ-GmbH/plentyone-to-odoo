@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/D015-sale-order-invoice-status.sh
 #
+# Plenty-Pendant:
+# plenty/D015-sale-order-invoice-status.sh
+#
 # Beschreibung:
 # Prueft den Zahlungsstatus (order_transaction.state) eines Auftrags.
 #

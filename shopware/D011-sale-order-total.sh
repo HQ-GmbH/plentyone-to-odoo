@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/D011-sale-order-total.sh
 #
+# Plenty-Pendant:
+# plenty/D011-sale-order-total.sh
+#
 # Beschreibung:
 # Liest die gespeicherten Summenfelder eines Auftrags.
 #

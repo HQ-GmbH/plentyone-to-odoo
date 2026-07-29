@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A008-order.sh
 #
+# Plenty-Pendant:
+# plenty/A008-order.sh
+#
 # Beschreibung:
 # Sortiert Kunden serverseitig nach Nachname (echtes sort= via Criteria).
 #

@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/C015-product-uom.sh
 #
+# Shopware-Pendant:
+# shopware/C015-product-uom.sh
+#
 # Beschreibung:
 # Liest die Einheiten-Stammdaten und die Einheit einer Variation.
 ###############################################################################

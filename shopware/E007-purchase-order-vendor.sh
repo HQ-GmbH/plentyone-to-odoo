@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/E007-purchase-order-vendor.sh
 #
+# Plenty-Pendant:
+# plenty/E007-purchase-order-vendor.sh
+#
 # Beschreibung:
 # Kein Aequivalent zu Odoos purchase order vendor: Listet Einkaufsauftraege
 # eines Lieferanten.

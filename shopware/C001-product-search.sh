@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/C001-product-search.sh
 #
+# Plenty-Pendant:
+# plenty/C001-product-search.sh
+#
 # Beschreibung:
 # Listet Produkte ohne Filter.
 #

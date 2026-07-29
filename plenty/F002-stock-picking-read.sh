@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/F002-stock-picking-read.sh
 #
+# Shopware-Pendant:
+# shopware/F002-stock-picking-read.sh
+#
 # Beschreibung:
 # Liest die juengste Bestandsbewegung eines Lagers.
 #

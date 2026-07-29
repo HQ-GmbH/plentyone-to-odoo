@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/C014-product-purchase-tax.sh
 #
+# Plenty-Pendant:
+# plenty/C014-product-purchase-tax.sh
+#
 # Beschreibung:
 # Kein Aequivalent: Produkte haben nur EIN taxId-Feld fuer Verkauf UND Einkauf.
 ###############################################################################

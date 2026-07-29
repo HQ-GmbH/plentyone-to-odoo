@@ -24,6 +24,12 @@
 #
 # Erwartetes Ergebnis:
 # JSON mit Metadaten aller Felder des Modells res.partner.
+#
+# Plenty-Pendant:
+# plenty/A021-fields_get_attributes.sh
+#
+# Shopware-Pendant:
+# shopware/A021-fields_get_attributes.sh
 ###############################################################################
 
 source ../config.sh

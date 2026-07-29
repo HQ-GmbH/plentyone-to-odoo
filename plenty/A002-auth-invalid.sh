@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A002-auth-invalid.sh
 #
+# Shopware-Pendant:
+# shopware/A002-auth-invalid.sh
+#
 # Beschreibung:
 # Ruft Kontakte mit einem ungueltigen Bearer-Token ab (erwartet Fehler).
 ###############################################################################

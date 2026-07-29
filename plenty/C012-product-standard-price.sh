@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/C012-product-standard-price.sh
 #
+# Shopware-Pendant:
+# shopware/C012-product-standard-price.sh
+#
 # Beschreibung:
 # Liest den Einkaufspreis einer Variation.
 #

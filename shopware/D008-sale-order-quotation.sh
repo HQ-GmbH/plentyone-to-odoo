@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/D008-sale-order-quotation.sh
 #
+# Plenty-Pendant:
+# plenty/D008-sale-order-quotation.sh
+#
 # Beschreibung:
 # Listet Auftraege im Anfangsstatus (order.state technicalName=open).
 #

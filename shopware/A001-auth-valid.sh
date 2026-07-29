@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A001-auth-valid.sh
 #
+# Plenty-Pendant:
+# plenty/A001-auth-valid.sh
+#
 # Beschreibung:
 # Fuehrt einen gueltigen OAuth2-Login durch und ruft anschliessend Kunden ab.
 #

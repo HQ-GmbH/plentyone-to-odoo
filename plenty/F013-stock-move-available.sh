@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/F013-stock-move-available.sh
 #
+# Shopware-Pendant:
+# shopware/F013-stock-move-available.sh
+#
 # Beschreibung:
 # Listet verfuegbaren (netStock > 0) Bestand einer Variation.
 ###############################################################################

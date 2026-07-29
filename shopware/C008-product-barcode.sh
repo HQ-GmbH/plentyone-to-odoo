@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/C008-product-barcode.sh
 #
+# Plenty-Pendant:
+# plenty/C008-product-barcode.sh
+#
 # Beschreibung:
 # Sucht ein Produkt per EAN (Barcode-Aequivalent).
 ###############################################################################

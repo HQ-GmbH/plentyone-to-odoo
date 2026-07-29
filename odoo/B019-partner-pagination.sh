@@ -21,6 +21,12 @@
 #
 # Erwartetes Ergebnis:
 # Liefert Partner 21–40.
+#
+# Plenty-Pendant:
+# plenty/B019-partner-pagination.sh
+#
+# Shopware-Pendant:
+# shopware/B019-partner-pagination.sh
 ###############################################################################
 
 source ../config.sh

@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/G019-account-payable.sh
 #
+# Shopware-Pendant:
+# shopware/G019-account-payable.sh
+#
 # Beschreibung:
 # Kein Aequivalent: kein Kreditorenkonto/Verbindlichkeitensaldo in Plenty
 # selbst.

@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/B015-partner-customers.sh
 #
+# Plenty-Pendant:
+# plenty/B015-partner-customers.sh
+#
 # Beschreibung:
 # Trivial: die gesamte customer-Entity ist per Definition Kunden.
 #

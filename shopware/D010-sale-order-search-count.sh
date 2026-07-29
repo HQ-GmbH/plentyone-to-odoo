@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/D010-sale-order-search-count.sh
 #
+# Plenty-Pendant:
+# plenty/D010-sale-order-search-count.sh
+#
 # Beschreibung:
 # Ermittelt die Gesamtanzahl aller Auftraege.
 ###############################################################################

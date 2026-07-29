@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/E005-purchase-order-unlink.sh
 #
+# Plenty-Pendant:
+# plenty/E005-purchase-order-unlink.sh
+#
 # Beschreibung:
 # Kein Aequivalent zu Odoos purchase order unlink: Loescht einen
 # Einkaufsauftrag.

@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A006-read.sh
 #
+# Shopware-Pendant:
+# shopware/A006-read.sh
+#
 # Beschreibung:
 # Liest einen einzelnen Kontakt per ID.
 ###############################################################################

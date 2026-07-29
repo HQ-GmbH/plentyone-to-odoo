@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/D020-sale-order-date.sh
 #
+# Plenty-Pendant:
+# plenty/D020-sale-order-date.sh
+#
 # Beschreibung:
 # Filtert Auftraege nach Erstellungsdatum.
 ###############################################################################

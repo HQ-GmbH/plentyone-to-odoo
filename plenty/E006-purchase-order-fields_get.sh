@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/E006-purchase-order-fields_get.sh
 #
+# Shopware-Pendant:
+# shopware/E006-purchase-order-fields_get.sh
+#
 # Beschreibung:
 # Liest Feldmetadaten des Reorder-POST-Schemas (Naeherung).
 ###############################################################################

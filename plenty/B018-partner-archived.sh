@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/B018-partner-archived.sh
 #
+# Shopware-Pendant:
+# shopware/B018-partner-archived.sh
+#
 # Beschreibung:
 # Kein Aequivalent: siehe B017.
 ###############################################################################

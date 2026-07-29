@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/G006-account-credit-notes.sh
 #
+# Shopware-Pendant:
+# shopware/G006-account-credit-notes.sh
+#
 # Beschreibung:
 # Listet Gutschriften (orderType=4 'Credit note').
 #

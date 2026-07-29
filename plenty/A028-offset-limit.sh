@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A028-offset-limit.sh
 #
+# Shopware-Pendant:
+# shopware/A028-offset-limit.sh
+#
 # Beschreibung:
 # Zweite Ergebnisseite mit 20 Eintraegen (page=2 entspricht offset=20 bei
 # limit=20).

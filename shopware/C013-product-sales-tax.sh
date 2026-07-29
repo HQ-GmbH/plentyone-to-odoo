@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/C013-product-sales-tax.sh
 #
+# Plenty-Pendant:
+# plenty/C013-product-sales-tax.sh
+#
 # Beschreibung:
 # Liest den Steuersatz eines Produkts.
 ###############################################################################

@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A023-read_group.sh
 #
+# Shopware-Pendant:
+# shopware/A023-read_group.sh
+#
 # Beschreibung:
 # Kein Aequivalent: Plenty bietet keine generische Gruppierungs-/Aggregations-
 # API.

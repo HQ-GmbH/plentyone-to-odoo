@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/E012-purchase-order-lines.sh
 #
+# Shopware-Pendant:
+# shopware/E012-purchase-order-lines.sh
+#
 # Beschreibung:
 # Listet die Positionen einer Nachbestellung.
 ###############################################################################

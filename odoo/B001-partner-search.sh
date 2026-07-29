@@ -24,6 +24,12 @@
 #
 # Erwartetes Ergebnis:
 # Liste passender Partner.
+#
+# Plenty-Pendant:
+# plenty/B001-partner-search.sh
+#
+# Shopware-Pendant:
+# shopware/B001-partner-search.sh
 ###############################################################################
 
 source ../config.sh

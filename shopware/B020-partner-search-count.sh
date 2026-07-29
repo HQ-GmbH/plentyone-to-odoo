@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/B020-partner-search-count.sh
 #
+# Plenty-Pendant:
+# plenty/B020-partner-search-count.sh
+#
 # Beschreibung:
 # Ermittelt die Gesamtanzahl aller Kunden.
 ###############################################################################

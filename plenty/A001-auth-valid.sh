@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A001-auth-valid.sh
 #
+# Shopware-Pendant:
+# shopware/A001-auth-valid.sh
+#
 # Beschreibung:
 # Fuehrt einen gueltigen Login durch und ruft anschliessend Kontakte ab.
 #

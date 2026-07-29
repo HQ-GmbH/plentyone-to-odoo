@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/E007-purchase-order-vendor.sh
 #
+# Shopware-Pendant:
+# shopware/E007-purchase-order-vendor.sh
+#
 # Beschreibung:
 # Listet Nachbestellungen eines bestimmten Lieferanten.
 ###############################################################################

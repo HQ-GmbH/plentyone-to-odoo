@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A029-order-desc.sh
 #
+# Plenty-Pendant:
+# plenty/A029-order-desc.sh
+#
 # Beschreibung:
 # Sortiert Kunden serverseitig absteigend nach Nachname.
 ###############################################################################

@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/B012-partner-delivery-address.sh
 #
+# Shopware-Pendant:
+# shopware/B012-partner-delivery-address.sh
+#
 # Beschreibung:
 # Liest die Adressen eines Kontakts, gefiltert nach Adresstyp.
 #

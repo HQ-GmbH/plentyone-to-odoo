@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/F008-stock-picking-done.sh
 #
+# Shopware-Pendant:
+# shopware/F008-stock-picking-done.sh
+#
 # Beschreibung:
 # Kein separater 'erledigt'-Status: jede gebuchte Bewegung ist sofort final.
 ###############################################################################

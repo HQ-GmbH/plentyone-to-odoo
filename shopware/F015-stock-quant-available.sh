@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/F015-stock-quant-available.sh
 #
+# Plenty-Pendant:
+# plenty/F015-stock-quant-available.sh
+#
 # Beschreibung:
 # Listet nur Produkte mit positivem verfuegbarem Bestand.
 ###############################################################################

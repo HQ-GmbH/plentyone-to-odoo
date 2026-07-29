@@ -1,6 +1,12 @@
 #!/usr/bin/env bash
 ###############################################################################
 # Test-ID: A025
+#
+# Plenty-Pendant:
+# plenty/A025-ilike-domain.sh
+#
+# Shopware-Pendant:
+# shopware/A025-ilike-domain.sh
 ###############################################################################
 
 source ../config.sh

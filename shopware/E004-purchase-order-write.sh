@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/E004-purchase-order-write.sh
 #
+# Plenty-Pendant:
+# plenty/E004-purchase-order-write.sh
+#
 # Beschreibung:
 # Kein Aequivalent zu Odoos purchase order write: Aktualisiert einen
 # Einkaufsauftrag.

@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/B001-partner-search.sh
 #
+# Shopware-Pendant:
+# shopware/B001-partner-search.sh
+#
 # Beschreibung:
 # Sucht Kontakte per Volltextsuche nach einem Namensfragment.
 ###############################################################################

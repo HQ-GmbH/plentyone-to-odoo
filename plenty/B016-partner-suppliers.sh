@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/B016-partner-suppliers.sh
 #
+# Shopware-Pendant:
+# shopware/B016-partner-suppliers.sh
+#
 # Beschreibung:
 # Listet alle Kontakte vom Typ Lieferant.
 ###############################################################################

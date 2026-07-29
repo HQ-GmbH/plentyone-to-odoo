@@ -5,6 +5,12 @@
 # Copyright (c) 2026 HQ GmbH — https://www.hqgmbh.de
 # Repository: https://github.com/hqgmbh/plenty-erp2odoo
 # SPDX-License-Identifier: Apache-2.0
+#
+# Plenty-Pendant:
+# plenty/D013-sale-order-confirm.sh
+#
+# Shopware-Pendant:
+# shopware/D013-sale-order-confirm.sh
 ###############################################################################
 # Voraussetzung: SALE_ORDER_ID ist ein bestätigungsfähiger Testentwurf.
 # Beispiel: SALE_ORDER_ID=123 ./D013-sale-order-confirm.sh

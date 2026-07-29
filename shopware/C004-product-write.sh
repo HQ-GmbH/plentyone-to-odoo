@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/C004-product-write.sh
 #
+# Plenty-Pendant:
+# plenty/C004-product-write.sh
+#
 # Beschreibung:
 # Aktualisiert den Namen eines Produkts.
 ###############################################################################

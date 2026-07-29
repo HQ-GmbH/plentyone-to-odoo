@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/G019-account-payable.sh
 #
+# Plenty-Pendant:
+# plenty/G019-account-payable.sh
+#
 # Beschreibung:
 # Kein Aequivalent: kein Kreditorenkonto - zusaetzlich verschaerft durch das
 # fehlende Einkaufskonzept.

@@ -5,6 +5,12 @@
 # Copyright (c) 2026 HQ GmbH — https://www.hqgmbh.de
 # Repository: https://github.com/hqgmbh/plenty-erp2odoo
 # SPDX-License-Identifier: Apache-2.0
+#
+# Plenty-Pendant:
+# plenty/D015-sale-order-invoice-status.sh
+#
+# Shopware-Pendant:
+# shopware/D015-sale-order-invoice-status.sh
 ###############################################################################
 # Optional: INVOICE_STATUS, Standardwert „to invoice“.
 source ../config.sh

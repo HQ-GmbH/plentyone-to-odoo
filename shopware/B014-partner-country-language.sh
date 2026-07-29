@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/B014-partner-country-language.sh
 #
+# Plenty-Pendant:
+# plenty/B014-partner-country-language.sh
+#
 # Beschreibung:
 # Zeigt Sprache (Customer) und Land (Adresse) eines Kunden.
 #

@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/E017-purchase-order-company.sh
 #
+# Plenty-Pendant:
+# plenty/E017-purchase-order-company.sh
+#
 # Beschreibung:
 # Kein Aequivalent zu Odoos purchase order company: Listet Einkaufsauftraege
 # einer Firma.

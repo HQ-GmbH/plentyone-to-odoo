@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/B003-partner-read.sh
 #
+# Plenty-Pendant:
+# plenty/B003-partner-read.sh
+#
 # Beschreibung:
 # Liest einen Kunden inkl. Adressen (Assoziation).
 ###############################################################################

@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/B008-partner-companies.sh
 #
+# Shopware-Pendant:
+# shopware/B008-partner-companies.sh
+#
 # Beschreibung:
 # Listet Kontakte mit verknuepften Firmen-Accounts.
 #

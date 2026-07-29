@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/C018-product-archived.sh
 #
+# Shopware-Pendant:
+# shopware/C018-product-archived.sh
+#
 # Beschreibung:
 # Listet deaktivierte Variationen.
 ###############################################################################

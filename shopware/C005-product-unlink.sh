@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/C005-product-unlink.sh
 #
+# Plenty-Pendant:
+# plenty/C005-product-unlink.sh
+#
 # Beschreibung:
 # Loescht ein Produkt.
 ###############################################################################

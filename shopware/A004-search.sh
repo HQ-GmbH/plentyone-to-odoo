@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A004-search.sh
 #
+# Plenty-Pendant:
+# plenty/A004-search.sh
+#
 # Beschreibung:
 # Listet Kunden ohne Filter (einfache GET-Liste).
 #

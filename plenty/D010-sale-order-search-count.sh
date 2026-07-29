@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/D010-sale-order-search-count.sh
 #
+# Shopware-Pendant:
+# shopware/D010-sale-order-search-count.sh
+#
 # Beschreibung:
 # Ermittelt die Gesamtanzahl aller Verkaufsauftraege.
 ###############################################################################

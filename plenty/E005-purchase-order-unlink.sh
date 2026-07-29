@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/E005-purchase-order-unlink.sh
 #
+# Shopware-Pendant:
+# shopware/E005-purchase-order-unlink.sh
+#
 # Beschreibung:
 # Loescht eine Nachbestellung.
 ###############################################################################

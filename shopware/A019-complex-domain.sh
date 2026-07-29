@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A019-complex-domain.sh
 #
+# Plenty-Pendant:
+# plenty/A019-complex-domain.sh
+#
 # Beschreibung:
 # Kombiniert zwei Filter per UND-Verknuepfung (multi/and).
 #

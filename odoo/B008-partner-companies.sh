@@ -3,6 +3,12 @@
 # Test-ID: B008
 #
 # Sucht ausschließlich Firmen.
+#
+# Plenty-Pendant:
+# plenty/B008-partner-companies.sh
+#
+# Shopware-Pendant:
+# shopware/B008-partner-companies.sh
 ###############################################################################
 
 source ../config.sh

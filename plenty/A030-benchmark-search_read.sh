@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A030-benchmark-search_read.sh
 #
+# Shopware-Pendant:
+# shopware/A030-benchmark-search_read.sh
+#
 # Beschreibung:
 # Einfacher Benchmark der Kontakt-Liste mit 100 Eintraegen.
 #

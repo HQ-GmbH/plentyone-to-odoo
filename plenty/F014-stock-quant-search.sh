@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/F014-stock-quant-search.sh
 #
+# Shopware-Pendant:
+# shopware/F014-stock-quant-search.sh
+#
 # Beschreibung:
 # Listet den aktuellen Lagerbestand (direktes Aequivalent zu stock.quant).
 #

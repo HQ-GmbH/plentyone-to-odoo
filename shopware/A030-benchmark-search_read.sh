@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A030-benchmark-search_read.sh
 #
+# Plenty-Pendant:
+# plenty/A030-benchmark-search_read.sh
+#
 # Beschreibung:
 # Einfacher Benchmark der Kunden-Suche mit 100 Eintraegen.
 #

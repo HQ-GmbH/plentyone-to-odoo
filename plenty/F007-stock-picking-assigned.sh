@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/F007-stock-picking-assigned.sh
 #
+# Shopware-Pendant:
+# shopware/F007-stock-picking-assigned.sh
+#
 # Beschreibung:
 # Kein Aequivalent: Plenty-Buchungen kennen keinen
 # 'reserviert/bereit'-Zwischenzustand.

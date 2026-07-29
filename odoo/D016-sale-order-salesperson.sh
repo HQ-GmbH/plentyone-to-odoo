@@ -5,6 +5,12 @@
 # Copyright (c) 2026 HQ GmbH — https://www.hqgmbh.de
 # Repository: https://github.com/hqgmbh/plenty-erp2odoo
 # SPDX-License-Identifier: Apache-2.0
+#
+# Plenty-Pendant:
+# plenty/D016-sale-order-salesperson.sh
+#
+# Shopware-Pendant:
+# shopware/D016-sale-order-salesperson.sh
 ###############################################################################
 # Voraussetzung: SALESPERSON_ID ist eine res.users-ID.
 source ../config.sh

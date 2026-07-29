@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A002-auth-invalid.sh
 #
+# Plenty-Pendant:
+# plenty/A002-auth-invalid.sh
+#
 # Beschreibung:
 # Ruft Kunden mit einem ungueltigen Bearer-Token ab (erwartet Fehler).
 ###############################################################################

@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/D003-sale-order-read.sh
 #
+# Shopware-Pendant:
+# shopware/D003-sale-order-read.sh
+#
 # Beschreibung:
 # Liest einen Verkaufsauftrag inkl. Positionen und Beziehungen.
 ###############################################################################

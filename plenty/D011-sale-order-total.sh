@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/D011-sale-order-total.sh
 #
+# Shopware-Pendant:
+# shopware/D011-sale-order-total.sh
+#
 # Beschreibung:
 # Berechnet die Auftragssumme clientseitig aus den Positionen.
 #

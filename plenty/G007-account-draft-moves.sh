@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/G007-account-draft-moves.sh
 #
+# Shopware-Pendant:
+# shopware/G007-account-draft-moves.sh
+#
 # Beschreibung:
 # Naeherung: Auftraege in fruehen (noch nicht abgeschlossenen) Status.
 #

@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/C009-product-category.sh
 #
+# Plenty-Pendant:
+# plenty/C009-product-category.sh
+#
 # Beschreibung:
 # Sucht Produkte einer bestimmten Kategorie.
 ###############################################################################

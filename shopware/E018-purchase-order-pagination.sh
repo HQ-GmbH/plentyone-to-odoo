@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/E018-purchase-order-pagination.sh
 #
+# Plenty-Pendant:
+# plenty/E018-purchase-order-pagination.sh
+#
 # Beschreibung:
 # Kein Aequivalent zu Odoos purchase order pagination: Demonstriert Pagination
 # bei Einkaufsauftraegen.

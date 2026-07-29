@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/E015-purchase-order-invoice-status.sh
 #
+# Shopware-Pendant:
+# shopware/E015-purchase-order-invoice-status.sh
+#
 # Beschreibung:
 # Prueft, ob fuer eine Nachbestellung ein Rechnungsdokument existiert.
 #

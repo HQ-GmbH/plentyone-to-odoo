@@ -18,6 +18,12 @@
 #
 # Beschreibung:
 # Führt eine name_search() auf Geschäftspartnern durch.
+#
+# Plenty-Pendant:
+# plenty/B006-partner-name-search.sh
+#
+# Shopware-Pendant:
+# shopware/B006-partner-name-search.sh
 ###############################################################################
 
 source ../config.sh

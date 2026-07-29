@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/F019-stock-picking-types.sh
 #
+# Plenty-Pendant:
+# plenty/F019-stock-picking-types.sh
+#
 # Beschreibung:
 # Kein Aequivalent: kein Konzept fuer Lager-Operationstypen.
 ###############################################################################

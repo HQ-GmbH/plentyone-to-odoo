@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/F004-stock-picking-incoming.sh
 #
+# Plenty-Pendant:
+# plenty/F004-stock-picking-incoming.sh
+#
 # Beschreibung:
 # Erhoeht den Lagerbestand eines Produkts (absolutes Setzen, kein
 # inkrementelles Buchen).

@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/G012-account-move-lines.sh
 #
+# Plenty-Pendant:
+# plenty/G012-account-move-lines.sh
+#
 # Beschreibung:
 # Kein Aequivalent: keine Soll/Haben-Buchungszeilen vorhanden.
 ###############################################################################

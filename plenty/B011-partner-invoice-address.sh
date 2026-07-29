@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/B011-partner-invoice-address.sh
 #
+# Shopware-Pendant:
+# shopware/B011-partner-invoice-address.sh
+#
 # Beschreibung:
 # Listet Adresstypen und die Adressen eines Kontakts (Rechnungsadresse).
 #

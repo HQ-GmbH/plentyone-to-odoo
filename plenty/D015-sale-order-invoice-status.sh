@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/D015-sale-order-invoice-status.sh
 #
+# Shopware-Pendant:
+# shopware/D015-sale-order-invoice-status.sh
+#
 # Beschreibung:
 # Prueft, ob fuer einen Auftrag bereits eine Rechnung erzeugt wurde.
 #

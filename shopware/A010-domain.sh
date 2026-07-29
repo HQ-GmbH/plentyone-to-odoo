@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/A010-domain.sh
 #
+# Plenty-Pendant:
+# plenty/A010-domain.sh
+#
 # Beschreibung:
 # Filtert Kunden ueber einen Criteria-EqualsFilter (active=true).
 #

@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/D001-sale-order-search.sh
 #
+# Shopware-Pendant:
+# shopware/D001-sale-order-search.sh
+#
 # Beschreibung:
 # Listet Verkaufsauftraege (orderType=1).
 #

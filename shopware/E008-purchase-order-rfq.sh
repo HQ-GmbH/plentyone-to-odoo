@@ -19,6 +19,9 @@
 # Odoo-Pendant:
 # odoo/E008-purchase-order-rfq.sh
 #
+# Plenty-Pendant:
+# plenty/E008-purchase-order-rfq.sh
+#
 # Beschreibung:
 # Kein Aequivalent zu Odoos purchase order rfq: Listet Anfragen vor
 # Bestaetigung.
