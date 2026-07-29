@@ -32,3 +32,8 @@
 
 export ODOO_URL="https://odoo.example.com"
 export ODOO_API_KEY="YOUR_API_KEY"
+
+# Plenty REST API (siehe ../plenty) - Login statt statischem API-Key.
+export PLENTY_URL="https://p12345.my.plentysystems.com"
+export PLENTY_USERNAME="YOUR_BACKEND_USERNAME"
+export PLENTY_PASSWORD="YOUR_BACKEND_PASSWORD"

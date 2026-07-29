@@ -1,0 +1,40 @@
+#!/usr/bin/env bash
+###############################################################################
+# Plenty REST API Reference
+#
+# Companion Repository zum Referenzwerk
+# "PlentyOne → Odoo 19 Enterprise Migration"
+#
+# Copyright (c) 2026 HQ GmbH
+# https://www.hqgmbh.de
+#
+# Repository
+# https://github.com/hqgmbh/plenty-erp2odoo
+#
+# SPDX-License-Identifier: Apache-2.0
+#
+# Test-ID:
+# A017
+#
+# Odoo-Pendant:
+# odoo/A017-invalid-field.sh
+#
+# Beschreibung:
+# Sendet eine unbekannte Eigenschaft im Request-Body.
+#
+# Migrationshinweis:
+# UNVERIFIZIERT, empirisch gegen echte Instanz zu pruefen: Odoo lehnt
+# unbekannte Felder bei create()/write() typischerweise mit einem harten Fehler
+# ab (strikte ORM-Feldvalidierung). Es ist zu vermuten, dass Plenty unbekannte
+# JSON-Eigenschaften stillschweigend ignoriert (schwaechere Validierung), aber
+# das ist NICHT belegt - unbedingt gegen eine Testinstanz verifizieren, bevor
+# sich ein Migrationstool darauf verlaesst.
+###############################################################################
+
+source ../config.sh
+source ./_login.sh
+# Voraussetzungen: ../config.sh setzt PLENTY_URL, PLENTY_USERNAME, PLENTY_PASSWORD.
+# Hinweis: Weitere IDs oder Suchwerte sind ausschließlich mit Testdaten zu setzen.
+
+curl -sS -X POST "${PLENTY_URL%/}/rest/accounts/contacts" -H "Content-Type: application/json" -H "Authorization: Bearer ${PLENTY_ACCESS_TOKEN}" -d '{"referrerId":1,"typeId":1,"thisFieldDoesNotExist":"x"}'
+
