@@ -26,10 +26,10 @@
 # Liest gebuchte Wareneingangs-Transaktionen einer Nachbestellung.
 #
 # Migrationshinweis:
-# UNVERIFIZIERT: Laut Purchase-Orders-Guide sind gebuchte Transaktionen am Feld
-# receiptId auf Positionsebene erkennbar - ein separates, aggregiertes
-# receipt_status-Feld auf Auftragsebene (wie bei Odoo) konnte in der Spec nicht
-# bestaetigt werden.
+# Laut Purchase-Orders-Guide sind gebuchte Transaktionen am Feld receiptId auf
+# Positionsebene erkennbar. Ein separates, aggregiertes receipt_status-Feld
+# auf Auftragsebene (wie bei Odoo) existiert nicht - der Status ergibt sich
+# aus den einzelnen Positionen.
 ###############################################################################
 
 source ../config.sh

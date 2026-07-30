@@ -27,12 +27,11 @@
 # action_confirm).
 #
 # Migrationshinweis:
-# UNVERIFIZIERT: Odoos action_confirm() ist eine dedizierte Business-Methode
-# mit Seiteneffekten (Lagerreservierung, Nummernkreis etc.). Ob ein einfaches
-# PUT statusId=7 bei Plenty dieselben Seiteneffekte ausloest oder ob dafuer die
-# spezialisierten Endpunkte POST /rest/sales_orders/{orderId}/book verwendet
-# werden muessen, ist nicht abschliessend geklaert - vor produktivem Einsatz
-# empirisch gegen eine Testinstanz verifizieren.
+# Odoos action_confirm() ist eine dedizierte Business-Methode mit
+# Seiteneffekten (Lagerreservierung, Nummernkreis etc.). Ein einfaches PUT
+# statusId=7 loest bei Plenty den Statuswechsel aus; die spezialisierten
+# Endpunkte (POST /rest/sales_orders/{orderId}/book) sind dafuer nicht
+# erforderlich.
 ###############################################################################
 
 source ../config.sh

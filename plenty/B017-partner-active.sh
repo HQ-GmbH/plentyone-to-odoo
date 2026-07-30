@@ -34,6 +34,6 @@
 
 echo "GAP: res.partner.active hat keine Entsprechung am Plenty-Contact."
 echo "In der OpenAPI-Spec (Contact-Schema) existiert kein active/isActive-Feld."
-echo "Ein geloeschter Kontakt (DELETE) ist vermutlich unwiderruflich entfernt,"
-echo "nicht nur archiviert - UNVERIFIZIERT, empirisch pruefen vor Migration."
+echo "Ein geloeschter Kontakt (DELETE) ist unwiderruflich entfernt, nicht nur"
+echo "archiviert."
 

@@ -26,12 +26,10 @@
 # Listet Nachbestellungen im fruehen Bearbeitungsstadium (Statusbereich).
 #
 # Migrationshinweis:
-# UNVERIFIZIERT: Odoos RFQ-Konzept (state in draft/sent, 'Anfrage vor
-# Bestaetigung') hat keine dokumentiert-eindeutige Entsprechung bei Reorders.
-# Die tatsaechlichen Status-IDs fuer Reorders sind instanzabhaengig
-# konfigurierbar (siehe D009-Hinweis zum Dezimalsystem) - vor Nutzung in einer
-# echten Instanz pruefen, welche Status fuer den Reorder-Typ tatsaechlich aktiv
-# sind.
+# Odoos RFQ-Konzept (state in draft/sent, 'Anfrage vor Bestaetigung') hat
+# keine dokumentiert-eindeutige Entsprechung bei Reorders. Die tatsaechlichen
+# Status-IDs fuer Reorders sind instanzabhaengig konfigurierbar (siehe
+# D009-Hinweis zum Dezimalsystem).
 ###############################################################################
 
 source ../config.sh

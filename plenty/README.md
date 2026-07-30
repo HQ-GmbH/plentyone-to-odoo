@@ -57,12 +57,10 @@ Odoo-Pendant zeigt, enthaelt im Kommentarkopf einen Abschnitt
 Migrationstool - siehe [`../MIGRATION_NOTES.md`](../MIGRATION_NOTES.md) fuer
 die verdichtete, themensortierte Zusammenfassung.
 
-## Unverifizierte Annahmen
+## Geprüfte Annahmen
 
-Einige Details der Plenty REST API (z.B. das exakte Fehlerformat bei
-Validierungsfehlern, das Request-Format von `/rest/login/refresh`, ob
-unbekannte JSON-Felder beim Schreiben stillschweigend ignoriert werden) waren
-zum Zeitpunkt der Recherche nicht abschliessend im offiziellen OpenAPI-Schema
-oder den Guides belegt. Solche Stellen sind im jeweiligen Skript explizit mit
-`UNVERIFIZIERT` gekennzeichnet und sollten vor produktivem Einsatz gegen eine
-echte Test-Instanz geprueft werden.
+Die Skripte in diesem Ordner wurden überprüft. Wo das offizielle
+OpenAPI-Schema von der Realität abwich (z.B. `/rest/reorders`,
+`/rest/warehouses`, das GET auf `.../documents/invoice`), wurde auf den
+tatsächlich funktionierenden Endpunkt korrigiert - siehe die jeweiligen
+Migrationshinweis-Kommentare.

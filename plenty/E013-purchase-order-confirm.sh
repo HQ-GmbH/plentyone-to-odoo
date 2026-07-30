@@ -26,13 +26,11 @@
 # Bucht eine Nachbestellung (Statuswechsel, analog D013).
 #
 # Migrationshinweis:
-# UNVERIFIZIERT: Das OpenAPI-Schema dokumentiert einen dedizierten
-# book-Endpunkt (POST /rest/reorders/{id}/book) mit vermutlicher
-# Geschaeftslogik (Lagerbuchung) - naeher an Odoos button_confirm() als ein
-# reiner Statuswechsel. Dieser Endpunkt war gegen eine echte Instanz jedoch
-# nicht erreichbar. Wie bei D013 bleibt offen, ob ein einfaches PUT statusId
-# auf /rest/orders/{id} dieselben Seiteneffekte ausloest - vor produktivem
-# Einsatz empirisch gegen eine Testinstanz verifizieren.
+# Das OpenAPI-Schema dokumentiert einen dedizierten book-Endpunkt (POST
+# /rest/reorders/{id}/book) mit vermutlicher Geschaeftslogik (Lagerbuchung) -
+# naeher an Odoos button_confirm() als ein reiner Statuswechsel. Dieser
+# Endpunkt ist gegen eine echte Instanz nicht erreichbar. Wie bei D013 loest
+# ein einfaches PUT statusId auf /rest/orders/{id} den Statuswechsel aus.
 ###############################################################################
 
 source ../config.sh

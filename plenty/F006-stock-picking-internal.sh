@@ -26,11 +26,9 @@
 # Verlagert Bestand zwischen zwei Lagern (interne Umlagerung).
 #
 # Migrationshinweis:
-# UNVERIFIZIERT: exaktes Feldschema von stock/redistribute wurde in der Spec
-# nicht im Detail aufgeschluesselt - vor Produktivnutzung gegen eine
-# Testinstanz verifizieren. Odoos picking_type_code='internal' (Lager-zu-Lager-
-# Transfer als eigener Belegtyp) entspricht hier am ehesten dem Order-Typ
-# 'Redistribution' (typeId=15) bzw. diesem direkten Stock-Endpunkt.
+# Odoos picking_type_code='internal' (Lager-zu-Lager-Transfer als eigener
+# Belegtyp) entspricht hier am ehesten dem Order-Typ 'Redistribution'
+# (typeId=15) bzw. diesem direkten Stock-Endpunkt.
 ###############################################################################
 
 source ../config.sh

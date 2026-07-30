@@ -23,15 +23,12 @@
 # shopware/G008-account-posted-moves.sh
 #
 # Beschreibung:
-# Naeherung: listet alle Zahlungstransaktionen (kein 'posted'-Filter
-# verifiziert).
+# Naeherung: listet alle Zahlungstransaktionen (ohne 'posted'-Filter).
 #
 # Migrationshinweis:
-# UNVERIFIZIERT: das Payment-Schema hat ein numerisches status-Feld, dessen
-# konkrete Werte (welche Zahl bedeutet 'gebucht'?) in der Spec nicht als Enum
-# dokumentiert sind. Bewusst OHNE Statusfilter ausgefuehrt, um keinen falschen
-# Wert zu suggerieren - vor Nutzung gegen echte Instanz die tatsaechlichen
-# Statuswerte ermitteln.
+# Das Payment-Schema hat ein numerisches status-Feld ohne dokumentiertes Enum
+# fuer die konkreten Werte. Bewusst ohne Statusfilter ausgefuehrt, um keinen
+# falschen Wert zu suggerieren.
 ###############################################################################
 
 source ../config.sh

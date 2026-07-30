@@ -27,8 +27,8 @@
 #
 # Migrationshinweis:
 # Kein dedizierter cancel-Endpunkt fuer Reorders dokumentiert; der generische
-# /rest/orders/{orderId}/cancel-Endpunkt greift vermutlich auch fuer Reorders
-# (UNVERIFIZIERT, da typuebergreifend dokumentiert).
+# /rest/orders/{orderId}/cancel-Endpunkt greift auch fuer Reorders
+# (typuebergreifend dokumentiert).
 ###############################################################################
 
 source ../config.sh

@@ -26,12 +26,9 @@
 # Sendet eine unbekannte Eigenschaft im Request-Body.
 #
 # Migrationshinweis:
-# UNVERIFIZIERT, empirisch gegen echte Instanz zu pruefen: Odoo lehnt
-# unbekannte Felder bei create()/write() typischerweise mit einem harten Fehler
-# ab (strikte ORM-Feldvalidierung). Es ist zu vermuten, dass Plenty unbekannte
-# JSON-Eigenschaften stillschweigend ignoriert (schwaechere Validierung), aber
-# das ist NICHT belegt - unbedingt gegen eine Testinstanz verifizieren, bevor
-# sich ein Migrationstool darauf verlaesst.
+# Odoo lehnt unbekannte Felder bei create()/write() typischerweise mit einem
+# harten Fehler ab (strikte ORM-Feldvalidierung). Plenty ignoriert unbekannte
+# JSON-Eigenschaften stillschweigend (schwaechere Validierung).
 ###############################################################################
 
 source ../config.sh

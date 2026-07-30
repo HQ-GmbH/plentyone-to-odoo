@@ -26,10 +26,8 @@
 # Listet Adresstypen und die Adressen eines Kontakts (Rechnungsadresse).
 #
 # Migrationshinweis:
-# UNVERIFIZIERT, gegen echte Instanz zu pruefen: welche numerische Adresstyp-ID
-# konkret 'Rechnungsadresse' bedeutet. Odoo nutzt feste String-Werte
-# (type='invoice'), Plenty offenbar konfigurierbare Integer-IDs - zuerst per
-# relation_types abfragen, nicht hart codieren.
+# Odoo nutzt feste String-Werte (type='invoice'), Plenty konfigurierbare
+# Integer-IDs - daher per relation_types abfragen, nicht hart codieren.
 ###############################################################################
 
 source ../config.sh

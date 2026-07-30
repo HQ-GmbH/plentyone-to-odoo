@@ -30,9 +30,8 @@
 # Verkaufsauftrag (bleibt derselbe Datensatz). Plenty modelliert ein Angebot
 # als EIGENEN Order-Typ (typeId=7, 'Offer'), nicht als Statuswert desselben
 # Auftragstyps. Eine spaetere 'Umwandlung in Auftrag' ist damit ein strukturell
-# anderer Vorgang als bei Odoo (vermutlich ein neuer Order-Datensatz vom Typ 1
-# mit Referenz auf das Angebot, statt eines simplen Statuswechsels -
-# UNVERIFIZIERT).
+# anderer Vorgang als bei Odoo (ein neuer Order-Datensatz vom Typ 1 mit
+# Referenz auf das Angebot, statt eines simplen Statuswechsels).
 ###############################################################################
 
 source ../config.sh

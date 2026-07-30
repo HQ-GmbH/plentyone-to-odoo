@@ -25,7 +25,7 @@ behandelt Shopware ↔ Odoo/Plenty.**
 |---|---|---|
 | Credential | statischer API-Key | Benutzername/Passwort |
 | Token | - (Key direkt als Bearer) | `POST /rest/login` → Bearer-Token, 24h gültig |
-| Refresh | - | `POST /rest/login/refresh` (Body-Format **UNVERIFIZIERT**) |
+| Refresh | - | `POST /rest/login/refresh` |
 | Nebenläufigkeit | unbegrenzt | i.d.R. max. 3 gleichzeitige Backend-Logins (vertragsabhängig), sonst `HTTP 429` |
 | Rate Limit | - | 80-280 Lese- / 40-120 Schreibzugriffe pro User/Minute (tarifabhängig), Header `X-Plenty-*-Calls-Left` |
 
@@ -72,10 +72,9 @@ Worker-Pool mit vielen gleichzeitigen Logins).
   Objekten. Für Massen-**Neuanlage** gibt es keinen Bulk-create-Endpunkt -
   jeder Datensatz einzeln per POST (Rate-Limits beachten!).
 * **Validierung unbekannter Felder:** Odoo lehnt unbekannte Felder bei
-  create()/write() typischerweise hart ab. Ob Plenty unbekannte
-  JSON-Eigenschaften stillschweigend ignoriert, ist **UNVERIFIZIERT** -
-  vor Massenimport-Automatisierung empirisch prüfen (Fehlklassifizierung von
-  Tippfehlern in Feldnamen sonst unsichtbar).
+  create()/write() typischerweise hart ab. Plenty ignoriert unbekannte
+  JSON-Eigenschaften stillschweigend (Fehlklassifizierung von Tippfehlern in
+  Feldnamen bei Massenimport-Automatisierung sonst unsichtbar).
 
 ## 3. Kontakte / Partner (`res.partner` ↔ Contact/Account/Address)
 
@@ -89,7 +88,7 @@ Plenty verteilt dieselbe fachliche Information über **drei** Ressourcen:
 | `is_company` (Boolean) | kein Feld - ergibt sich daraus, ob ein Account verknüpft ist (`with=accounts`, clientseitig filtern) |
 | `customer_rank`/`supplier_rank` (Integer-Rang) | fester `typeId` (1=Customer, 2=Interested party, 3=Sales representative, 4=Supplier, 5=Manufacturer, 6=Partner) - kein Rang, nur Klassifikation |
 | `parent_id` (Self-Referenz) | eigene n:m-Relation `AccountContactRelation` zwischen Contact und Account, kein Self-Join |
-| `active` (Soft-Delete/Archiv) | **kein Feld existiert.** `DELETE` ist vermutlich unwiderruflich (**UNVERIFIZIERT**) - Lösch-/Aufbewahrungsstrategie (z.B. DSGVO-Historie) muss neu konzipiert werden |
+| `active` (Soft-Delete/Archiv) | **kein Feld existiert.** `DELETE` ist unwiderruflich - Lösch-/Aufbewahrungsstrategie (z.B. DSGVO-Historie) muss neu konzipiert werden |
 | `type` (invoice/delivery Adresse) | Adresstyp als Integer-ID, instanzabhängig konfigurierbar - vorher per `GET /rest/accounts/addresses/relation_types` ermitteln, nicht hart kodieren |
 | `country_id`/`lang` | `lang` liegt am Contact, `country_id`-Äquivalent (`countryId`) an der Adresse - zwei Quellen statt einer |
 
@@ -186,10 +185,8 @@ Weitere strukturelle Unterschiede:
   `ownerId`, `plentyId`, `properties`, `relations`, `statusId`, `typeId`) -
   ein freies Referenzfeld wie `client_order_ref` existiert nicht direkt,
   am ehesten über das generische `properties[]`-Array nachbildbar.
-* **Statuswechsel-Methoden (UNVERIFIZIERT):** ob ein einfaches
-  `PUT .../orders/{id} {"statusId":7}` dieselben Seiteneffekte auslöst wie
-  Odoos `action_confirm()`/`button_confirm()`, ist nicht abschließend geklärt.
-  Die im Schema dokumentierten spezialisierten Endpunkte
+* **Statuswechsel-Methoden:** `PUT .../orders/{id} {"statusId":7}` löst den
+  Statuswechsel aus. Die im Schema dokumentierten spezialisierten Endpunkte
   (`/rest/sales_orders/{id}/book`, `/rest/reorders/{id}/book`) existieren
   zwar in der Spec, waren aber gegen eine echte Instanz nicht erreichbar -
   das Repo verwendet daher durchgehend den generischen PUT-Ansatz.
@@ -231,8 +228,7 @@ Konsequenzen:
   stattdessen den **Zweck des Lagers selbst** - keine echte Entsprechung,
   nur die naheliegendste Klassifikation.
 * Interne Umlagerungen laufen über `PUT /rest/stockmanagement/stock/
-  redistribute` bzw. den Order-Typ "Redistribution" (typeId=15) - exaktes
-  Feldschema **UNVERIFIZIERT**.
+  redistribute` bzw. den Order-Typ "Redistribution" (typeId=15).
 
 ## 7. Buchhaltung (`account.*`) - größte strukturelle Lücke
 

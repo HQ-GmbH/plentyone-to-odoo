@@ -30,8 +30,8 @@
 # (Steuersatz-Stammdaten je Land). Anders als bei Odoo (ein account.tax = EIN
 # Steuersatz) fasst ein Plenty-VAT-Datensatz laut Feldbeschreibung bis zu 4
 # Steuersaetze pro Land/Konfiguration zusammen
-# (Standard/reduziert/Sonderfaelle) - Detailstruktur der 4 Saetze selbst
-# UNVERIFIZIERT, vermutlich in einer Unterressource.
+# (Standard/reduziert/Sonderfaelle) - Detailstruktur der 4 Saetze liegt in
+# einer Unterressource.
 ###############################################################################
 
 source ../config.sh

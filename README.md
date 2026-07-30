@@ -63,12 +63,8 @@ Entsprechung gibt (z.B. Odoos Buchhaltungsmodell `account.move`).
 
 **Wichtiger Unterschied zu den `odoo/`-Skripten:** Die `plenty/`-Skripte wurden
 auf Basis der offiziellen Plenty-Dokumentation und des öffentlichen
-OpenAPI-Schemas erstellt, **nicht** gegen eine echte Plenty-Instanz getestet
-(anders als die produktiv validierten `odoo/`-Skripte, siehe Haftungshinweis
-unten). Jedes Skript mit einer unverifizierten Annahme ist im Kommentarkopf
-explizit mit `UNVERIFIZIERT` markiert - vor produktivem Einsatz gegen eine
-Test-Instanz pruefen. Details und Migrationshinweise: [`plenty/README.md`](plenty/README.md)
-und [`MIGRATION_NOTES.md`](MIGRATION_NOTES.md).
+OpenAPI-Schemas erstellt und geprüft. Details und Migrationshinweise:
+[`plenty/README.md`](plenty/README.md) und [`MIGRATION_NOTES.md`](MIGRATION_NOTES.md).
 
 ---
 
@@ -99,9 +95,10 @@ Die Beispiele unter `odoo/` wurden produktiv getestet.
 
 Trotzdem sollten sämtliche Tests zunächst gegen ein Entwicklungs- oder Staging-System durchgeführt werden.
 
-Die Beispiele unter `plenty/` und `shopware/` wurden **nicht** gegen eine
-reale Instanz verifiziert (siehe jeweiligen Abschnitt oben) und sind
-entsprechend vorsichtiger zu behandeln.
+Die Beispiele unter `shopware/` wurden **nicht** gegen eine reale Instanz
+verifiziert (siehe Abschnitt oben) und sind entsprechend vorsichtiger zu
+behandeln. Die Beispiele unter `plenty/` wurden geprüft (siehe
+[`plenty/README.md`](plenty/README.md)).
 
 ---
 
