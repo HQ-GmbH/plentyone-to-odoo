@@ -33,5 +33,5 @@ source ./_login.sh
 
 : "${PURCHASE_ORDER_ID:?Export PURCHASE_ORDER_ID=<Auftrags-ID>}"
 : "${VENDOR_ID:?Export VENDOR_ID=<Contact-ID des Lieferanten>}"
-curl -sS -X PUT "${PLENTY_URL%/}/rest/reorders/${PURCHASE_ORDER_ID}" -H "Content-Type: application/json" -H "Authorization: Bearer ${PLENTY_ACCESS_TOKEN}" -d "{\"relations\":[{\"referenceType\":\"contact\",\"referenceId\":${VENDOR_ID},\"relation\":\"sender\"}]}"
+curl -sS -X PUT "${PLENTY_URL%/}/rest/orders/${PURCHASE_ORDER_ID}" -H "Content-Type: application/json" -H "Authorization: Bearer ${PLENTY_ACCESS_TOKEN}" -d "{\"relations\":[{\"referenceType\":\"contact\",\"referenceId\":${VENDOR_ID},\"relation\":\"sender\"}]}"
 

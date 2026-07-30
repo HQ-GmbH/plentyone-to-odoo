@@ -23,8 +23,9 @@
 # shopware/E006-purchase-order-fields_get.sh
 #
 # Beschreibung:
-# Liest Feldmetadaten des Reorder-POST-Schemas (Naeherung).
+# Liest Feldmetadaten des Order-POST-Schemas (Naeherung, typeId=12 fuer
+# Reorders - siehe E001/E002).
 ###############################################################################
 
-curl -sS "https://raw.githubusercontent.com/plentymarkets/api-doc/master/plentymarkets/openApiV3/openApiV3.json" | jq '.paths["/rest/reorders"].post.requestBody.content["application/json"].schema'
+curl -sS "https://raw.githubusercontent.com/plentymarkets/api-doc/master/plentymarkets/openApiV3/openApiV3.json" | jq '.paths["/rest/orders"].post.requestBody.content["application/json"].schema'
 

@@ -31,6 +31,10 @@
 # generierte DOKUMENTE (PDF), kein Buchhaltungsdatensatz - der 'Status' ergibt
 # sich nur daraus, ob unter diesem Pfad bereits ein Dokument existiert, nicht
 # aus einem Statusfeld.
+# KORREKTUR: /rest/orders/{orderId}/documents/{type} kennt laut Spec nur
+# POST (Dokument generieren). Fuer die reine Statusabfrage (GET, ohne neu zu
+# generieren) ist /rest/orders/{orderId}/documents/{type}/current der
+# richtige Pfad.
 ###############################################################################
 
 source ../config.sh
@@ -39,5 +43,5 @@ source ./_login.sh
 # Hinweis: Weitere IDs oder Suchwerte sind ausschließlich mit Testdaten zu setzen.
 
 : "${SALE_ORDER_ID:?Export SALE_ORDER_ID=<Auftrags-ID>}"
-curl -sS -X GET "${PLENTY_URL%/}/rest/orders/${SALE_ORDER_ID}/documents/invoice" -H "Authorization: Bearer ${PLENTY_ACCESS_TOKEN}"
+curl -sS -X GET "${PLENTY_URL%/}/rest/orders/${SALE_ORDER_ID}/documents/invoice/current" -H "Authorization: Bearer ${PLENTY_ACCESS_TOKEN}"
 

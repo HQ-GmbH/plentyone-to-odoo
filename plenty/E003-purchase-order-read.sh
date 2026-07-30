@@ -32,5 +32,5 @@ source ./_login.sh
 # Hinweis: Weitere IDs oder Suchwerte sind ausschließlich mit Testdaten zu setzen.
 
 : "${PURCHASE_ORDER_ID:?Export PURCHASE_ORDER_ID=<Auftrags-ID>}"
-curl -sS -X GET "${PLENTY_URL%/}/rest/reorders/${PURCHASE_ORDER_ID}?with=orderItems,relations" -H "Authorization: Bearer ${PLENTY_ACCESS_TOKEN}"
+curl -sS -X GET "${PLENTY_URL%/}/rest/orders/${PURCHASE_ORDER_ID}?with=orderItems,relations" -H "Authorization: Bearer ${PLENTY_ACCESS_TOKEN}"
 

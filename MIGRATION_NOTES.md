@@ -146,11 +146,15 @@ Relevante `typeId`-Werte (Auszug, verifiziert aus dem Order-Schema):
 | 15 | Redistribution (Lagerumlagerung) | kein direktes Odoo-Äquivalent |
 
 **Es gibt keinen einzelnen "Purchase Order"-Typ** - Einkauf läuft über
-Reorder (typeId=12, eigener Endpunkt `/rest/reorders`) oder Redistribution
-(typeId=15). Für Reorders existiert zusätzlich ein spezialisierter
+Reorder (typeId=12) oder Redistribution (typeId=15), beide über den
+generischen `/rest/orders`-Endpunkt (`orderType=12`/`15` beim Lesen,
+`typeId` im Body beim Anlegen). Das OpenAPI-Schema dokumentiert zusätzlich
+einen eigenen Endpunkt-Namespace `/rest/reorders` samt spezialisiertem
 `book`-Endpunkt (`POST /rest/reorders/{id}/book`) mit vermutlicher
 Geschäftslogik (Lagerbuchung) - näher an `button_confirm()` als ein reiner
-Statuswechsel.
+Statuswechsel. Dieser Namespace war gegen eine echte Instanz jedoch nicht
+erreichbar; das Repo verwendet daher durchgehend den generischen Endpunkt
+(siehe E001-E016).
 
 Weitere strukturelle Unterschiede:
 
@@ -184,9 +188,11 @@ Weitere strukturelle Unterschiede:
   am ehesten über das generische `properties[]`-Array nachbildbar.
 * **Statuswechsel-Methoden (UNVERIFIZIERT):** ob ein einfaches
   `PUT .../orders/{id} {"statusId":7}` dieselben Seiteneffekte auslöst wie
-  Odoos `action_confirm()`/`button_confirm()`, oder ob dafür zwingend die
-  spezialisierten Endpunkte (`/rest/sales_orders/{id}/book`,
-  `/rest/reorders/{id}/book`) nötig sind, ist nicht abschließend geklärt.
+  Odoos `action_confirm()`/`button_confirm()`, ist nicht abschließend geklärt.
+  Die im Schema dokumentierten spezialisierten Endpunkte
+  (`/rest/sales_orders/{id}/book`, `/rest/reorders/{id}/book`) existieren
+  zwar in der Spec, waren aber gegen eine echte Instanz nicht erreichbar -
+  das Repo verwendet daher durchgehend den generischen PUT-Ansatz.
 
 ## 6. Lager & Bestand (`stock.*` ↔ Warehouse/Stockmanagement)
 

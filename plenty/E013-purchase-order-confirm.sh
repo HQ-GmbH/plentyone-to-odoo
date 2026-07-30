@@ -23,13 +23,16 @@
 # shopware/E013-purchase-order-confirm.sh
 #
 # Beschreibung:
-# Bucht eine Nachbestellung (spezialisierter book-Endpunkt).
+# Bucht eine Nachbestellung (Statuswechsel, analog D013).
 #
 # Migrationshinweis:
-# Anders als beim generischen D013 (PUT statusId) bietet Plenty fuer Reorders
-# einen DEDIZIERTEN book-Endpunkt mit Geschaeftslogik (vermutlich inkl.
-# Lagerbuchung) - naeher an Odoos button_confirm() als ein reiner
-# Statuswechsel.
+# UNVERIFIZIERT: Das OpenAPI-Schema dokumentiert einen dedizierten
+# book-Endpunkt (POST /rest/reorders/{id}/book) mit vermutlicher
+# Geschaeftslogik (Lagerbuchung) - naeher an Odoos button_confirm() als ein
+# reiner Statuswechsel. Dieser Endpunkt war gegen eine echte Instanz jedoch
+# nicht erreichbar. Wie bei D013 bleibt offen, ob ein einfaches PUT statusId
+# auf /rest/orders/{id} dieselben Seiteneffekte ausloest - vor produktivem
+# Einsatz empirisch gegen eine Testinstanz verifizieren.
 ###############################################################################
 
 source ../config.sh
@@ -38,5 +41,5 @@ source ./_login.sh
 # Hinweis: Weitere IDs oder Suchwerte sind ausschließlich mit Testdaten zu setzen.
 
 : "${PURCHASE_ORDER_ID:?Export PURCHASE_ORDER_ID=<Auftrags-ID eines Testauftrags>}"
-curl -sS -X POST "${PLENTY_URL%/}/rest/reorders/${PURCHASE_ORDER_ID}/book" -H "Authorization: Bearer ${PLENTY_ACCESS_TOKEN}"
+curl -sS -X PUT "${PLENTY_URL%/}/rest/orders/${PURCHASE_ORDER_ID}" -H "Content-Type: application/json" -H "Authorization: Bearer ${PLENTY_ACCESS_TOKEN}" -d '{"statusId":7}'
 

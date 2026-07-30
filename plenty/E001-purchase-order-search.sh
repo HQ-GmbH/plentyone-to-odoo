@@ -28,10 +28,13 @@
 # Migrationshinweis:
 # WICHTIGE KORREKTUR gegenueber einer naheliegenden Annahme: Es gibt KEINEN
 # einzelnen 'Purchase Order'-typeId. Plenty nennt den Einkaufs-auftrag
-# 'Reorder' (Nachbestellung, typeId=12) mit eigenen Endpunkten unter
-# /rest/reorders. Ein zweiter einkaufsnaher Typ ist 'Redistribution'
-# (typeId=15, Lagerumlagerung) - fachlich naeher an einem internen Transfer als
-# an einer Lieferantenbestellung.
+# 'Reorder' (Nachbestellung, typeId=12). Ein zweiter einkaufsnaher Typ ist
+# 'Redistribution' (typeId=15, Lagerumlagerung) - fachlich naeher an einem
+# internen Transfer als an einer Lieferantenbestellung.
+# Das OpenAPI-Schema listet zusaetzlich einen eigenen Endpunkt-Namespace
+# /rest/reorders - dieser war gegen eine echte Instanz jedoch nicht
+# erreichbar. Dieses Repo verwendet daher durchgehend den generischen
+# /rest/orders-Endpunkt mit orderType=12 (siehe E002-E016).
 ###############################################################################
 
 source ../config.sh

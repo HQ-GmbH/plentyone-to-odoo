@@ -31,5 +31,5 @@ source ./_login.sh
 # Voraussetzungen: ../config.sh setzt PLENTY_URL, PLENTY_USERNAME, PLENTY_PASSWORD.
 # Hinweis: Weitere IDs oder Suchwerte sind ausschließlich mit Testdaten zu setzen.
 
-curl -sS -X GET "${PLENTY_URL%/}/rest/warehouses?itemsPerPage=50" -H "Authorization: Bearer ${PLENTY_ACCESS_TOKEN}"
+curl -sS -X GET "${PLENTY_URL%/}/rest/stockmanagement/warehouses?itemsPerPage=50" -H "Authorization: Bearer ${PLENTY_ACCESS_TOKEN}"
 

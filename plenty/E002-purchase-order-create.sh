@@ -26,12 +26,13 @@
 # Legt eine neue Nachbestellung bei einem Lieferanten an.
 #
 # Migrationshinweis:
-# Reorders haben einen EIGENEN, spezialisierten Endpunkt (/rest/reorders) statt
-# des generischen /rest/orders - anders als bei Sales Orders, wo sowohl der
-# generische als auch ein spezialisierter Endpunkt (/rest/sales_orders)
-# existieren. Der Lieferant wird per relation='sender' verknuepft (er SENDET
-# die Ware), waehrend beim Verkaufsauftrag der Kunde als 'receiver' verknuepft
-# wird (siehe D002).
+# Reorders werden ueber den generischen /rest/orders-Endpunkt mit typeId=12
+# angelegt (kein dediziertes Reorder-Modell wie bei Odoos purchase.order). Das
+# OpenAPI-Schema dokumentiert zusaetzlich einen eigenen Endpunkt /rest/reorders
+# - dieser war gegen eine echte Instanz jedoch nicht erreichbar. Der
+# Lieferant wird per relation='sender' verknuepft (er SENDET die Ware),
+# waehrend beim Verkaufsauftrag der Kunde als 'receiver' verknuepft wird
+# (siehe D002).
 ###############################################################################
 
 source ../config.sh
@@ -40,5 +41,5 @@ source ./_login.sh
 # Hinweis: Weitere IDs oder Suchwerte sind ausschließlich mit Testdaten zu setzen.
 
 : "${VENDOR_ID:?Export VENDOR_ID=<Contact-ID des Lieferanten>}"
-curl -sS -X POST "${PLENTY_URL%/}/rest/reorders" -H "Content-Type: application/json" -H "Authorization: Bearer ${PLENTY_ACCESS_TOKEN}" -d "{\"typeId\":12,\"relations\":[{\"referenceType\":\"contact\",\"referenceId\":${VENDOR_ID},\"relation\":\"sender\"}]}"
+curl -sS -X POST "${PLENTY_URL%/}/rest/orders" -H "Content-Type: application/json" -H "Authorization: Bearer ${PLENTY_ACCESS_TOKEN}" -d "{\"typeId\":12,\"relations\":[{\"referenceType\":\"contact\",\"referenceId\":${VENDOR_ID},\"relation\":\"sender\"}]}"
 

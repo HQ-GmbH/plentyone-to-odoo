@@ -26,9 +26,9 @@
 # Stornoiert eine Nachbestellung.
 #
 # Migrationshinweis:
-# Kein dedizierter cancel-Endpunkt unter /rest/reorders dokumentiert; der
-# generische /rest/orders/{orderId}/cancel-Endpunkt greift vermutlich auch fuer
-# Reorders (UNVERIFIZIERT, da typuebergreifend dokumentiert).
+# Kein dedizierter cancel-Endpunkt fuer Reorders dokumentiert; der generische
+# /rest/orders/{orderId}/cancel-Endpunkt greift vermutlich auch fuer Reorders
+# (UNVERIFIZIERT, da typuebergreifend dokumentiert).
 ###############################################################################
 
 source ../config.sh

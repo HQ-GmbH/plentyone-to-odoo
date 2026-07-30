@@ -30,6 +30,14 @@
 # Zone > Regal > Fach) generisch als eigenes Modell ab. Plenty modelliert
 # Lagerplaetze als feste Struktur (Dimensionen/Ebenen) UNTERHALB eines
 # Warehouse, nicht als generischer Location-Baum.
+#
+# UNVERIFIZIERT: F018/F019 mussten von /rest/warehouses auf
+# /rest/stockmanagement/warehouses umgestellt werden, da der alte Namespace
+# gegen eine echte Instanz nicht erreichbar war. Fuer /rest/warehouses/structure
+# existiert im Schema jedoch keine erkennbare Entsprechung unter
+# /rest/stockmanagement/warehouses - moeglicherweise ist dieser Pfad weiterhin
+# gueltig (anderes Modul), moeglicherweise ebenfalls veraltet. Vor produktivem
+# Einsatz gegen eine echte Instanz pruefen.
 ###############################################################################
 
 source ../config.sh
