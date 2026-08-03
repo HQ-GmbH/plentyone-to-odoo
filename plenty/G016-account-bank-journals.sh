@@ -36,5 +36,7 @@ source ./_login.sh
 # Voraussetzungen: ../config.sh setzt PLENTY_URL, PLENTY_USERNAME, PLENTY_PASSWORD.
 # Hinweis: Weitere IDs oder Suchwerte sind ausschließlich mit Testdaten zu setzen.
 
-curl -sS -X GET "${PLENTY_URL%/}/rest/payments/methods?itemsPerPage=50" -H "Authorization: Bearer ${PLENTY_ACCESS_TOKEN}"
+# Hinweis: liefert laut Spec ein blankes Array (kein Paginierungs-Envelope),
+# deklarierte Query-Parameter sind nur backendActive und backendSearchable.
+curl -sS -X GET "${PLENTY_URL%/}/rest/payments/methods" -H "Authorization: Bearer ${PLENTY_ACCESS_TOKEN}"
 

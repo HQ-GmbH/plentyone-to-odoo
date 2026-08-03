@@ -26,12 +26,19 @@
 # Listet die konfigurierten Steuersaetze (VAT).
 #
 # Migrationshinweis:
-# Direkter Treffer: /rest/vat entspricht weitgehend Odoos account.tax
-# (Steuersatz-Stammdaten je Land). Anders als bei Odoo (ein account.tax = EIN
-# Steuersatz) fasst ein Plenty-VAT-Datensatz laut Feldbeschreibung bis zu 4
-# Steuersaetze pro Land/Konfiguration zusammen
-# (Standard/reduziert/Sonderfaelle) - Detailstruktur der 4 Saetze liegt in
-# einer Unterressource.
+# ACHTUNG, kein 1:1-Treffer: /rest/vat liefert die Steuer-KONFIGURATION je
+# Land/Standort (countryId, locationId, isStandard, marginScheme, taxIdNumber,
+# Gueltigkeitszeitraum ueber startedAt/invalidFrom) - der Vat-Datensatz selbst
+# enthaelt KEINEN Steuersatz-Wert. Die eigentlichen Saetze stecken im separaten
+# Schema VatRate (id, name, vatRate, revenueAccount). Der with-Parameter von
+# /rest/vat laedt laut Spec nur 'location' oder 'country', NICHT die VatRates -
+# die Zuordnung Konfiguration -> Saetze ist ueber diesen Endpunkt also nicht
+# direkt abrufbar.
+#
+# Fuer die Migration relevant: Odoos account.tax vereint Satz UND Kontenzuordnung
+# in einem Datensatz. Plenty trennt Konfiguration (Vat) von Satz (VatRate);
+# VatRate.revenueAccount ist dabei die naechstliegende Entsprechung zu Odoos
+# Steuerkonto-Verknuepfung.
 ###############################################################################
 
 source ../config.sh

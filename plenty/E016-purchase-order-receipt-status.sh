@@ -26,10 +26,14 @@
 # Liest gebuchte Wareneingangs-Transaktionen einer Nachbestellung.
 #
 # Migrationshinweis:
-# Laut Purchase-Orders-Guide sind gebuchte Transaktionen am Feld receiptId auf
-# Positionsebene erkennbar. Ein separates, aggregiertes receipt_status-Feld
-# auf Auftragsebene (wie bei Odoo) existiert nicht - der Status ergibt sich
-# aus den einzelnen Positionen.
+# Wareneingaenge haengen NICHT an der Auftragsposition selbst: das Schema
+# OrderItem besitzt kein receiptId-Feld. receiptId liegt ausschliesslich am
+# Schema OrderItemTransaction, also eine Ebene tiefer - Positionen werden
+# ueber Transaktionen (direction 'in'/'out') bebucht. Gelesen wird das mit
+# GET /rest/orders/items/transactions?orderId=... (Filter isBooked verfuegbar).
+# Ein aggregiertes receipt_status-Feld auf Auftragsebene wie bei Odoo
+# (purchase.order.receipt_status) existiert nicht - der Gesamtstatus muss aus
+# den Transaktionen clientseitig hergeleitet werden.
 ###############################################################################
 
 source ../config.sh
@@ -38,5 +42,5 @@ source ./_login.sh
 # Hinweis: Weitere IDs oder Suchwerte sind ausschließlich mit Testdaten zu setzen.
 
 : "${PURCHASE_ORDER_ID:?Export PURCHASE_ORDER_ID=<Auftrags-ID>}"
-curl -sS -X GET "${PLENTY_URL%/}/rest/orders/${PURCHASE_ORDER_ID}?with=orderItems" -H "Authorization: Bearer ${PLENTY_ACCESS_TOKEN}" | jq '.orderItems[]? | {id, receiptId}'
+curl -sS -X GET "${PLENTY_URL%/}/rest/orders/items/transactions?orderId=${PURCHASE_ORDER_ID}" -H "Authorization: Bearer ${PLENTY_ACCESS_TOKEN}" | jq '(.entries // .) | map({orderItemId, receiptId, quantity, direction, status})'
 

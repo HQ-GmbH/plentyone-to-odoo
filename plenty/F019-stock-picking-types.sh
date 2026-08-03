@@ -39,5 +39,9 @@ source ./_login.sh
 # Voraussetzungen: ../config.sh setzt PLENTY_URL, PLENTY_USERNAME, PLENTY_PASSWORD.
 # Hinweis: Weitere IDs oder Suchwerte sind ausschließlich mit Testdaten zu setzen.
 
-curl -sS -X GET "${PLENTY_URL%/}/rest/stockmanagement/warehouses?itemsPerPage=50" -H "Authorization: Bearer ${PLENTY_ACCESS_TOKEN}" | jq '.entries | group_by(.typeId) | map({typeId: .[0].typeId, count: length})'
+# Hinweis: /rest/stockmanagement/warehouses ist nicht paginiert (Spec: nur 'with').
+# Die Antwort ist als generische 'Collection' deklariert, ohne dokumentiertes
+# entries-Feld - daher '(.entries // .)', damit sowohl ein Paginierungs-Envelope
+# als auch ein blankes Array verarbeitet wird.
+curl -sS -X GET "${PLENTY_URL%/}/rest/stockmanagement/warehouses" -H "Authorization: Bearer ${PLENTY_ACCESS_TOKEN}" | jq '(.entries // .) | group_by(.typeId) | map({typeId: .[0].typeId, count: length})'
 
