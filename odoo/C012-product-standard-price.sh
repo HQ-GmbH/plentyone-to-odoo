@@ -17,6 +17,9 @@
 #
 # Shopware-Pendant:
 # shopware/C012-product-standard-price.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

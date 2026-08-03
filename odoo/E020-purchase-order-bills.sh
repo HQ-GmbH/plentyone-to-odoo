@@ -7,6 +7,9 @@
 #
 # Shopware-Pendant:
 # shopware/E020-purchase-order-bills.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 source ../config.sh
 # Beispiel: PURCHASE_ORDER_ID=123 ./E020-purchase-order-bills.sh
 set -euo pipefail

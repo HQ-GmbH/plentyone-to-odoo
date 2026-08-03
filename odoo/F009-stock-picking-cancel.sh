@@ -11,6 +11,9 @@
 #
 # Shopware-Pendant:
 # shopware/F009-stock-picking-cancel.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 source ../config.sh
 # Voraussetzungen: ../config.sh setzt ODOO_URL und ODOO_API_KEY.

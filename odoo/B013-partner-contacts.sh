@@ -9,6 +9,9 @@
 #
 # Shopware-Pendant:
 # shopware/B013-partner-contacts.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

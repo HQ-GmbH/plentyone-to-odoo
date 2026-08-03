@@ -9,6 +9,9 @@
 #
 # Shopware-Pendant:
 # shopware/B017-partner-active.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

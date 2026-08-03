@@ -9,6 +9,9 @@
 #
 # Shopware-Pendant:
 # shopware/B010-partner-email.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

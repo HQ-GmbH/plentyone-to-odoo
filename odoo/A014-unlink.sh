@@ -10,6 +10,9 @@
 #
 # Shopware-Pendant:
 # shopware/A014-unlink.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

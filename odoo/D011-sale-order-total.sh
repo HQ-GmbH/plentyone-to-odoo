@@ -11,6 +11,9 @@
 #
 # Shopware-Pendant:
 # shopware/D011-sale-order-total.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 # Voraussetzung: SALE_ORDER_ID ist eine gültige sale.order-ID.
 # Beispiel: SALE_ORDER_ID=123 ./D011-sale-order-total.sh

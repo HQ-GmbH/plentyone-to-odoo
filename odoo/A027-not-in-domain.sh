@@ -7,6 +7,9 @@
 #
 # Shopware-Pendant:
 # shopware/A027-not-in-domain.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

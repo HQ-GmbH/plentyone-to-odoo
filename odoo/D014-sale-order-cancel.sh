@@ -11,6 +11,9 @@
 #
 # Shopware-Pendant:
 # shopware/D014-sale-order-cancel.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 # Voraussetzung: SALE_ORDER_ID ist ein Testauftrag.
 # Beispiel: SALE_ORDER_ID=123 ./D014-sale-order-cancel.sh

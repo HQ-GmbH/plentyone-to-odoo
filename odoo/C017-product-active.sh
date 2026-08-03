@@ -17,6 +17,9 @@
 #
 # Shopware-Pendant:
 # shopware/C017-product-active.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

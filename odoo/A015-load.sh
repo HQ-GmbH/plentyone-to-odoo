@@ -10,6 +10,9 @@
 #
 # Shopware-Pendant:
 # shopware/A015-load.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

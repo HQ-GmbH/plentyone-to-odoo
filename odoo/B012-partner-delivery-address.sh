@@ -9,6 +9,9 @@
 #
 # Shopware-Pendant:
 # shopware/B012-partner-delivery-address.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

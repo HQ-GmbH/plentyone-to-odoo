@@ -10,6 +10,9 @@
 #
 # Shopware-Pendant:
 # shopware/A001-auth-valid.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

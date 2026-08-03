@@ -10,6 +10,9 @@
 #
 # Shopware-Pendant:
 # shopware/A007-fields_get.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

@@ -17,6 +17,9 @@
 #
 # Shopware-Pendant:
 # shopware/C005-product-unlink.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

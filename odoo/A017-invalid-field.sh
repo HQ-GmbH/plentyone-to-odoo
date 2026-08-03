@@ -10,6 +10,9 @@
 #
 # Shopware-Pendant:
 # shopware/A017-invalid-field.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

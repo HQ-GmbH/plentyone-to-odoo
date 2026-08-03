@@ -11,6 +11,9 @@
 #
 # Shopware-Pendant:
 # shopware/G012-account-move-lines.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 source ../config.sh
 # Voraussetzungen: ../config.sh setzt ODOO_URL und ODOO_API_KEY.

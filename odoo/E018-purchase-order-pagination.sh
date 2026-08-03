@@ -7,6 +7,9 @@
 #
 # Shopware-Pendant:
 # shopware/E018-purchase-order-pagination.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 source ../config.sh
 set -euo pipefail
 LIMIT="${LIMIT:-50}"; OFFSET="${OFFSET:-0}"

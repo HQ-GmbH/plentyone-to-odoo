@@ -10,6 +10,9 @@
 #
 # Shopware-Pendant:
 # shopware/A019-complex-domain.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

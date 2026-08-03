@@ -17,6 +17,9 @@
 #
 # Shopware-Pendant:
 # shopware/C002-product-create.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

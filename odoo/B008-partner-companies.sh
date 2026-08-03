@@ -9,6 +9,9 @@
 #
 # Shopware-Pendant:
 # shopware/B008-partner-companies.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

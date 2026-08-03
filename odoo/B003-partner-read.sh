@@ -9,6 +9,9 @@
 #
 # Shopware-Pendant:
 # shopware/B003-partner-read.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

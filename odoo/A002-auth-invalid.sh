@@ -10,6 +10,9 @@
 #
 # Shopware-Pendant:
 # shopware/A002-auth-invalid.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

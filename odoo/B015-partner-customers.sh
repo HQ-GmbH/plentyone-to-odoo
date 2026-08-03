@@ -9,6 +9,9 @@
 #
 # Shopware-Pendant:
 # shopware/B015-partner-customers.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

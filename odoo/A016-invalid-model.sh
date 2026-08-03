@@ -10,6 +10,9 @@
 #
 # Shopware-Pendant:
 # shopware/A016-invalid-model.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

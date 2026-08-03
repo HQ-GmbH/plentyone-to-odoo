@@ -17,6 +17,9 @@
 #
 # Shopware-Pendant:
 # shopware/D007-sale-order-customer.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

@@ -7,6 +7,9 @@
 #
 # Shopware-Pendant:
 # shopware/A025-ilike-domain.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

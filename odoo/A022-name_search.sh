@@ -27,6 +27,9 @@
 #
 # Shopware-Pendant:
 # shopware/A022-name_search.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

@@ -17,6 +17,9 @@
 #
 # Shopware-Pendant:
 # shopware/C015-product-uom.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

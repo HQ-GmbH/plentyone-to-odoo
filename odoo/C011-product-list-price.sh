@@ -17,6 +17,9 @@
 #
 # Shopware-Pendant:
 # shopware/C011-product-list-price.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

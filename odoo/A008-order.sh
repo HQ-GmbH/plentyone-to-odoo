@@ -10,6 +10,9 @@
 #
 # Shopware-Pendant:
 # shopware/A008-order.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

@@ -17,6 +17,9 @@
 #
 # Shopware-Pendant:
 # shopware/C019-product-pagination.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

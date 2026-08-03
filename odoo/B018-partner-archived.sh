@@ -9,6 +9,9 @@
 #
 # Shopware-Pendant:
 # shopware/B018-partner-archived.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

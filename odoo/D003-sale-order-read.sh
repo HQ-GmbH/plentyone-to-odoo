@@ -17,6 +17,9 @@
 #
 # Shopware-Pendant:
 # shopware/D003-sale-order-read.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

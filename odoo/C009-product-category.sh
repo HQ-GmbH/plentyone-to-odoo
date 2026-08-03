@@ -17,6 +17,9 @@
 #
 # Shopware-Pendant:
 # shopware/C009-product-category.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

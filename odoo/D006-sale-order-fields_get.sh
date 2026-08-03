@@ -17,6 +17,9 @@
 #
 # Shopware-Pendant:
 # shopware/D006-sale-order-fields_get.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

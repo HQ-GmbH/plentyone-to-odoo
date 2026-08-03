@@ -17,6 +17,9 @@
 #
 # Shopware-Pendant:
 # shopware/C016-product-purchase-uom.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

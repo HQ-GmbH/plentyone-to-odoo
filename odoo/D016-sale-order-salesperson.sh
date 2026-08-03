@@ -11,6 +11,9 @@
 #
 # Shopware-Pendant:
 # shopware/D016-sale-order-salesperson.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 # Voraussetzung: SALESPERSON_ID ist eine res.users-ID.
 source ../config.sh

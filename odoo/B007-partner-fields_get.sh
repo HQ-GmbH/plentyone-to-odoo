@@ -9,6 +9,9 @@
 #
 # Shopware-Pendant:
 # shopware/B007-partner-fields_get.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

@@ -9,6 +9,9 @@
 #
 # Shopware-Pendant:
 # shopware/B002-partner-create.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

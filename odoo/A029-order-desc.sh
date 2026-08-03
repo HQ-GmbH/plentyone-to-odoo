@@ -7,6 +7,9 @@
 #
 # Shopware-Pendant:
 # shopware/A029-order-desc.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

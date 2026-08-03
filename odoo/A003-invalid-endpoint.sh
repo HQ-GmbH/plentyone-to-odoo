@@ -10,6 +10,9 @@
 #
 # Shopware-Pendant:
 # shopware/A003-invalid-endpoint.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

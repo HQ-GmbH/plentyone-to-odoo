@@ -30,6 +30,9 @@
 #
 # Shopware-Pendant:
 # shopware/B001-partner-search.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

@@ -11,6 +11,9 @@
 #
 # Shopware-Pendant:
 # shopware/E006-purchase-order-fields_get.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 source ../config.sh
 # Voraussetzungen: ../config.sh setzt ODOO_URL und ODOO_API_KEY.

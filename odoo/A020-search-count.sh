@@ -10,6 +10,9 @@
 #
 # Shopware-Pendant:
 # shopware/A020-search-count.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

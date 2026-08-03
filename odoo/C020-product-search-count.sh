@@ -17,6 +17,9 @@
 #
 # Shopware-Pendant:
 # shopware/C020-product-search-count.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

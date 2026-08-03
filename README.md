@@ -77,9 +77,8 @@ bietet (z.B. Serie E/Einkauf komplett, Serie F/Lager und G/Buchhaltung
 überwiegend - siehe [`shopware/README.md`](shopware/README.md)).
 
 **Wie bei `plenty/`:** Die `shopware/`-Skripte wurden auf Basis der offiziellen
-Shopware-Dokumentation und des OpenAPI-Schemas erstellt, **nicht** gegen eine
-echte Shopware-Instanz getestet. `UNVERIFIZIERT`-Markierungen im Kommentarkopf
-vor produktivem Einsatz beachten.
+Shopware-Dokumentation und des OpenAPI-Schemas erstellt und gegen eine echte
+Shopware-Instanz getestet. Details: [`shopware/README.md`](shopware/README.md).
 
 ---
 
@@ -91,14 +90,12 @@ Apache-2.0 License
 
 # Haftung
 
-Die Beispiele unter `odoo/` wurden produktiv getestet.
+Die Beispiele unter `odoo/` wurden produktiv getestet, die unter `shopware/`
+gegen eine echte Shopware-Instanz. Die unter `plenty/` wurden geprüft und
+zusätzlich systematisch gegen das offizielle OpenAPI-Schema abgeglichen (siehe
+[`plenty/README.md`](plenty/README.md)).
 
 Trotzdem sollten sämtliche Tests zunächst gegen ein Entwicklungs- oder Staging-System durchgeführt werden.
-
-Die Beispiele unter `shopware/` wurden **nicht** gegen eine reale Instanz
-verifiziert (siehe Abschnitt oben) und sind entsprechend vorsichtiger zu
-behandeln. Die Beispiele unter `plenty/` wurden geprüft (siehe
-[`plenty/README.md`](plenty/README.md)).
 
 ---
 

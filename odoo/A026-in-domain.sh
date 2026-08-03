@@ -7,6 +7,9 @@
 #
 # Shopware-Pendant:
 # shopware/A026-in-domain.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

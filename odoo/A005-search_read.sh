@@ -10,6 +10,9 @@
 #
 # Shopware-Pendant:
 # shopware/A005-search_read.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

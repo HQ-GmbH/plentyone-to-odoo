@@ -7,6 +7,9 @@
 #
 # Shopware-Pendant:
 # shopware/A024-search_fetch.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

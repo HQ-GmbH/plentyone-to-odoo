@@ -10,6 +10,9 @@
 #
 # Shopware-Pendant:
 # shopware/A011-create.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

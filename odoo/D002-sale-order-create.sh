@@ -17,6 +17,9 @@
 #
 # Shopware-Pendant:
 # shopware/D002-sale-order-create.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

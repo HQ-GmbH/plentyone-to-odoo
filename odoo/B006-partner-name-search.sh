@@ -24,6 +24,9 @@
 #
 # Shopware-Pendant:
 # shopware/B006-partner-name-search.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

@@ -17,6 +17,9 @@
 #
 # Shopware-Pendant:
 # shopware/D001-sale-order-search.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

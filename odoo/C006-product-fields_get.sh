@@ -17,6 +17,9 @@
 #
 # Shopware-Pendant:
 # shopware/C006-product-fields_get.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

@@ -17,6 +17,9 @@
 #
 # Shopware-Pendant:
 # shopware/C010-product-type.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

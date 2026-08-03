@@ -30,6 +30,9 @@
 #
 # Shopware-Pendant:
 # shopware/A021-fields_get_attributes.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

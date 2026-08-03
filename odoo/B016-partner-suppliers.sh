@@ -9,6 +9,9 @@
 #
 # Shopware-Pendant:
 # shopware/B016-partner-suppliers.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

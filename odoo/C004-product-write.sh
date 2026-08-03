@@ -17,6 +17,9 @@
 #
 # Shopware-Pendant:
 # shopware/C004-product-write.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

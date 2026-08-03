@@ -12,6 +12,9 @@
 #
 # Shopware-Pendant:
 # shopware/B005-partner-unlink.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

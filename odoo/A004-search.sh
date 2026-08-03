@@ -10,6 +10,9 @@
 #
 # Shopware-Pendant:
 # shopware/A004-search.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

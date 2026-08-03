@@ -17,6 +17,9 @@
 #
 # Shopware-Pendant:
 # shopware/C001-product-search.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

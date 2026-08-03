@@ -17,6 +17,9 @@
 #
 # Shopware-Pendant:
 # shopware/D009-sale-order-confirmed.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

@@ -10,6 +10,9 @@
 #
 # Shopware-Pendant:
 # shopware/A013-write.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

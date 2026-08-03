@@ -20,6 +20,9 @@
 #
 # Shopware-Pendant:
 # shopware/B011-partner-invoice-address.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

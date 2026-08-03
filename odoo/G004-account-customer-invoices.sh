@@ -11,6 +11,9 @@
 #
 # Shopware-Pendant:
 # shopware/G004-account-customer-invoices.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 source ../config.sh
 # Voraussetzungen: ../config.sh setzt ODOO_URL und ODOO_API_KEY.

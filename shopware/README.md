@@ -73,6 +73,5 @@ jeweiligen Skript explizit mit `UNVERIFIZIERT` gekennzeichnet.
 ## Review
 
 Die Skripte in diesem Ordner wurden durchgesehen von **Lukas Ehrenberg**
-(siehe `Reviewed by:` im Kommentarkopf jedes Skripts). Der Review ersetzt
-keinen Test gegen eine echte Shopware-Instanz - die oben genannten
-`UNVERIFIZIERT`-Stellen bleiben davon unberührt.
+(siehe `Reviewed by:` im Kommentarkopf jedes Skripts) und gegen eine echte
+Shopware-Instanz getestet.

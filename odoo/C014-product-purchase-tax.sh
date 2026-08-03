@@ -17,6 +17,9 @@
 #
 # Shopware-Pendant:
 # shopware/C014-product-purchase-tax.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

@@ -9,6 +9,9 @@
 #
 # Shopware-Pendant:
 # shopware/B004-partner-write.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

@@ -7,6 +7,9 @@
 #
 # Shopware-Pendant:
 # shopware/E014-purchase-order-cancel.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 source ../config.sh
 # Beispiel: PURCHASE_ORDER_ID=123 ./E014-purchase-order-cancel.sh  # Testauftrag
 set -euo pipefail

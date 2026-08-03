@@ -7,6 +7,9 @@
 #
 # Shopware-Pendant:
 # shopware/A023-read_group.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

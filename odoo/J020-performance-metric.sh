@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 # Prometheus Performance API Reference
+#
+# Reviewed by:
+# Lukas Ehrenberg
 source ../config.sh
 set -euo pipefail
 : "${PROMETHEUS_URL:?Set PROMETHEUS_URL in config.sh}"

@@ -17,6 +17,9 @@
 #
 # Shopware-Pendant:
 # shopware/D005-sale-order-unlink.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

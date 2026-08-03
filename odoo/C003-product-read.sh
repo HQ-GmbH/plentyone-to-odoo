@@ -17,6 +17,9 @@
 #
 # Shopware-Pendant:
 # shopware/C003-product-read.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

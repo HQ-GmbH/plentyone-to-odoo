@@ -17,6 +17,9 @@
 #
 # Shopware-Pendant:
 # shopware/C007-product-default-code.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

@@ -17,6 +17,9 @@
 #
 # Shopware-Pendant:
 # shopware/D010-sale-order-search-count.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

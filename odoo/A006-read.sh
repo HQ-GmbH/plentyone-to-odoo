@@ -10,6 +10,9 @@
 #
 # Shopware-Pendant:
 # shopware/A006-read.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

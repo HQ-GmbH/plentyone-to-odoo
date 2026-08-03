@@ -27,6 +27,9 @@
 #
 # Shopware-Pendant:
 # shopware/B020-partner-search-count.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

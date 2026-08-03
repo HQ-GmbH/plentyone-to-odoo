@@ -11,6 +11,9 @@
 #
 # Shopware-Pendant:
 # shopware/D015-sale-order-invoice-status.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 # Optional: INVOICE_STATUS, Standardwert „to invoice“.
 source ../config.sh

@@ -11,6 +11,9 @@
 #
 # Shopware-Pendant:
 # shopware/G015-account-purchase-journals.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 source ../config.sh
 # Voraussetzungen: ../config.sh setzt ODOO_URL und ODOO_API_KEY.

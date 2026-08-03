@@ -10,6 +10,9 @@
 #
 # Shopware-Pendant:
 # shopware/A010-domain.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

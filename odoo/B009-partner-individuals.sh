@@ -9,6 +9,9 @@
 #
 # Shopware-Pendant:
 # shopware/B009-partner-individuals.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

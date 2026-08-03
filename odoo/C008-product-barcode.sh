@@ -17,6 +17,9 @@
 #
 # Shopware-Pendant:
 # shopware/C008-product-barcode.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

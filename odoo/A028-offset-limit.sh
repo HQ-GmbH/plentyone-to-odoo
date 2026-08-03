@@ -7,6 +7,9 @@
 #
 # Shopware-Pendant:
 # shopware/A028-offset-limit.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

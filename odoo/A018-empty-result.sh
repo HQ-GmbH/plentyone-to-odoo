@@ -10,6 +10,9 @@
 #
 # Shopware-Pendant:
 # shopware/A018-empty-result.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

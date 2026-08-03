@@ -17,6 +17,9 @@
 #
 # Shopware-Pendant:
 # shopware/D008-sale-order-quotation.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

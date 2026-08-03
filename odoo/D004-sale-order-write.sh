@@ -17,6 +17,9 @@
 #
 # Shopware-Pendant:
 # shopware/D004-sale-order-write.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

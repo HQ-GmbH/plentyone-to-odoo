@@ -9,6 +9,9 @@
 #
 # Shopware-Pendant:
 # shopware/A030-benchmark-search_read.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

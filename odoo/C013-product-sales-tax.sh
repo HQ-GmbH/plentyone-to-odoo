@@ -17,6 +17,9 @@
 #
 # Shopware-Pendant:
 # shopware/C013-product-sales-tax.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

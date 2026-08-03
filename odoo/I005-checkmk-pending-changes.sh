@@ -5,6 +5,9 @@
 # Copyright (c) 2026 HQ GmbH — https://www.hqgmbh.de
 # Repository: https://github.com/hqgmbh/plenty-erp2odoo
 # SPDX-License-Identifier: Apache-2.0
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 source ../config.sh
 # Voraussetzungen: CHECKMK_URL, CHECKMK_SITE, CHECKMK_USER, CHECKMK_AUTOMATION_SECRET.

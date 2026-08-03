@@ -9,6 +9,9 @@
 #
 # Shopware-Pendant:
 # shopware/B014-partner-country-language.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

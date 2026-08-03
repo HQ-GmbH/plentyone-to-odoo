@@ -5,6 +5,9 @@
 # Copyright (c) 2026 HQ GmbH — https://www.hqgmbh.de
 # Repository: https://github.com/hqgmbh/plenty-erp2odoo
 # SPDX-License-Identifier: Apache-2.0
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 source ../config.sh
 # Voraussetzungen: RABBITMQ_URL, RABBITMQ_USER und RABBITMQ_PASSWORD in ../config.sh.

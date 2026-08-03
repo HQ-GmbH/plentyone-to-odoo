@@ -27,6 +27,9 @@
 #
 # Shopware-Pendant:
 # shopware/B019-partner-pagination.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh

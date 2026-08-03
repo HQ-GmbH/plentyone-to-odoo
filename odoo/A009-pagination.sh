@@ -10,6 +10,9 @@
 #
 # Shopware-Pendant:
 # shopware/A009-pagination.sh
+#
+# Reviewed by:
+# Lukas Ehrenberg
 ###############################################################################
 
 source ../config.sh
