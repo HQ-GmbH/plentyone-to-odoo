@@ -27,7 +27,7 @@
 #
 # Beschreibung:
 # Naeherung: Zahlungstransaktionen im Anfangsstatus (technicalName=open,
-# UNVERIFIZIERT-Filterpfad wie D009).
+# Filterpfad ueber die Assoziation wie in D009).
 ###############################################################################
 
 source ../config.sh

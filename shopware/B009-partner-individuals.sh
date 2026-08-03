@@ -26,10 +26,11 @@
 # plenty/B009-partner-individuals.sh
 #
 # Beschreibung:
-# Listet Privatkunden (Kehrseite von B008, UNVERIFIZIERT).
+# Listet Privatkunden (Kehrseite von B008, accountType=private).
 #
 # Migrationshinweis:
-# Siehe B008 - accountType-Werte UNVERIFIZIERT.
+# Siehe B008 zu den accountType-Werten - insbesondere dazu, dass der Wert
+# "private" heisst und nicht "personal", wie die Schema-Beschreibung nahelegt.
 ###############################################################################
 
 source ../config.sh

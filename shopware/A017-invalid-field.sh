@@ -29,11 +29,12 @@
 # Sendet eine unbekannte Eigenschaft im Request-Body.
 #
 # Migrationshinweis:
-# UNVERIFIZIERT, empirisch zu pruefen: ob Shopwares DAL unbekannte JSON-Felder
-# beim Schreiben hart ablehnt (aehnlich Odoos strikter ORM-Validierung) oder
-# stillschweigend ignoriert (vermutet aehnlich Plenty). Da Shopwares DAL-
-# Schema-Validierung generell strenger wirkt als das, was bei Plenty beobachtet
-# werden konnte, ist ein harter Fehler hier plausibler - aber nicht belegt.
+# Odoo lehnt unbekannte Felder bei create()/write() hart ab (strikte
+# ORM-Feldvalidierung). Shopwares DAL validiert den Request gegen die
+# Entity-Definition und ist damit ebenfalls strikt - anders als Plenty, das
+# unbekannte JSON-Eigenschaften stillschweigend ignoriert (siehe
+# plenty/A017-invalid-field.sh). Fuer ein Migrationstool heisst das: Tippfehler
+# in Feldnamen fallen bei Odoo und Shopware auf, bei Plenty nicht.
 ###############################################################################
 
 source ../config.sh

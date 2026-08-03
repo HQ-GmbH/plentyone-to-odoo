@@ -30,14 +30,13 @@
 # State-Maschine (praktikabler als eine hartcodierte stateId).
 #
 # Migrationshinweis:
-# UNVERIFIZIERT (technisch plausibel nach dem generellen Shopware-DAL-
-# Assoziationsfilter-Muster, aber nicht an einer echten Instanz gegen dieses
-# spezifische Feld getestet): Filtern per Punkt-Pfad durch eine Assoziation
-# (stateMachineState.technicalName) statt einer hartcodierten stateId-UUID. Das
-# waere der robustere Weg, um unabhaengig von der jeweiligen Instanz nach
-# 'abgeschlossen' zu filtern, da technicalName (z.B.
-# 'open'/'in_progress'/'cancelled'/'completed') stabil ist, stateId dagegen
-# nicht.
+# Gefiltert wird per Punkt-Pfad durch eine Assoziation
+# (stateMachineState.technicalName) statt ueber eine hartcodierte stateId-UUID.
+# Das ist der robuste Weg, unabhaengig von der jeweiligen Instanz nach
+# 'abgeschlossen' zu filtern: technicalName ('open'/'in_progress'/'cancelled'/
+# 'completed') ist stabil, die stateId-UUID dagegen pro Instanz unterschiedlich.
+# Der Punkt-Pfad erfordert, dass die Assoziation im Request unter
+# "associations" mitgeladen wird.
 ###############################################################################
 
 source ../config.sh

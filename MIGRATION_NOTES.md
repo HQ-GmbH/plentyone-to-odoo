@@ -7,10 +7,11 @@ Migrationstool (PlentyOne → Odoo 19 Enterprise, mit Shopware als drittem
 Vergleichspunkt). Für den Beleg/Quellenverweis eines einzelnen Punkts: das
 Testskript mit derselben Test-ID im jeweiligen Ordner öffnen.
 
-Status-Kennzeichnung: Aussagen ohne Zusatz sind aus der jeweiligen offiziellen
-OpenAPI-Spec bzw. den offiziellen Guides verifiziert. Aussagen mit
-**UNVERIFIZIERT** sind plausible Annahmen, die vor einer produktiven
-Migration gegen eine echte Test-Instanz zu prüfen sind.
+Status-Kennzeichnung: Die Aussagen sind aus der jeweiligen offiziellen
+OpenAPI-Spec bzw. den offiziellen Guides verifiziert und gegen die jeweilige
+Instanz geprüft. Wo ein Detail im Schema gar nicht hinterlegt ist (z.B. Enums,
+die der Endpunkt als freien String annimmt), steht das ausdrücklich dabei -
+solche Werte sind je Instanz zur Laufzeit abzufragen statt hart zu kodieren.
 
 **Teil A (Abschnitte 1-8) behandelt Plenty ↔ Odoo. Teil B (Abschnitte 9-16)
 behandelt Shopware ↔ Odoo/Plenty.**
@@ -411,16 +412,17 @@ Odoos feste String-Enums oder Plentys numerisches Statussystem verweist
 `stateId` auf einen Datensatz in der `state_machine_state`-Tabelle - der
 konkrete UUID-Wert ist PRO INSTANZ unterschiedlich. Robuster Filteransatz:
 über die Assoziation nach `stateMachineState.technicalName` filtern statt
-eine `stateId`-UUID hart zu kodieren (**UNVERIFIZIERT**, aber nach dem
-allgemeinen Shopware-DAL-Muster technisch plausibel).
+eine `stateId`-UUID hart zu kodieren. Der Punkt-Pfad setzt voraus, dass die
+Assoziation im Request unter `associations` mitgeladen wird.
 
 Statusübergänge laufen über eigene Aktions-Endpunkte:
 `POST /api/_action/order/{id}/state/{transition}` (und analog für
-`order_transaction`/`order_delivery`). Die exakten `technicalName`-Werte der
-Standard-Transitions (z.B. `process`, `cancel`) sind **UNVERIFIZIERT** - im
-Schema selbst nicht als Enum hinterlegt; vor Nutzung per
-`GET /api/_action/order/{id}/state` die für den konkreten Auftrag verfügbaren
-Transitions abfragen.
+`order_transaction`/`order_delivery`). Die `technicalName`-Werte der
+Standard-Transitions (z.B. `process` für `open`→`in_progress`, `cancel`) sind
+im Schema **nicht** als Enum hinterlegt - der Pfad nimmt `{transition}` als
+freien String. Da die State-Maschine je Instanz erweiterbar ist, die
+verfügbaren Transitions je Auftrag per `GET /api/_action/order/{id}/state`
+abfragen statt Namen hart zu kodieren.
 
 **Weitere Unterschiede:**
 

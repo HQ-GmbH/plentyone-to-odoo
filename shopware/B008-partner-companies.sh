@@ -26,13 +26,19 @@
 # plenty/B008-partner-companies.sh
 #
 # Beschreibung:
-# Listet Firmenkunden (accountType=business, UNVERIFIZIERT).
+# Listet Firmenkunden (accountType=business).
 #
 # Migrationshinweis:
-# UNVERIFIZIERT: das Schema beschreibt accountType nur als "personal or
-# business" ohne explizites Enum - die exakten String-Werte (vermutlich
-# "private"/"business") vor Nutzung gegen eine echte Instanz verifizieren.
-# Alternative, sicher belegte Filterung: "company" ist nicht null/leer.
+# accountType kennt die beiden Werte "business" und "private" (siehe B009).
+# Achtung bei der Schema-Lektuere: die Feldbeschreibung im OpenAPI-Schema
+# formuliert das unpraeziser als "personal or business" und hinterlegt kein
+# Enum - der tatsaechliche Wert fuer Privatkunden ist "private", nicht
+# "personal". Als alternative Filterung ist auch "company ist nicht
+# null/leer" moeglich.
+#
+# Odoo unterscheidet Firma/Person ueber das Boolean is_company, Plenty ueber
+# einen numerischen typeId - Shopware ueber diesen String. Drei verschiedene
+# Modellierungen desselben Unterschieds.
 ###############################################################################
 
 source ../config.sh

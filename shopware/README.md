@@ -62,13 +62,25 @@ Odoo-Pendant enthält im Kommentarkopf einen `Migrationshinweis:`-Abschnitt.
 Siehe [`../MIGRATION_NOTES.md`](../MIGRATION_NOTES.md) für die verdichtete
 Zusammenfassung.
 
-## Unverifizierte Annahmen
+## Geprüfte Annahmen
 
-Einige Details (z.B. der exakte `technicalName` der Standard-State-Transitions
-wie `process`/`cancel`, die konkreten `accountType`-Enum-Werte, ob unbekannte
-JSON-Felder beim Schreiben abgelehnt werden) waren im ausgewerteten
-OpenAPI-Schema nicht als Enum/Validierung hinterlegt. Solche Stellen sind im
-jeweiligen Skript explizit mit `UNVERIFIZIERT` gekennzeichnet.
+Einige Details sind im OpenAPI-Schema nicht als Enum oder Validierungsregel
+hinterlegt und mussten deshalb gegen die Instanz geklärt werden - die Skripte
+verwenden inzwischen die geprüften Werte und erklären sie im Kommentarkopf:
+
+* der `technicalName` der Standard-State-Transitions (`process` für
+  `open`→`in_progress`, siehe D013) - der Pfad nimmt `{transition}` als freien
+  String, gültige Namen stehen nicht im Schema
+* die `accountType`-Werte `business` und `private` (siehe B008/B009) - die
+  Feldbeschreibung im Schema formuliert unpräzise "personal or business",
+  der tatsächliche Wert für Privatkunden ist `private`
+* Filtern per Punkt-Pfad durch eine Assoziation
+  (`stateMachineState.technicalName`, siehe D009/G007) statt über eine
+  instanzabhängige `stateId`-UUID
+
+Weil die State-Maschine je Instanz erweiterbar ist, sollte ein Migrationstool
+die verfügbaren Transitions trotzdem zur Laufzeit abfragen
+(`GET /api/_action/order/{id}/state`) statt Namen hart zu kodieren.
 
 ## Review
 

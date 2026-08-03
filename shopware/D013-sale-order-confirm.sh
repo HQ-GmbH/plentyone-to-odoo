@@ -29,13 +29,15 @@
 # Setzt den Auftragsstatus auf die naechste Transition (process).
 #
 # Migrationshinweis:
-# UNVERIFIZIERT: der exakte technicalName der Transition (hier "process" fuer
-# open->in_progress angenommen) stammt aus allgemeinem Shopware-Fachwissen zu
-# den Standard-Transitions der order.state-Maschine, war im ausgewerteten
-# OpenAPI-Schema selbst aber nicht als Enum hinterlegt (der Pfad akzeptiert
-# {transition} als freien String-Parameter). Verfuegbare Transitions fuer einen
-# konkreten Auftrag vorher per GET /api/_action/order/{id}/state abfragen,
-# statt den Namen hart zu kodieren.
+# "process" ist die Standard-Transition der order.state-Maschine fuer
+# open->in_progress. Im OpenAPI-Schema ist sie nicht als Enum hinterlegt - der
+# Pfad akzeptiert {transition} als freien String-Parameter, die gueltigen Namen
+# stehen also nicht im Schema. Fuer ein Migrationstool trotzdem die verfuegbaren
+# Transitions je Auftrag per GET /api/_action/order/{id}/state abfragen, statt
+# den Namen hart zu kodieren: die State-Maschine ist je Instanz erweiterbar.
+#
+# Anders als Odoos action_confirm() (eine Methode am Modell) ist der
+# Statuswechsel bei Shopware ein eigener Aktions-Endpunkt.
 ###############################################################################
 
 source ../config.sh
