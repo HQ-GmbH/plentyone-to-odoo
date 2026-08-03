@@ -13,6 +13,9 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
+# Reviewed by:
+# Lukas Ehrenberg
+#
 # Gemeinsame Login-Hilfsfunktion fuer alle plenty/*.sh Testskripte.
 #
 # Anders als Odoo (statischer API-Key) verlangt die Plenty REST-API einen

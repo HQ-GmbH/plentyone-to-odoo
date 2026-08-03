@@ -69,3 +69,10 @@ wie `process`/`cancel`, die konkreten `accountType`-Enum-Werte, ob unbekannte
 JSON-Felder beim Schreiben abgelehnt werden) waren im ausgewerteten
 OpenAPI-Schema nicht als Enum/Validierung hinterlegt. Solche Stellen sind im
 jeweiligen Skript explizit mit `UNVERIFIZIERT` gekennzeichnet.
+
+## Review
+
+Die Skripte in diesem Ordner wurden durchgesehen von **Lukas Ehrenberg**
+(siehe `Reviewed by:` im Kommentarkopf jedes Skripts). Der Review ersetzt
+keinen Test gegen eine echte Shopware-Instanz - die oben genannten
+`UNVERIFIZIERT`-Stellen bleiben davon unberührt.

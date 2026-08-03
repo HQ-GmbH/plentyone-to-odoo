@@ -64,3 +64,16 @@ OpenAPI-Schema von der Realität abwich (z.B. `/rest/reorders`,
 `/rest/warehouses`, das GET auf `.../documents/invoice`), wurde auf den
 tatsächlich funktionierenden Endpunkt korrigiert - siehe die jeweiligen
 Migrationshinweis-Kommentare.
+
+Zusätzlich wurde jeder `/rest/`-Aufruf dieses Ordners systematisch gegen das
+offizielle plentymarkets-OpenAPI-v3-Schema abgeglichen (Pfad, HTTP-Methode und
+Query-Parameter gegen alle 1199 dokumentierten Pfade). Dabei korrigiert:
+Wareneingänge hängen an `OrderItemTransaction`, nicht an `OrderItem` (E016);
+Steuersätze liegen in `VatRate`, nicht im `Vat`-Datensatz (G020); sowie
+`itemsPerPage` auf drei Endpunkten, die laut Schema nicht paginiert sind
+(F018/F019/G016).
+
+## Review
+
+Die Skripte in diesem Ordner wurden durchgesehen von **Lukas Ehrenberg**
+(siehe `Reviewed by:` im Kommentarkopf jedes Skripts).

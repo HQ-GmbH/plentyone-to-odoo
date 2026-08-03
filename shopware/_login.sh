@@ -13,6 +13,9 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
+# Reviewed by:
+# Lukas Ehrenberg
+#
 # Gemeinsame Login-Hilfsfunktion fuer alle shopware/*.sh Testskripte.
 #
 # Shopware nutzt echtes OAuth2 (grant_type=client_credentials) gegen eine
