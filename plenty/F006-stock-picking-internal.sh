@@ -32,6 +32,19 @@
 # Odoos picking_type_code='internal' (Lager-zu-Lager-Transfer als eigener
 # Belegtyp) entspricht hier am ehesten dem Order-Typ 'Redistribution'
 # (typeId=15) bzw. diesem direkten Stock-Endpunkt.
+#
+# Zum Feldschema: die Lager heissen currentWarehouseId und newWarehouseId (NICHT
+# warehouseId/targetWarehouseId). Pflichtfelder sind currentWarehouseId,
+# newWarehouseId, quantity und das Array redistributions - die Umlagerung wird
+# also als LISTE von Positionen uebergeben, nicht als einzelner Vorgang. Jeder
+# Eintrag folgt dem Schema VariationStockRedistribution und kann die Lager je
+# Position erneut setzen sowie optional Lagerplatz (currentStorageLocationId/
+# newStorageLocationId), Charge (batch), MHD (bestBeforeDate) und Grund tragen.
+#
+# reasonId ist ein festes Vokabular: 401 Umlagerung, 402 Korrektur durch
+# Inventur, 403 Umlagerung wegen Reparaturbedarf. Odoo kennt keine solche
+# Grundcodierung am Transfer - fuer die Migration ggf. auf stock.picking.note
+# oder ein eigenes Feld abbilden.
 ###############################################################################
 
 source ../config.sh
@@ -42,5 +55,5 @@ source ./_login.sh
 : "${VARIATION_ID:?Export VARIATION_ID=<Variations-ID>}"
 : "${WAREHOUSE_ID:?Export WAREHOUSE_ID=<Quell-Lager-ID>}"
 : "${TARGET_WAREHOUSE_ID:?Export TARGET_WAREHOUSE_ID=<Ziel-Lager-ID>}"
-curl -sS -X PUT "${PLENTY_URL%/}/rest/stockmanagement/stock/redistribute" -H "Content-Type: application/json" -H "Authorization: Bearer ${PLENTY_ACCESS_TOKEN}" -d "{\"variationId\":${VARIATION_ID},\"quantity\":1,\"warehouseId\":${WAREHOUSE_ID},\"targetWarehouseId\":${TARGET_WAREHOUSE_ID}}"
+curl -sS -X PUT "${PLENTY_URL%/}/rest/stockmanagement/stock/redistribute" -H "Content-Type: application/json" -H "Authorization: Bearer ${PLENTY_ACCESS_TOKEN}" -d "{\"currentWarehouseId\":${WAREHOUSE_ID},\"newWarehouseId\":${TARGET_WAREHOUSE_ID},\"quantity\":1,\"redistributions\":[{\"variationId\":${VARIATION_ID},\"quantity\":1,\"currentWarehouseId\":${WAREHOUSE_ID},\"newWarehouseId\":${TARGET_WAREHOUSE_ID},\"reasonId\":401}]}"
 
