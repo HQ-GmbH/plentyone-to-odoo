@@ -9,7 +9,7 @@
 # shopware/E015-purchase-order-invoice-status.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 source ../config.sh
 set -euo pipefail
 STATUS="${STATUS:-to invoice}"

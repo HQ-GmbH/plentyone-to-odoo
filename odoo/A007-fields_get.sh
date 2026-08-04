@@ -12,7 +12,7 @@
 # shopware/A007-fields_get.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 
 source ../config.sh

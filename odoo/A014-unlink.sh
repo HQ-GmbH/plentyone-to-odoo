@@ -12,7 +12,7 @@
 # shopware/A014-unlink.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 
 source ../config.sh

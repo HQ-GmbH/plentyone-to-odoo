@@ -29,7 +29,7 @@
 # shopware/B019-partner-pagination.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 
 source ../config.sh

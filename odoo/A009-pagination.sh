@@ -12,7 +12,7 @@
 # shopware/A009-pagination.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 
 source ../config.sh

@@ -12,7 +12,7 @@
 # shopware/A008-order.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 
 source ../config.sh

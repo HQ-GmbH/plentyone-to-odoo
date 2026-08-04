@@ -9,7 +9,7 @@
 # shopware/A029-order-desc.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 
 source ../config.sh

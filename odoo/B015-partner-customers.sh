@@ -11,7 +11,7 @@
 # shopware/B015-partner-customers.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 
 source ../config.sh

@@ -11,7 +11,7 @@
 # shopware/B013-partner-contacts.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 
 source ../config.sh

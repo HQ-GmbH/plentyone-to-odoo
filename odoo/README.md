@@ -33,5 +33,7 @@ cd odoo
 
 ## Review
 
-Die Skripte in diesem Ordner wurden durchgesehen von **Lukas Ehrenberg**
+Die Skripte in diesem Ordner wurden durchgesehen von
+[**Mathias Goldhan**](https://www.hqgmbh.de/autoren/mathias-goldhan/),
+Enterprise-Architekt der [HQ GmbH](https://www.hqgmbh.de/)
 (siehe `Reviewed by:` im Kommentarkopf jedes Skripts).

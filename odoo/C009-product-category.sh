@@ -19,7 +19,7 @@
 # shopware/C009-product-category.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 
 source ../config.sh

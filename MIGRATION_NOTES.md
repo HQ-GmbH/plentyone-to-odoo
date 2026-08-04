@@ -328,11 +328,12 @@ Query-Parameter:
 | Verschachtelte Prefetches | `?with=...` (flach) | `"associations":{...}` (rekursiv verschachtelbar, mit eigenen Filtern je Assoziation) |
 | `search_count()` | `totalsCount` im Envelope (immer vorhanden) | `"total-count-mode":"exact"` explizit anfordern (Performance-Trade-off per Default deaktiviert) |
 
-**Wichtiger Kuriositäten-Fund:** `POST`/`PATCH` liefern bei Shopware per
-Default **gar keinen Response-Body** - nur mit `?_response=detail` (oder
-`basic`) wird die erzeugte/geänderte Ressource zurückgegeben. Leicht zu
-übersehen, wenn man Odoo/Plenty-Gewohnheiten (Antwort kommt immer mit)
-überträgt.
+**Wichtig für die Migration:** `POST`/`PATCH` liefern bei Shopware per Default
+**gar keinen Response-Body** (`204 No Content`) - erst `?_response=detail` (oder
+`basic`) gibt die erzeugte bzw. geänderte Ressource zurück. Wer aus Odoo oder
+Plenty kommt, wo die Antwort immer mitkommt, muss das beim Anlegen von
+Datensätzen einplanen: ohne diesen Parameter ist die neue ID nicht aus der
+Antwort zu lesen und müsste separat nachgeschlagen werden.
 
 **Weiterer Unterschied:** Shopware-IDs sind **UUIDs** (36-Zeichen-Strings),
 nicht Integer wie bei Odoo/Plenty. Ein Migrationstool braucht für Shopware

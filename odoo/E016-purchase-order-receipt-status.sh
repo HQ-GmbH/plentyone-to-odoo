@@ -9,7 +9,7 @@
 # shopware/E016-purchase-order-receipt-status.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 source ../config.sh
 set -euo pipefail
 STATUS="${STATUS:-pending}"

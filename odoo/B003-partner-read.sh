@@ -11,7 +11,7 @@
 # shopware/B003-partner-read.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 
 source ../config.sh

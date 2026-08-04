@@ -19,7 +19,7 @@
 # shopware/D008-sale-order-quotation.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 
 source ../config.sh

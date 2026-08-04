@@ -9,7 +9,7 @@
 # shopware/A023-read_group.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 
 source ../config.sh

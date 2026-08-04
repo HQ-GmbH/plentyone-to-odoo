@@ -7,7 +7,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 source ../config.sh
 # Voraussetzungen: RABBITMQ_URL, RABBITMQ_USER und RABBITMQ_PASSWORD in ../config.sh.

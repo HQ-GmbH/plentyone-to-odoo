@@ -19,7 +19,7 @@
 # shopware/C007-product-default-code.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 
 source ../config.sh

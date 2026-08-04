@@ -13,7 +13,7 @@
 # shopware/D018-sale-order-pagination.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 # Optional: LIMIT und OFFSET, Standardwerte 50 und 0.
 source ../config.sh

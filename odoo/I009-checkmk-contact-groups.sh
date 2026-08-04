@@ -7,7 +7,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 source ../config.sh
 # Voraussetzungen: CHECKMK_URL, CHECKMK_SITE, CHECKMK_USER, CHECKMK_AUTOMATION_SECRET.

@@ -13,7 +13,7 @@
 # shopware/D017-sale-order-company.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 # Voraussetzung: COMPANY_ID ist eine res.company-ID.
 source ../config.sh

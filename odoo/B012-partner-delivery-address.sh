@@ -11,7 +11,7 @@
 # shopware/B012-partner-delivery-address.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 
 source ../config.sh

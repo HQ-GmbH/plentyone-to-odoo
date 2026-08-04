@@ -12,7 +12,7 @@
 # shopware/A003-invalid-endpoint.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 
 source ../config.sh

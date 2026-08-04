@@ -86,6 +86,8 @@ die verfügbaren Transitions trotzdem zur Laufzeit abfragen — über
 
 ## Review
 
-Die Skripte in diesem Ordner wurden durchgesehen von **Lukas Ehrenberg**
-(siehe `Reviewed by:` im Kommentarkopf jedes Skripts) und gegen eine echte
-Shopware-Instanz getestet.
+Die Skripte in diesem Ordner wurden durchgesehen von
+[**Christopher Einenkel**](https://www.hqgmbh.de/autoren/christopher-einenkel/),
+Senior Integration Architect & API Specialist der
+[HQ GmbH](https://www.hqgmbh.de/) (siehe `Reviewed by:` im Kommentarkopf jedes
+Skripts) und gegen eine echte Shopware-Instanz getestet.

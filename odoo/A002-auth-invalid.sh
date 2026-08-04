@@ -12,7 +12,7 @@
 # shopware/A002-auth-invalid.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 
 source ../config.sh

@@ -9,7 +9,7 @@
 # shopware/E013-purchase-order-confirm.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 source ../config.sh
 # Beispiel: PURCHASE_ORDER_ID=123 ./E013-purchase-order-confirm.sh  # Testentwurf
 set -euo pipefail

@@ -82,6 +82,20 @@ Shopware-Instanz getestet. Details: [`shopware/README.md`](shopware/README.md).
 
 ---
 
+# Review
+
+Jeder Ordner wurde von einem Spezialisten der [HQ GmbH](https://www.hqgmbh.de/)
+durchgesehen; die Zuordnung steht als `Reviewed by:` im Kommentarkopf jedes
+Skripts:
+
+| Ordner | Review |
+|---|---|
+| [`odoo/`](odoo/) | [**Mathias Goldhan**](https://www.hqgmbh.de/autoren/mathias-goldhan/), Enterprise-Architekt |
+| [`plenty/`](plenty/) | [**Lukas Ehrenberg**](https://www.hqgmbh.de/autoren/lukas-ehrenberg/), Senior Shopware Developer & API-Spezialist |
+| [`shopware/`](shopware/) | [**Christopher Einenkel**](https://www.hqgmbh.de/autoren/christopher-einenkel/), Senior Integration Architect & API Specialist |
+
+---
+
 # Lizenz
 
 Apache-2.0 License
@@ -106,3 +120,6 @@ Dieses Repository ergänzt das Tutorial
 **PlentyOne → Odoo 19 Enterprise Migration**
 
 Version 2.
+
+Autor: [Mathias Goldhan](https://www.hqgmbh.de/autoren/mathias-goldhan/),
+Enterprise-Architekt der [HQ GmbH](https://www.hqgmbh.de/).

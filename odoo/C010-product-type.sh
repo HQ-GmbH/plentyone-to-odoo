@@ -19,7 +19,7 @@
 # shopware/C010-product-type.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 
 source ../config.sh

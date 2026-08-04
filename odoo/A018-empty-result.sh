@@ -12,7 +12,7 @@
 # shopware/A018-empty-result.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 
 source ../config.sh

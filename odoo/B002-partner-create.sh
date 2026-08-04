@@ -11,7 +11,7 @@
 # shopware/B002-partner-create.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 
 source ../config.sh

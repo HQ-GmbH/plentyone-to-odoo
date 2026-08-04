@@ -19,7 +19,7 @@
 # shopware/C013-product-sales-tax.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 
 source ../config.sh

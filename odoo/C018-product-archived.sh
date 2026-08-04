@@ -19,7 +19,7 @@
 # shopware/C018-product-archived.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 
 source ../config.sh

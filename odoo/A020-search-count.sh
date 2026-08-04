@@ -12,7 +12,7 @@
 # shopware/A020-search-count.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 
 source ../config.sh

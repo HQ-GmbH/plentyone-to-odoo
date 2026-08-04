@@ -19,7 +19,7 @@
 # shopware/C016-product-purchase-uom.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 
 source ../config.sh

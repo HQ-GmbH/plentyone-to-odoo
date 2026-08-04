@@ -12,7 +12,7 @@
 # shopware/A015-load.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 
 source ../config.sh

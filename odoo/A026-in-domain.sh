@@ -9,7 +9,7 @@
 # shopware/A026-in-domain.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 
 source ../config.sh

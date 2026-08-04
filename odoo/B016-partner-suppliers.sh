@@ -11,7 +11,7 @@
 # shopware/B016-partner-suppliers.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 
 source ../config.sh

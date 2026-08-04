@@ -2,7 +2,7 @@
 # Prometheus Performance API Reference
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 source ../config.sh
 set -euo pipefail
 : "${PROMETHEUS_URL:?Set PROMETHEUS_URL in config.sh}"

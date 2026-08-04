@@ -12,7 +12,7 @@
 # shopware/A019-complex-domain.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 
 source ../config.sh

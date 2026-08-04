@@ -9,7 +9,7 @@
 # shopware/A025-ilike-domain.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 
 source ../config.sh

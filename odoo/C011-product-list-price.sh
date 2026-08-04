@@ -19,7 +19,7 @@
 # shopware/C011-product-list-price.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 
 source ../config.sh

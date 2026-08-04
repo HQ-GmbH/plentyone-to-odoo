@@ -19,7 +19,7 @@
 # shopware/C002-product-create.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 
 source ../config.sh

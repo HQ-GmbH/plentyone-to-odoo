@@ -19,7 +19,7 @@
 # shopware/C012-product-standard-price.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 
 source ../config.sh

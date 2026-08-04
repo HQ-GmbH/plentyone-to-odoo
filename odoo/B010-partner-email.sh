@@ -11,7 +11,7 @@
 # shopware/B010-partner-email.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 
 source ../config.sh

@@ -9,7 +9,7 @@
 # shopware/E012-purchase-order-lines.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 source ../config.sh
 # Beispiel: PURCHASE_ORDER_ID=123 ./E012-purchase-order-lines.sh
 set -euo pipefail

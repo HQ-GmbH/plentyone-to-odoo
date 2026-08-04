@@ -11,7 +11,7 @@
 # shopware/B004-partner-write.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 
 source ../config.sh

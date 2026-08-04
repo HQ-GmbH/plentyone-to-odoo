@@ -19,7 +19,7 @@
 # shopware/C006-product-fields_get.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 
 source ../config.sh

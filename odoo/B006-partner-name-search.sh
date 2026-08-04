@@ -26,7 +26,7 @@
 # shopware/B006-partner-name-search.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 
 source ../config.sh

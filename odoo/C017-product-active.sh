@@ -19,7 +19,7 @@
 # shopware/C017-product-active.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 
 source ../config.sh

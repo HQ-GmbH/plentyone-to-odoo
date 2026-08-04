@@ -14,7 +14,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Christopher Einenkel
 #
 # Gemeinsame Login-Hilfsfunktion fuer alle shopware/*.sh Testskripte.
 #

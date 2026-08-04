@@ -19,7 +19,7 @@
 # shopware/D007-sale-order-customer.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 
 source ../config.sh

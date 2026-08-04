@@ -13,7 +13,7 @@
 # shopware/D019-sale-order-invoices.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 # Voraussetzung: SALE_ORDER_ID ist eine gültige sale.order-ID.
 source ../config.sh

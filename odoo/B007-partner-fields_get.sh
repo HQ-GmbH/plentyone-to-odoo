@@ -11,7 +11,7 @@
 # shopware/B007-partner-fields_get.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 
 source ../config.sh

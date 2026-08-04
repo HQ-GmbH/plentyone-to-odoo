@@ -13,7 +13,7 @@
 # shopware/D020-sale-order-date.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 # Optional: DATE_FROM im ISO-Format, Standardwert 2026-01-01.
 source ../config.sh

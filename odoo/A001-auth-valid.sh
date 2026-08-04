@@ -12,7 +12,7 @@
 # shopware/A001-auth-valid.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 
 source ../config.sh

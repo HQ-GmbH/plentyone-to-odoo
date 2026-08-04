@@ -19,7 +19,7 @@
 # shopware/C014-product-purchase-tax.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 
 source ../config.sh

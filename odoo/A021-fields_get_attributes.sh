@@ -32,7 +32,7 @@
 # shopware/A021-fields_get_attributes.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 
 source ../config.sh

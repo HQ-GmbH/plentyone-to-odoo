@@ -11,7 +11,7 @@
 # shopware/A030-benchmark-search_read.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 
 source ../config.sh

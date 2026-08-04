@@ -12,7 +12,7 @@
 # shopware/A016-invalid-model.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 
 source ../config.sh

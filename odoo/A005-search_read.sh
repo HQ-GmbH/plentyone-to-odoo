@@ -12,7 +12,7 @@
 # shopware/A005-search_read.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 ###############################################################################
 
 source ../config.sh

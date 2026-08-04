@@ -9,7 +9,7 @@
 # shopware/E019-purchase-order-date.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 source ../config.sh
 set -euo pipefail
 DATE_FROM="${DATE_FROM:-2026-01-01}"

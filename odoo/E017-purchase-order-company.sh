@@ -9,7 +9,7 @@
 # shopware/E017-purchase-order-company.sh
 #
 # Reviewed by:
-# Lukas Ehrenberg
+# Mathias Goldhan
 source ../config.sh
 # Beispiel: COMPANY_ID=1 ./E017-purchase-order-company.sh
 set -euo pipefail
