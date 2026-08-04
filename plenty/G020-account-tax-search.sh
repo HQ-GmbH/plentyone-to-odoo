@@ -29,19 +29,25 @@
 # Listet die konfigurierten Steuersaetze (VAT).
 #
 # Migrationshinweis:
-# ACHTUNG, kein 1:1-Treffer: /rest/vat liefert die Steuer-KONFIGURATION je
-# Land/Standort (countryId, locationId, isStandard, marginScheme, taxIdNumber,
-# Gueltigkeitszeitraum ueber startedAt/invalidFrom) - der Vat-Datensatz selbst
-# enthaelt KEINEN Steuersatz-Wert. Die eigentlichen Saetze stecken im separaten
-# Schema VatRate (id, name, vatRate, revenueAccount). Der with-Parameter von
-# /rest/vat laedt laut Spec nur 'location' oder 'country', NICHT die VatRates -
-# die Zuordnung Konfiguration -> Saetze ist ueber diesen Endpunkt also nicht
-# direkt abrufbar.
+# /rest/vat entspricht weitgehend Odoos account.tax, ist aber anders geschnitten:
+# ein Vat-Datensatz ist eine Steuer-KONFIGURATION je Land/Standort (countryId,
+# locationId, isStandard, marginScheme, taxIdNumber, Gueltigkeitszeitraum ueber
+# startedAt/invalidFrom) und fasst VIER Steuersaetze zusammen, waehrend bei Odoo
+# ein account.tax genau EINEN Satz traegt. Belegt ist das an der Beschreibung von
+# Vat.id ("A VAT configuration includes 4 VAT rates") und an marginScheme, dessen
+# erlaubte Werte 'vat1' bis 'vat4' lauten. Die Saetze selbst liefert der Endpunkt
+# mit; strukturiert sind sie nach dem Schema VatRate (id, name, vatRate,
+# revenueAccount).
+#
+# Spec-Fallstrick: die Vat-Schemadefinition listet die Satz-Felder NICHT auf, und
+# der with-Parameter kennt nur 'location' und 'country'. Wer sich allein auf das
+# Schema verlaesst, haelt die Saetze fuer nicht abrufbar - die Antwort enthaelt
+# mehr, als dort dokumentiert ist.
 #
 # Fuer die Migration relevant: Odoos account.tax vereint Satz UND Kontenzuordnung
-# in einem Datensatz. Plenty trennt Konfiguration (Vat) von Satz (VatRate);
-# VatRate.revenueAccount ist dabei die naechstliegende Entsprechung zu Odoos
-# Steuerkonto-Verknuepfung.
+# in einem Datensatz. VatRate.revenueAccount ist die naechstliegende Entsprechung
+# zu Odoos Steuerkonto-Verknuepfung; die 4:1-Aufteilung muss beim Mapping
+# aufgeloest werden.
 ###############################################################################
 
 source ../config.sh
