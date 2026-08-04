@@ -421,8 +421,11 @@ Statusübergänge laufen über eigene Aktions-Endpunkte:
 Standard-Transitions (z.B. `process` für `open`→`in_progress`, `cancel`) sind
 im Schema **nicht** als Enum hinterlegt - der Pfad nimmt `{transition}` als
 freien String. Da die State-Maschine je Instanz erweiterbar ist, die
-verfügbaren Transitions je Auftrag per `GET /api/_action/order/{id}/state`
-abfragen statt Namen hart zu kodieren.
+verfügbaren Transitions je Auftrag per
+`GET /api/_action/state-machine/order/{orderId}/state` abfragen statt Namen
+hart zu kodieren. **Nicht** verwechseln mit
+`/api/_action/order/{orderId}/state/{transition}`: dieser Pfad führt den
+Übergang aus (nur `POST`) und hat keine `GET`-Variante.
 
 **Weitere Unterschiede:**
 
@@ -499,21 +502,28 @@ Plenty - üblicherweise übernehmen Drittanbieter-Plugins (z.B. für
 DATEV-Export) diese Aufgabe komplett außerhalb des Cores, ohne dass der Core
 dafür überhaupt eine Konfigurationsstruktur mitbringt.
 
-## 16. Offene Punkte für weitere Recherche (Shopware)
+## 16. Im Schema nicht hinterlegte Details (Shopware)
 
-* Exakte `technicalName`-Werte der Standard-Transitions für `order`/
-  `order_transaction`/`order_delivery` (z.B. `process`, `cancel`) - im Schema
-  nicht als Enum hinterlegt, nur empirisch per
-  `GET /api/_action/order/{id}/state` zu ermitteln.
-* Konkrete `accountType`-Enum-Werte am Customer (vermutlich `private`/
-  `business`, im Schema nicht als Enum dokumentiert).
-* Verhalten bei unbekannten JSON-Feldern in `POST`/`PATCH`-Bodies (strikt
-  abgelehnt oder stillschweigend ignoriert?).
-* Ob `stateMachineState.technicalName` als Assoziations-Filterpfad exakt so
-  funktioniert wie angenommen (D009/G007-G009 in `shopware/`).
-* Ob dokumentierte Rate-Limits existieren (im Schema nur eine
-  429-Fehlerkomponente ohne Verknüpfung an einem konkreten Endpunkt - deutet
-  auf "nicht offiziell dokumentiert", nicht zwingend "nicht vorhanden").
+Folgende Punkte sind geklärt, stehen aber **nicht** im OpenAPI-Schema - wer sich
+allein darauf verlässt, findet sie nicht:
+
+* Die `technicalName`-Werte der Standard-Transitions für `order`/
+  `order_transaction`/`order_delivery` (`process`, `cancel` u.a.) sind kein
+  Enum; `{transition}` ist ein freier String-Parameter. Zur Laufzeit per
+  `GET /api/_action/state-machine/{entityName}/{entityId}/state` ermitteln.
+* `accountType` am Customer kennt die Werte `business` und `private`. Die
+  Feldbeschreibung im Schema formuliert unpräzise "personal or business" - der
+  Wert für Privatkunden heißt `private`, nicht `personal`.
+* Unbekannte JSON-Felder in `POST`/`PATCH`-Bodies lehnt die DAL-Validierung ab
+  (wie Odoos ORM, anders als Plenty - siehe Abschnitt 2).
+* `stateMachineState.technicalName` funktioniert als Assoziations-Filterpfad,
+  sofern die Assoziation im Request unter `associations` mitgeladen wird
+  (D009/G007 in `shopware/`).
+
+Genuin offen bleibt: ob dokumentierte Rate-Limits existieren. Im Schema findet
+sich nur eine 429-Fehlerkomponente ohne Verknüpfung an einem konkreten
+Endpunkt - das deutet auf "nicht offiziell dokumentiert", nicht zwingend auf
+"nicht vorhanden".
 
 ## Quellen (Teil B)
 

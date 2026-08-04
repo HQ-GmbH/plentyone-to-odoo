@@ -33,8 +33,11 @@
 # open->in_progress. Im OpenAPI-Schema ist sie nicht als Enum hinterlegt - der
 # Pfad akzeptiert {transition} als freien String-Parameter, die gueltigen Namen
 # stehen also nicht im Schema. Fuer ein Migrationstool trotzdem die verfuegbaren
-# Transitions je Auftrag per GET /api/_action/order/{id}/state abfragen, statt
-# den Namen hart zu kodieren: die State-Maschine ist je Instanz erweiterbar.
+# Transitions je Auftrag abfragen, statt den Namen hart zu kodieren: die
+# State-Maschine ist je Instanz erweiterbar. Der Abfragepfad dafuer ist
+# GET /api/_action/state-machine/order/{orderId}/state - ein GET auf
+# /api/_action/order/{orderId}/state existiert NICHT, dieser Pfad kennt laut
+# Spec nur POST mit {transition}.
 #
 # Anders als Odoos action_confirm() (eine Methode am Modell) ist der
 # Statuswechsel bei Shopware ein eigener Aktions-Endpunkt.

@@ -79,8 +79,10 @@ verwenden inzwischen die geprüften Werte und erklären sie im Kommentarkopf:
   instanzabhängige `stateId`-UUID
 
 Weil die State-Maschine je Instanz erweiterbar ist, sollte ein Migrationstool
-die verfügbaren Transitions trotzdem zur Laufzeit abfragen
-(`GET /api/_action/order/{id}/state`) statt Namen hart zu kodieren.
+die verfügbaren Transitions trotzdem zur Laufzeit abfragen — über
+`GET /api/_action/state-machine/order/{orderId}/state`. Achtung: ein `GET` auf
+`/api/_action/order/{orderId}/state` gibt es **nicht**, dieser Pfad kennt nur
+`POST` mit `{transition}`.
 
 ## Review
 
