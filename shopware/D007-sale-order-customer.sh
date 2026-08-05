@@ -45,5 +45,5 @@ source ./_login.sh
 # Hinweis: Weitere IDs oder Suchwerte sind ausschließlich mit Testdaten zu setzen.
 
 : "${CUSTOMER_ID:?Export CUSTOMER_ID=<Kunden-UUID>}"
-curl -sS -X POST "${SHOPWARE_URL%/}/api/search/order" -H "Content-Type: application/json" -H "Authorization: Bearer ${SHOPWARE_ACCESS_TOKEN}" -d "{\"filter\":[{\"type\":\"equals\",\"field\":\"orderCustomer.customerId\",\"value\":\"${CUSTOMER_ID}\"}],"limit":50}"
+curl -sS -X POST "${SHOPWARE_URL%/}/api/search/order" -H "Content-Type: application/json" -H "Authorization: Bearer ${SHOPWARE_ACCESS_TOKEN}" -d "{\"filter\":[{\"type\":\"equals\",\"field\":\"orderCustomer.customerId\",\"value\":\"${CUSTOMER_ID}\"}],\"limit\":50}"
 

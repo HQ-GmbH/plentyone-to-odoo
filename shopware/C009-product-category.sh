@@ -35,5 +35,5 @@ source ./_login.sh
 # Hinweis: Weitere IDs oder Suchwerte sind ausschließlich mit Testdaten zu setzen.
 
 : "${CATEGORY_ID:?Export CATEGORY_ID=<Kategorie-UUID>}"
-curl -sS -X POST "${SHOPWARE_URL%/}/api/search/product" -H "Content-Type: application/json" -H "Authorization: Bearer ${SHOPWARE_ACCESS_TOKEN}" -d "{\"filter\":[{\"type\":\"equalsAny\",\"field\":\"categoryIds\",\"value\":[\"${CATEGORY_ID}\"]}],"limit":50}"
+curl -sS -X POST "${SHOPWARE_URL%/}/api/search/product" -H "Content-Type: application/json" -H "Authorization: Bearer ${SHOPWARE_ACCESS_TOKEN}" -d "{\"filter\":[{\"type\":\"equalsAny\",\"field\":\"categoryIds\",\"value\":[\"${CATEGORY_ID}\"]}],\"limit\":50}"
 

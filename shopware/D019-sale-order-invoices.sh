@@ -32,6 +32,11 @@
 # Wie bei Plenty (POST .../documents/invoice/generate) erzeugt Shopware nur ein
 # PDF-DOKUMENT (document-Entity mit Verweis auf eine media-Datei) ohne eigenen
 # Buchungssatz dahinter - keines der drei APIs bildet Odoos account.move nach.
+#
+# Zum Body-Format: der Endpunkt erwartet ein ARRAY von Auftraegen (auf
+# Massenerzeugung ausgelegt), nicht ein einzelnes Objekt. Pflichtfelder je
+# Eintrag sind orderId UND type - type wiederholt den documentTypeName aus dem
+# Pfad. Optional: fileType (Default pdf), static, referencedDocumentId, config.
 ###############################################################################
 
 source ../config.sh
@@ -40,5 +45,5 @@ source ./_login.sh
 # Hinweis: Weitere IDs oder Suchwerte sind ausschließlich mit Testdaten zu setzen.
 
 : "${SALE_ORDER_ID:?Export SALE_ORDER_ID=<Auftrags-UUID>}"
-curl -sS -X POST "${SHOPWARE_URL%/}/api/_action/order/document/invoice/create" -H "Content-Type: application/json" -H "Authorization: Bearer ${SHOPWARE_ACCESS_TOKEN}" -d "{\"orderId\":\"${SALE_ORDER_ID}\",\"config\":{}}"
+curl -sS -X POST "${SHOPWARE_URL%/}/api/_action/order/document/invoice/create" -H "Content-Type: application/json" -H "Authorization: Bearer ${SHOPWARE_ACCESS_TOKEN}" -d "[{\"orderId\":\"${SALE_ORDER_ID}\",\"type\":\"invoice\",\"config\":{}}]"
 

@@ -27,6 +27,10 @@
 #
 # Beschreibung:
 # Erzeugt das Rechnungsdokument (PDF) eines Auftrags (siehe D019).
+#
+# Migrationshinweis:
+# Siehe D019 zum Body-Format: der Endpunkt nimmt ein ARRAY von Auftraegen, und
+# je Eintrag sind orderId UND type Pflicht.
 ###############################################################################
 
 source ../config.sh
@@ -35,5 +39,5 @@ source ./_login.sh
 # Hinweis: Weitere IDs oder Suchwerte sind ausschließlich mit Testdaten zu setzen.
 
 : "${SALE_ORDER_ID:?Export SALE_ORDER_ID=<Auftrags-UUID>}"
-curl -sS -X POST "${SHOPWARE_URL%/}/api/_action/order/document/invoice/create" -H "Content-Type: application/json" -H "Authorization: Bearer ${SHOPWARE_ACCESS_TOKEN}" -d "{\"orderId\":\"${SALE_ORDER_ID}\",\"config\":{}}"
+curl -sS -X POST "${SHOPWARE_URL%/}/api/_action/order/document/invoice/create" -H "Content-Type: application/json" -H "Authorization: Bearer ${SHOPWARE_ACCESS_TOKEN}" -d "[{\"orderId\":\"${SALE_ORDER_ID}\",\"type\":\"invoice\",\"config\":{}}]"
 

@@ -77,5 +77,6 @@ Steuersätze liegen in `VatRate`, nicht im `Vat`-Datensatz (G020); sowie
 
 Die Skripte in diesem Ordner wurden durchgesehen von
 [**Lukas Ehrenberg**](https://www.hqgmbh.de/autoren/lukas-ehrenberg/),
-Senior Shopware Developer & API-Spezialist der [HQ GmbH](https://www.hqgmbh.de/)
+Senior Shopware Developer & Cluster-Spezialist der
+[HQ GmbH](https://www.hqgmbh.de/)
 (siehe `Reviewed by:` im Kommentarkopf jedes Skripts).

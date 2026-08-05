@@ -91,7 +91,7 @@ Skripts:
 | Ordner | Review |
 |---|---|
 | [`odoo/`](odoo/) | [**Mathias Goldhan**](https://www.hqgmbh.de/autoren/mathias-goldhan/), Enterprise-Architekt |
-| [`plenty/`](plenty/) | [**Lukas Ehrenberg**](https://www.hqgmbh.de/autoren/lukas-ehrenberg/), Senior Shopware Developer & API-Spezialist |
+| [`plenty/`](plenty/) | [**Lukas Ehrenberg**](https://www.hqgmbh.de/autoren/lukas-ehrenberg/), Senior Shopware Developer & Cluster-Spezialist |
 | [`shopware/`](shopware/) | [**Christopher Einenkel**](https://www.hqgmbh.de/autoren/christopher-einenkel/), Senior Integration Architect & API Specialist |
 
 ---

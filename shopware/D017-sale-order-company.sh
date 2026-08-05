@@ -41,5 +41,5 @@ source ./_login.sh
 # Hinweis: Weitere IDs oder Suchwerte sind ausschließlich mit Testdaten zu setzen.
 
 : "${SALES_CHANNEL_ID:?Export SALES_CHANNEL_ID=<Sales-Channel-UUID>}"
-curl -sS -X POST "${SHOPWARE_URL%/}/api/search/order" -H "Content-Type: application/json" -H "Authorization: Bearer ${SHOPWARE_ACCESS_TOKEN}" -d "{\"filter\":[{\"type\":\"equals\",\"field\":\"salesChannelId\",\"value\":\"${SALES_CHANNEL_ID}\"}],"limit":50}"
+curl -sS -X POST "${SHOPWARE_URL%/}/api/search/order" -H "Content-Type: application/json" -H "Authorization: Bearer ${SHOPWARE_ACCESS_TOKEN}" -d "{\"filter\":[{\"type\":\"equals\",\"field\":\"salesChannelId\",\"value\":\"${SALES_CHANNEL_ID}\"}],\"limit\":50}"
 

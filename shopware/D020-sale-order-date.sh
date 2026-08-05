@@ -35,5 +35,5 @@ source ./_login.sh
 # Hinweis: Weitere IDs oder Suchwerte sind ausschließlich mit Testdaten zu setzen.
 
 : "${DATE_FROM:?Export DATE_FROM=<ISO-8601-Datum, z.B. 2026-01-01T00:00:00.000+00:00>}"
-curl -sS -X POST "${SHOPWARE_URL%/}/api/search/order" -H "Content-Type: application/json" -H "Authorization: Bearer ${SHOPWARE_ACCESS_TOKEN}" -d "{\"filter\":[{\"type\":\"range\",\"field\":\"orderDateTime\",\"parameters\":{\"gte\":\"${DATE_FROM}\"}}],"limit":50}"
+curl -sS -X POST "${SHOPWARE_URL%/}/api/search/order" -H "Content-Type: application/json" -H "Authorization: Bearer ${SHOPWARE_ACCESS_TOKEN}" -d "{\"filter\":[{\"type\":\"range\",\"field\":\"orderDateTime\",\"parameters\":{\"gte\":\"${DATE_FROM}\"}}],\"limit\":50}"
 

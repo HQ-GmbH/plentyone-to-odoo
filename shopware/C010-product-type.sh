@@ -26,14 +26,28 @@
 # plenty/C010-product-type.sh
 #
 # Beschreibung:
-# Kein Aequivalent: Produkte haben kein Feld fuer Ware/Dienstleistung.
+# Gruppiert Produkte nach dem Feld 'type' (physical/digital).
+#
+# Migrationshinweis:
+# Shopware 6.7 HAT ein type-Feld am Produkt, aber mit anderer Achse als Odoo: es
+# unterscheidet 'physical' und 'digital' (Enum laut Schema, Default 'physical'),
+# also die Auslieferungsart. Odoos detailed_type unterscheidet dagegen
+# Ware/Dienstleistung/Kombireferenz. Eine Dienstleistung ist bei Shopware also
+# KEIN eigener type-Wert, sondern wird als Produkt ohne Lagerverfolgung
+# modelliert. Das Feld ist immutable - nach dem Anlegen nicht mehr aenderbar.
+#
+# Andere Achsen nicht verwechseln: parentId/children bildet Variantenbeziehungen
+# ab (T-Shirt in S/M/L), nicht die Warenart. Das aeltere Feld 'states' existiert
+# noch, ist aber zugunsten von 'type' abgekuendigt.
+#
+# Fuer das Migrationstool: Odoos detailed_type braucht eine ZWEI-Felder-Abbildung
+# (type fuer physical/digital plus Lager-/Versandeinstellungen fuer den
+# Dienstleistungscharakter), kein 1:1-Mapping.
 ###############################################################################
 
-echo "GAP: Das Product-Schema hat KEIN \"type\"-Feld fuer eine Achse"
-echo "Ware/Dienstleistung/Kombireferenz wie Odoos detailed_type. Die"
-echo "einzige strukturelle Unterscheidung ist parentId/children fuer"
-echo "Variantenbeziehungen (z.B. T-Shirt in Groesse S/M/L), nicht fuer"
-echo "Warenart. Nicht-lagerhaltige Dienstleistungen werden i.d.R. einfach"
-echo "als gewoehnliches Produkt ohne Lagerverfolgung (Bestandsfeatures"
-echo "deaktiviert) modelliert, nicht als eigener Typ."
+source ../config.sh
+source ./_login.sh
+# Voraussetzungen: ../config.sh setzt SHOPWARE_URL, SHOPWARE_CLIENT_ID, SHOPWARE_CLIENT_SECRET.
+# Hinweis: Weitere IDs oder Suchwerte sind ausschließlich mit Testdaten zu setzen.
 
+curl -sS -X POST "${SHOPWARE_URL%/}/api/aggregate/product" -H "Content-Type: application/json" -H "Authorization: Bearer ${SHOPWARE_ACCESS_TOKEN}" -d '{"aggregations":[{"name":"per-type","type":"terms","field":"type"}],"limit":1}'

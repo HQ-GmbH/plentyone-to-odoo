@@ -44,5 +44,5 @@ source ./_login.sh
 # Hinweis: Weitere IDs oder Suchwerte sind ausschließlich mit Testdaten zu setzen.
 
 : "${OPEN_STATE_ID:?Export OPEN_STATE_ID=<state_machine_state-UUID fuer order.state=open>}"
-curl -sS -X POST "${SHOPWARE_URL%/}/api/search/order" -H "Content-Type: application/json" -H "Authorization: Bearer ${SHOPWARE_ACCESS_TOKEN}" -d "{\"filter\":[{\"type\":\"equals\",\"field\":\"stateId\",\"value\":\"${OPEN_STATE_ID}\"}],"limit":50}"
+curl -sS -X POST "${SHOPWARE_URL%/}/api/search/order" -H "Content-Type: application/json" -H "Authorization: Bearer ${SHOPWARE_ACCESS_TOKEN}" -d "{\"filter\":[{\"type\":\"equals\",\"field\":\"stateId\",\"value\":\"${OPEN_STATE_ID}\"}],\"limit\":50}"
 
