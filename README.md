@@ -59,8 +59,8 @@ Die Beispiele dienen als reproduzierbare Referenz für
 
 Im Ordner [`plenty/`](plenty/) liegt das Gegenstück zu `odoo/`: dieselben
 Test-IDs (A001-G020), aber gegen die PlentyMarkets/PlentyONE REST API. Ziel ist
-es, fuer jeden Odoo-JSON-2-Testfall eine sinnvolle Plenty-Entsprechung zu
-dokumentieren - inklusive der Faelle, in denen es **keine** direkte
+es, für jeden Odoo-JSON-2-Testfall eine sinnvolle Plenty-Entsprechung zu
+dokumentieren - inklusive der Fälle, in denen es **keine** direkte
 Entsprechung gibt (z.B. Odoos Buchhaltungsmodell `account.move`).
 
 **Wichtiger Unterschied zu den `odoo/`-Skripten:** Die `plenty/`-Skripte wurden
