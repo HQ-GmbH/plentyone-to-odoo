@@ -2,7 +2,7 @@
 ###############################################################################
 # Odoo 19 JSON-2 API Reference
 #
-# PlentyOne -> Odoo 19 Enterprise Migration
+# Technisches Referenzwerk: PlentyONE → Odoo 19 mit Shopware 6
 #
 # Copyright (c) 2026 HQ GmbH
 # https://www.hqgmbh.de

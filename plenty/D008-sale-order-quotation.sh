@@ -2,8 +2,8 @@
 ###############################################################################
 # Plenty REST API Reference
 #
-# Companion Repository zum Referenzwerk
-# "PlentyOne → Odoo 19 Enterprise Migration"
+# Companion Repository zum
+# "Technischen Referenzwerk: PlentyONE → Odoo 19 mit Shopware 6"
 #
 # Copyright (c) 2026 HQ GmbH
 # https://www.hqgmbh.de

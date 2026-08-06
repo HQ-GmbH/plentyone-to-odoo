@@ -1,8 +1,8 @@
 # Odoo 19 JSON-2 API Reference Tests
 
 Referenzimplementierungen der Odoo 19 JSON-2 API, getestet gegen eine reale
-Odoo-19-Instanz. Grundlage des Referenzwerks *PlentyOne → Odoo 19 Enterprise
-Migration* - siehe [`../README.md`](../README.md) für den Gesamtkontext und
+Odoo-19-Instanz. Grundlage des *Technischen Referenzwerks: PlentyONE → Odoo 19
+mit Shopware 6* - siehe [`../README.md`](../README.md) für den Gesamtkontext und
 [`../MIGRATION_NOTES.md`](../MIGRATION_NOTES.md) für die Migrationshinweise.
 
 Gegenstücke mit identischen Test-IDs liegen in [`../plenty`](../plenty) und

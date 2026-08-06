@@ -11,7 +11,7 @@ Dieses Repository enthält praktisch validierte Referenzimplementierungen der Od
 
 Alle Beispiele wurden gegen eine reale Odoo-19-Instanz getestet und bilden die Grundlage des Referenzwerks
 
-> **PlentyOne → Odoo 19 Enterprise Migration**
+> **Technisches Referenzwerk: PlentyONE → Odoo 19 mit Shopware 6**
 
 Die Beispiele dienen als reproduzierbare Referenz für
 
@@ -119,7 +119,7 @@ Trotzdem sollten sämtliche Tests zunächst gegen ein Entwicklungs- oder Staging
 
 Dieses Repository ergänzt das Tutorial
 
-**PlentyOne → Odoo 19 Enterprise Migration**
+**Technisches Referenzwerk: PlentyONE → Odoo 19 mit Shopware 6**
 
 Version 2.
 

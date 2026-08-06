@@ -3,7 +3,7 @@
 Diese Datei verdichtet die `Migrationshinweis:`-Kommentare aus den einzelnen
 Testskripten in [`plenty/`](plenty/) und [`shopware/`](shopware/) zu einer
 themensortierten Übersicht. Sie ist die Wissensgrundlage für das geplante
-Migrationstool (PlentyOne → Odoo 19 Enterprise, mit Shopware als drittem
+Migrationstool (PlentyONE → Odoo 19, mit Shopware 6 als drittem
 Vergleichspunkt). Für den Beleg/Quellenverweis eines einzelnen Punkts: das
 Testskript mit derselben Test-ID im jeweiligen Ordner öffnen.
 

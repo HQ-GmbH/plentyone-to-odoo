@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 ###############################################################################
 # Checkmk REST API Reference
-# PlentyOne -> Odoo 19 Enterprise Migration
+# Technisches Referenzwerk: PlentyONE → Odoo 19 mit Shopware 6
 # Copyright (c) 2026 HQ GmbH — https://www.hqgmbh.de
 # Repository: https://github.com/hqgmbh/plentyone-to-odoo
 # SPDX-License-Identifier: Apache-2.0
