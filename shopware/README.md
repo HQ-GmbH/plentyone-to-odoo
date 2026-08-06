@@ -9,10 +9,10 @@ dieselben Test-IDs, dieselbe Struktur, aber gegen die Shopware 6.7 Admin API.
   Integrationen) mit Client-ID/Client-Secret
 * `curl` >= 8.x
 * `jq`
-* `uuidgen` (Teil von util-linux/macOS-Bordmitteln) fuer Skripte, die eigene
+* `uuidgen` (Teil von util-linux/macOS-Bordmitteln) für Skripte, die eigene
   Client-Side-UUIDs vergeben (z.B. `A011-create.sh`, `B002-partner-create.sh`)
 
-`../config.sh` muss zusaetzlich zu den ODOO_*/PLENTY_*-Variablen setzen:
+`../config.sh` muss zusätzlich zu den ODOO_*/PLENTY_*-Variablen setzen:
 
 ```bash
 export SHOPWARE_URL="https://shop.example.com"
@@ -44,11 +44,11 @@ jedem Skriptlauf einfach einen frischen Token.
 * **Serie E (Einkauf)** ist komplett `GAP`: Shopware Core hat kein
   Lieferanten-/Beschaffungskonzept jeglicher Art. Shopware ist eine
   Checkout-/Shopsoftware, kein ERP mit Einkaufsseite.
-* **Serie F (Lager)** ist ueberwiegend `GAP`: im Core existiert nur ein
+* **Serie F (Lager)** ist überwiegend `GAP`: im Core existiert nur ein
   einzelnes `stock`-Feld pro Produkt. Mehrlagerverwaltung
   (`Warehouse`/`ProductWarehouse`-Schemas existieren bereits, aber ohne
   HTTP-Pfade) ist ein Feature des kostenpflichtigen Commercial-Plugins.
-* **Serie G (Buchhaltung)** ist ueberwiegend `GAP` - sogar staerker als bei
+* **Serie G (Buchhaltung)** ist überwiegend `GAP` - sogar stärker als bei
   Plenty, da nicht einmal eine Buchhaltungs-Export-Konfiguration (wie
   Plentys DATEV-Mapping) im Core existiert.
 
