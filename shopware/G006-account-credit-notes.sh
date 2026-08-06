@@ -33,11 +33,11 @@
 # Plenty ueber typeId=4 als Auftragstyp modelliert) - auch hier wieder nur ein
 # Dokument, kein Buchungssatz.
 #
-# Zum Body-Format: der Endpunkt erwartet ein ARRAY von Auftraegen, nicht ein
-# einzelnes Objekt - er ist auf Massenerzeugung ausgelegt. Pflichtfelder je
-# Eintrag sind orderId UND type; type wiederholt dabei den documentTypeName aus
-# dem Pfad. Optional sind fileType (Default pdf), static, referencedDocumentId
-# und config (documentNumber, documentDate etc.).
+# Zum Body-Format siehe D019: das OpenAPI-Schema deklariert ein Array mit
+# orderId und type als Pflichtfeld je Eintrag, gegen eine echte Instanz genuegt
+# jedoch ein einzelnes Objekt ohne type - der Dokumenttyp steht bereits als
+# documentTypeName im Pfad. Weitere Felder: fileType (Default pdf), static,
+# referencedDocumentId, config (documentNumber, documentDate etc.).
 #
 # Hinweis zu den Daten: eine Gutschrift setzt voraus, dass der Auftrag
 # Gutschrift-Positionen enthaelt und eine Referenzrechnung existiert - sonst
@@ -50,5 +50,5 @@ source ./_login.sh
 # Hinweis: Weitere IDs oder Suchwerte sind ausschließlich mit Testdaten zu setzen.
 
 : "${SALE_ORDER_ID:?Export SALE_ORDER_ID=<Auftrags-UUID>}"
-curl -sS -X POST "${SHOPWARE_URL%/}/api/_action/order/document/credit_note/create" -H "Content-Type: application/json" -H "Authorization: Bearer ${SHOPWARE_ACCESS_TOKEN}" -d "[{\"orderId\":\"${SALE_ORDER_ID}\",\"type\":\"credit_note\",\"config\":{}}]"
+curl -sS -X POST "${SHOPWARE_URL%/}/api/_action/order/document/credit_note/create" -H "Content-Type: application/json" -H "Authorization: Bearer ${SHOPWARE_ACCESS_TOKEN}" -d "{\"orderId\":\"${SALE_ORDER_ID}\",\"fileType\":\"pdf\",\"config\":{}}"
 

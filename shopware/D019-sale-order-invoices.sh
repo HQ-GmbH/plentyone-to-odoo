@@ -33,10 +33,12 @@
 # PDF-DOKUMENT (document-Entity mit Verweis auf eine media-Datei) ohne eigenen
 # Buchungssatz dahinter - keines der drei APIs bildet Odoos account.move nach.
 #
-# Zum Body-Format: der Endpunkt erwartet ein ARRAY von Auftraegen (auf
-# Massenerzeugung ausgelegt), nicht ein einzelnes Objekt. Pflichtfelder je
-# Eintrag sind orderId UND type - type wiederholt den documentTypeName aus dem
-# Pfad. Optional: fileType (Default pdf), static, referencedDocumentId, config.
+# Zum Body-Format - hier weicht die Instanz vom Schema ab: das OpenAPI-Schema
+# deklariert ein ARRAY von Auftraegen mit orderId UND type als Pflichtfeld je
+# Eintrag. Gegen eine echte Instanz genuegt jedoch ein einzelnes Objekt ohne
+# type, wie hier gezeigt - der Dokumenttyp steht bereits als documentTypeName
+# im Pfad. Weitere Felder: fileType (Default pdf), static,
+# referencedDocumentId, config (documentNumber, documentDate etc.).
 ###############################################################################
 
 source ../config.sh
