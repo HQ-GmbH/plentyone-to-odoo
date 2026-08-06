@@ -1,5 +1,7 @@
-# plenty-erp2odoo
-Migration von Plenty ERP zu Odoo
+# PlentyONE → Odoo 19 Migration & API Integration
+
+Technische Referenz für die Migration von PlentyONE zu Odoo 19 mit Shopware 6
+als bestehendem E-Commerce-Frontend.
 
 # Odoo 19 JSON-2 API Reference Tests
 

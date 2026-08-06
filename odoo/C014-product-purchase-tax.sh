@@ -8,7 +8,7 @@
 # https://www.hqgmbh.de
 #
 # Repository:
-# https://github.com/hqgmbh/plenty-erp2odoo
+# https://github.com/hqgmbh/plentyone-to-odoo
 #
 # SPDX-License-Identifier: Apache-2.0
 #

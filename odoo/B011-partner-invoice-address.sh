@@ -3,7 +3,7 @@
 # Odoo 19 JSON-2 API Reference
 #
 # Companion Repository
-# https://github.com/hqgmbh/plenty-erp2odoo
+# https://github.com/hqgmbh/plentyone-to-odoo
 #
 # Copyright (c) 2026 HQ GmbH
 #

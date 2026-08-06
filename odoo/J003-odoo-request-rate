@@ -3,7 +3,7 @@
 # Prometheus Performance API Reference
 # PlentyOne -> Odoo 19 Enterprise Migration
 # Copyright (c) 2026 HQ GmbH — https://www.hqgmbh.de
-# Repository: https://github.com/hqgmbh/plenty-erp2odoo
+# Repository: https://github.com/hqgmbh/plentyone-to-odoo
 # SPDX-License-Identifier: Apache-2.0
 ###############################################################################
 source ../config.sh
