@@ -21,7 +21,7 @@ export PLENTY_PASSWORD="dein-passwort"
 ## Ausführung
 
 Wie bei `../odoo`: aus diesem Verzeichnis heraus ausführen, da die Skripte
-`../config.sh` und `./_login.sh` relativ zum aktüllen Arbeitsverzeichnis laden.
+`../config.sh` und `./_login.sh` relativ zum aktuellen Arbeitsverzeichnis laden.
 
 ```bash
 cd plenty
