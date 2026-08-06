@@ -121,7 +121,5 @@ Dieses Repository ergänzt das Tutorial
 
 **Technisches Referenzwerk: PlentyONE → Odoo 19 mit Shopware 6**
 
-Version 2.
-
 Autor: [Mathias Goldhan](https://www.hqgmbh.de/autoren/mathias-goldhan/),
 Enterprise-Architekt der [HQ GmbH](https://www.hqgmbh.de/).
