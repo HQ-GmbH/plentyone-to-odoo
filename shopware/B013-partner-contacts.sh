@@ -20,7 +20,7 @@
 # B013
 #
 # Odoo-Pendant:
-# odoo/B013-partner-contacts.sh
+# odoo-v20/B013-partner-contacts.sh
 #
 # Plenty-Pendant:
 # plenty/B013-partner-contacts.sh

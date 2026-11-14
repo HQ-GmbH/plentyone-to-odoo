@@ -20,7 +20,7 @@
 # G010
 #
 # Odoo-Pendant:
-# odoo/G010-account-move-pagination.sh
+# odoo-v20/G010-account-move-pagination.sh
 #
 # Plenty-Pendant:
 # plenty/G010-account-move-pagination.sh

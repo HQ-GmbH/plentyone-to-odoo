@@ -20,7 +20,7 @@
 # B005
 #
 # Odoo-Pendant:
-# odoo/B005-partner-unlink.sh
+# odoo-v20/B005-partner-unlink.sh
 #
 # Shopware-Pendant:
 # shopware/B005-partner-unlink.sh

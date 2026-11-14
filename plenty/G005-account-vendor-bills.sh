@@ -20,7 +20,7 @@
 # G005
 #
 # Odoo-Pendant:
-# odoo/G005-account-vendor-bills.sh
+# odoo-v20/G005-account-vendor-bills.sh
 #
 # Shopware-Pendant:
 # shopware/G005-account-vendor-bills.sh

@@ -20,7 +20,7 @@
 # C005
 #
 # Odoo-Pendant:
-# odoo/C005-product-unlink.sh
+# odoo-v20/C005-product-unlink.sh
 #
 # Plenty-Pendant:
 # plenty/C005-product-unlink.sh

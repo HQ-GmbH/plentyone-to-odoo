@@ -20,7 +20,7 @@
 # D002
 #
 # Odoo-Pendant:
-# odoo/D002-sale-order-create.sh
+# odoo-v20/D002-sale-order-create.sh
 #
 # Shopware-Pendant:
 # shopware/D002-sale-order-create.sh

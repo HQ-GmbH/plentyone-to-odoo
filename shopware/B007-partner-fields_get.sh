@@ -20,7 +20,7 @@
 # B007
 #
 # Odoo-Pendant:
-# odoo/B007-partner-fields_get.sh
+# odoo-v20/B007-partner-fields_get.sh
 #
 # Plenty-Pendant:
 # plenty/B007-partner-fields_get.sh

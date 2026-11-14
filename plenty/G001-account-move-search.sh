@@ -20,7 +20,7 @@
 # G001
 #
 # Odoo-Pendant:
-# odoo/G001-account-move-search.sh
+# odoo-v20/G001-account-move-search.sh
 #
 # Shopware-Pendant:
 # shopware/G001-account-move-search.sh

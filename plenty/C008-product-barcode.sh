@@ -20,7 +20,7 @@
 # C008
 #
 # Odoo-Pendant:
-# odoo/C008-product-barcode.sh
+# odoo-v20/C008-product-barcode.sh
 #
 # Shopware-Pendant:
 # shopware/C008-product-barcode.sh

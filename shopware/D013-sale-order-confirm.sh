@@ -20,7 +20,7 @@
 # D013
 #
 # Odoo-Pendant:
-# odoo/D013-sale-order-confirm.sh
+# odoo-v20/D013-sale-order-confirm.sh
 #
 # Plenty-Pendant:
 # plenty/D013-sale-order-confirm.sh

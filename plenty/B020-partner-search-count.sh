@@ -20,7 +20,7 @@
 # B020
 #
 # Odoo-Pendant:
-# odoo/B020-partner-search-count.sh
+# odoo-v20/B020-partner-search-count.sh
 #
 # Shopware-Pendant:
 # shopware/B020-partner-search-count.sh

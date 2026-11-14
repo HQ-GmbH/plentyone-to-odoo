@@ -20,7 +20,7 @@
 # G009
 #
 # Odoo-Pendant:
-# odoo/G009-account-cancelled-moves.sh
+# odoo-v20/G009-account-cancelled-moves.sh
 #
 # Shopware-Pendant:
 # shopware/G009-account-cancelled-moves.sh

@@ -20,7 +20,7 @@
 # F009
 #
 # Odoo-Pendant:
-# odoo/F009-stock-picking-cancel.sh
+# odoo-v20/F009-stock-picking-cancel.sh
 #
 # Shopware-Pendant:
 # shopware/F009-stock-picking-cancel.sh

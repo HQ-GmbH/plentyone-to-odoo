@@ -20,7 +20,7 @@
 # D014
 #
 # Odoo-Pendant:
-# odoo/D014-sale-order-cancel.sh
+# odoo-v20/D014-sale-order-cancel.sh
 #
 # Shopware-Pendant:
 # shopware/D014-sale-order-cancel.sh

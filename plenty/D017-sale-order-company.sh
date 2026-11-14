@@ -20,7 +20,7 @@
 # D017
 #
 # Odoo-Pendant:
-# odoo/D017-sale-order-company.sh
+# odoo-v20/D017-sale-order-company.sh
 #
 # Shopware-Pendant:
 # shopware/D017-sale-order-company.sh

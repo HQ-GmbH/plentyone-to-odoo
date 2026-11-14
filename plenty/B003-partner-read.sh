@@ -20,7 +20,7 @@
 # B003
 #
 # Odoo-Pendant:
-# odoo/B003-partner-read.sh
+# odoo-v20/B003-partner-read.sh
 #
 # Shopware-Pendant:
 # shopware/B003-partner-read.sh

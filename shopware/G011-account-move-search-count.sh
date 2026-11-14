@@ -20,7 +20,7 @@
 # G011
 #
 # Odoo-Pendant:
-# odoo/G011-account-move-search-count.sh
+# odoo-v20/G011-account-move-search-count.sh
 #
 # Plenty-Pendant:
 # plenty/G011-account-move-search-count.sh

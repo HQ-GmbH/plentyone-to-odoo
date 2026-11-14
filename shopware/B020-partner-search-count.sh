@@ -20,7 +20,7 @@
 # B020
 #
 # Odoo-Pendant:
-# odoo/B020-partner-search-count.sh
+# odoo-v20/B020-partner-search-count.sh
 #
 # Plenty-Pendant:
 # plenty/B020-partner-search-count.sh

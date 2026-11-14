@@ -20,7 +20,7 @@
 # F007
 #
 # Odoo-Pendant:
-# odoo/F007-stock-picking-assigned.sh
+# odoo-v20/F007-stock-picking-assigned.sh
 #
 # Shopware-Pendant:
 # shopware/F007-stock-picking-assigned.sh

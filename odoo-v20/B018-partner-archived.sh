@@ -1,0 +1,34 @@
+#!/usr/bin/env bash
+###############################################################################
+# Test-ID: B018
+#
+# Liefert alle archivierten Partner.
+#
+# Plenty-Pendant:
+# plenty/B018-partner-archived.sh
+#
+# Shopware-Pendant:
+# shopware/B018-partner-archived.sh
+#
+# Reviewed by:
+# Mathias Goldhan
+###############################################################################
+
+source "$(dirname "${BASH_SOURCE[0]}")/_json2_common.sh"
+# Voraussetzungen: ../config.sh setzt ODOO_URL und ODOO_API_KEY.
+# Hinweis: Weitere IDs oder Suchwerte sind ausschließlich mit Testdaten zu setzen.
+
+curl -X POST \
+"${ODOO_URL}/json/2/res.partner/search_read" \
+-H "Content-Type: application/json" \
+-H "Authorization: Bearer ${ODOO_API_KEY}" \
+-d '{
+  "domain":[["active","=",false]],
+  "fields":[
+      "id",
+      "name",
+      "email",
+      "active"
+  ],
+  "limit":20
+}'

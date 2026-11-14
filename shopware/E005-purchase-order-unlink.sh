@@ -20,7 +20,7 @@
 # E005
 #
 # Odoo-Pendant:
-# odoo/E005-purchase-order-unlink.sh
+# odoo-v20/E005-purchase-order-unlink.sh
 #
 # Plenty-Pendant:
 # plenty/E005-purchase-order-unlink.sh

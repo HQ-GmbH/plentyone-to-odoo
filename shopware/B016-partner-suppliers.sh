@@ -20,7 +20,7 @@
 # B016
 #
 # Odoo-Pendant:
-# odoo/B016-partner-suppliers.sh
+# odoo-v20/B016-partner-suppliers.sh
 #
 # Plenty-Pendant:
 # plenty/B016-partner-suppliers.sh

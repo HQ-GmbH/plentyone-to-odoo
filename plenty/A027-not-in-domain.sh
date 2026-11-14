@@ -20,7 +20,7 @@
 # A027
 #
 # Odoo-Pendant:
-# odoo/A027-not-in-domain.sh
+# odoo-v20/A027-not-in-domain.sh
 #
 # Shopware-Pendant:
 # shopware/A027-not-in-domain.sh

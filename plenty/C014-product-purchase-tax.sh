@@ -20,7 +20,7 @@
 # C014
 #
 # Odoo-Pendant:
-# odoo/C014-product-purchase-tax.sh
+# odoo-v20/C014-product-purchase-tax.sh
 #
 # Shopware-Pendant:
 # shopware/C014-product-purchase-tax.sh

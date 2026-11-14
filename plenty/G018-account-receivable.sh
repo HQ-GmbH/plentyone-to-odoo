@@ -20,7 +20,7 @@
 # G018
 #
 # Odoo-Pendant:
-# odoo/G018-account-receivable.sh
+# odoo-v20/G018-account-receivable.sh
 #
 # Shopware-Pendant:
 # shopware/G018-account-receivable.sh

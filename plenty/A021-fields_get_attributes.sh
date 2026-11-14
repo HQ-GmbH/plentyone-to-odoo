@@ -20,7 +20,7 @@
 # A021
 #
 # Odoo-Pendant:
-# odoo/A021-fields_get_attributes.sh
+# odoo-v20/A021-fields_get_attributes.sh
 #
 # Shopware-Pendant:
 # shopware/A021-fields_get_attributes.sh

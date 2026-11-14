@@ -20,7 +20,7 @@
 # E003
 #
 # Odoo-Pendant:
-# odoo/E003-purchase-order-read.sh
+# odoo-v20/E003-purchase-order-read.sh
 #
 # Shopware-Pendant:
 # shopware/E003-purchase-order-read.sh

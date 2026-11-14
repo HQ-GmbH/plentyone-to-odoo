@@ -20,7 +20,7 @@
 # B017
 #
 # Odoo-Pendant:
-# odoo/B017-partner-active.sh
+# odoo-v20/B017-partner-active.sh
 #
 # Plenty-Pendant:
 # plenty/B017-partner-active.sh

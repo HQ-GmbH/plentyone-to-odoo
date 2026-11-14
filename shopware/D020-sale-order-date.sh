@@ -20,7 +20,7 @@
 # D020
 #
 # Odoo-Pendant:
-# odoo/D020-sale-order-date.sh
+# odoo-v20/D020-sale-order-date.sh
 #
 # Plenty-Pendant:
 # plenty/D020-sale-order-date.sh

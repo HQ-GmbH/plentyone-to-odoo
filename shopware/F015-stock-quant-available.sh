@@ -20,7 +20,7 @@
 # F015
 #
 # Odoo-Pendant:
-# odoo/F015-stock-quant-available.sh
+# odoo-v20/F015-stock-quant-available.sh
 #
 # Plenty-Pendant:
 # plenty/F015-stock-quant-available.sh

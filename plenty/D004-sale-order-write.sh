@@ -20,7 +20,7 @@
 # D004
 #
 # Odoo-Pendant:
-# odoo/D004-sale-order-write.sh
+# odoo-v20/D004-sale-order-write.sh
 #
 # Shopware-Pendant:
 # shopware/D004-sale-order-write.sh

@@ -20,7 +20,7 @@
 # A022
 #
 # Odoo-Pendant:
-# odoo/A022-name_search.sh
+# odoo-v20/A022-name_search.sh
 #
 # Plenty-Pendant:
 # plenty/A022-name_search.sh

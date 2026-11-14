@@ -20,7 +20,7 @@
 # C003
 #
 # Odoo-Pendant:
-# odoo/C003-product-read.sh
+# odoo-v20/C003-product-read.sh
 #
 # Shopware-Pendant:
 # shopware/C003-product-read.sh

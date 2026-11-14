@@ -20,7 +20,7 @@
 # F020
 #
 # Odoo-Pendant:
-# odoo/F020-stock-inventory-count.sh
+# odoo-v20/F020-stock-inventory-count.sh
 #
 # Plenty-Pendant:
 # plenty/F020-stock-inventory-count.sh

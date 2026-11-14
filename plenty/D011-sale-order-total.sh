@@ -20,7 +20,7 @@
 # D011
 #
 # Odoo-Pendant:
-# odoo/D011-sale-order-total.sh
+# odoo-v20/D011-sale-order-total.sh
 #
 # Shopware-Pendant:
 # shopware/D011-sale-order-total.sh

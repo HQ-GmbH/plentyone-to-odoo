@@ -20,7 +20,7 @@
 # A007
 #
 # Odoo-Pendant:
-# odoo/A007-fields_get.sh
+# odoo-v20/A007-fields_get.sh
 #
 # Shopware-Pendant:
 # shopware/A007-fields_get.sh

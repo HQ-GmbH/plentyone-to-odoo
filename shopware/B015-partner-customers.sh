@@ -20,7 +20,7 @@
 # B015
 #
 # Odoo-Pendant:
-# odoo/B015-partner-customers.sh
+# odoo-v20/B015-partner-customers.sh
 #
 # Plenty-Pendant:
 # plenty/B015-partner-customers.sh

@@ -20,7 +20,7 @@
 # F003
 #
 # Odoo-Pendant:
-# odoo/F003-stock-picking-fields_get.sh
+# odoo-v20/F003-stock-picking-fields_get.sh
 #
 # Shopware-Pendant:
 # shopware/F003-stock-picking-fields_get.sh

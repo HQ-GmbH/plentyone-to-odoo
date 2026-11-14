@@ -20,7 +20,7 @@
 # F011
 #
 # Odoo-Pendant:
-# odoo/F011-stock-picking-search-count.sh
+# odoo-v20/F011-stock-picking-search-count.sh
 #
 # Shopware-Pendant:
 # shopware/F011-stock-picking-search-count.sh

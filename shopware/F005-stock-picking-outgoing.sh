@@ -20,7 +20,7 @@
 # F005
 #
 # Odoo-Pendant:
-# odoo/F005-stock-picking-outgoing.sh
+# odoo-v20/F005-stock-picking-outgoing.sh
 #
 # Plenty-Pendant:
 # plenty/F005-stock-picking-outgoing.sh

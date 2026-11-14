@@ -20,7 +20,7 @@
 # C010
 #
 # Odoo-Pendant:
-# odoo/C010-product-type.sh
+# odoo-v20/C010-product-type.sh
 #
 # Plenty-Pendant:
 # plenty/C010-product-type.sh

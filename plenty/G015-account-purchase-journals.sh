@@ -20,7 +20,7 @@
 # G015
 #
 # Odoo-Pendant:
-# odoo/G015-account-purchase-journals.sh
+# odoo-v20/G015-account-purchase-journals.sh
 #
 # Shopware-Pendant:
 # shopware/G015-account-purchase-journals.sh

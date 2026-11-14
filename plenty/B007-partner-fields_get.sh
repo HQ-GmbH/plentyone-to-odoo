@@ -20,7 +20,7 @@
 # B007
 #
 # Odoo-Pendant:
-# odoo/B007-partner-fields_get.sh
+# odoo-v20/B007-partner-fields_get.sh
 #
 # Shopware-Pendant:
 # shopware/B007-partner-fields_get.sh

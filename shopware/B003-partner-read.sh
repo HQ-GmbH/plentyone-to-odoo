@@ -20,7 +20,7 @@
 # B003
 #
 # Odoo-Pendant:
-# odoo/B003-partner-read.sh
+# odoo-v20/B003-partner-read.sh
 #
 # Plenty-Pendant:
 # plenty/B003-partner-read.sh

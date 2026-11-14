@@ -20,7 +20,7 @@
 # E003
 #
 # Odoo-Pendant:
-# odoo/E003-purchase-order-read.sh
+# odoo-v20/E003-purchase-order-read.sh
 #
 # Plenty-Pendant:
 # plenty/E003-purchase-order-read.sh

@@ -20,7 +20,7 @@
 # G007
 #
 # Odoo-Pendant:
-# odoo/G007-account-draft-moves.sh
+# odoo-v20/G007-account-draft-moves.sh
 #
 # Shopware-Pendant:
 # shopware/G007-account-draft-moves.sh

@@ -20,7 +20,7 @@
 # G013
 #
 # Odoo-Pendant:
-# odoo/G013-account-journal-search.sh
+# odoo-v20/G013-account-journal-search.sh
 #
 # Plenty-Pendant:
 # plenty/G013-account-journal-search.sh

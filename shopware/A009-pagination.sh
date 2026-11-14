@@ -20,7 +20,7 @@
 # A009
 #
 # Odoo-Pendant:
-# odoo/A009-pagination.sh
+# odoo-v20/A009-pagination.sh
 #
 # Plenty-Pendant:
 # plenty/A009-pagination.sh

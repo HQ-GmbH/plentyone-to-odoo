@@ -20,7 +20,7 @@
 # E005
 #
 # Odoo-Pendant:
-# odoo/E005-purchase-order-unlink.sh
+# odoo-v20/E005-purchase-order-unlink.sh
 #
 # Shopware-Pendant:
 # shopware/E005-purchase-order-unlink.sh

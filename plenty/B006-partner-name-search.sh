@@ -20,7 +20,7 @@
 # B006
 #
 # Odoo-Pendant:
-# odoo/B006-partner-name-search.sh
+# odoo-v20/B006-partner-name-search.sh
 #
 # Shopware-Pendant:
 # shopware/B006-partner-name-search.sh

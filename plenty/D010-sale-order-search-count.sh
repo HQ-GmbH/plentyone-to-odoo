@@ -20,7 +20,7 @@
 # D010
 #
 # Odoo-Pendant:
-# odoo/D010-sale-order-search-count.sh
+# odoo-v20/D010-sale-order-search-count.sh
 #
 # Shopware-Pendant:
 # shopware/D010-sale-order-search-count.sh

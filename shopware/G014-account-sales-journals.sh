@@ -20,7 +20,7 @@
 # G014
 #
 # Odoo-Pendant:
-# odoo/G014-account-sales-journals.sh
+# odoo-v20/G014-account-sales-journals.sh
 #
 # Plenty-Pendant:
 # plenty/G014-account-sales-journals.sh

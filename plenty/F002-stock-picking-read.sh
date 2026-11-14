@@ -20,7 +20,7 @@
 # F002
 #
 # Odoo-Pendant:
-# odoo/F002-stock-picking-read.sh
+# odoo-v20/F002-stock-picking-read.sh
 #
 # Shopware-Pendant:
 # shopware/F002-stock-picking-read.sh

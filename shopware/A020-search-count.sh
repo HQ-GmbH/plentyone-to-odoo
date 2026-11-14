@@ -20,7 +20,7 @@
 # A020
 #
 # Odoo-Pendant:
-# odoo/A020-search-count.sh
+# odoo-v20/A020-search-count.sh
 #
 # Plenty-Pendant:
 # plenty/A020-search-count.sh

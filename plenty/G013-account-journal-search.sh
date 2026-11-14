@@ -20,7 +20,7 @@
 # G013
 #
 # Odoo-Pendant:
-# odoo/G013-account-journal-search.sh
+# odoo-v20/G013-account-journal-search.sh
 #
 # Shopware-Pendant:
 # shopware/G013-account-journal-search.sh

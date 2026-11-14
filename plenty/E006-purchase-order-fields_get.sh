@@ -20,7 +20,7 @@
 # E006
 #
 # Odoo-Pendant:
-# odoo/E006-purchase-order-fields_get.sh
+# odoo-v20/E006-purchase-order-fields_get.sh
 #
 # Shopware-Pendant:
 # shopware/E006-purchase-order-fields_get.sh

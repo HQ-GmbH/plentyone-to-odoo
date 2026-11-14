@@ -20,7 +20,7 @@
 # A001
 #
 # Odoo-Pendant:
-# odoo/A001-auth-valid.sh
+# odoo-v20/A001-auth-valid.sh
 #
 # Shopware-Pendant:
 # shopware/A001-auth-valid.sh

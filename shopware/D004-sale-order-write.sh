@@ -20,7 +20,7 @@
 # D004
 #
 # Odoo-Pendant:
-# odoo/D004-sale-order-write.sh
+# odoo-v20/D004-sale-order-write.sh
 #
 # Plenty-Pendant:
 # plenty/D004-sale-order-write.sh

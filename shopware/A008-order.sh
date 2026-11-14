@@ -20,7 +20,7 @@
 # A008
 #
 # Odoo-Pendant:
-# odoo/A008-order.sh
+# odoo-v20/A008-order.sh
 #
 # Plenty-Pendant:
 # plenty/A008-order.sh

@@ -20,7 +20,7 @@
 # G014
 #
 # Odoo-Pendant:
-# odoo/G014-account-sales-journals.sh
+# odoo-v20/G014-account-sales-journals.sh
 #
 # Shopware-Pendant:
 # shopware/G014-account-sales-journals.sh

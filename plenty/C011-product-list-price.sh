@@ -20,7 +20,7 @@
 # C011
 #
 # Odoo-Pendant:
-# odoo/C011-product-list-price.sh
+# odoo-v20/C011-product-list-price.sh
 #
 # Shopware-Pendant:
 # shopware/C011-product-list-price.sh

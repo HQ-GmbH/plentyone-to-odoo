@@ -20,7 +20,7 @@
 # A010
 #
 # Odoo-Pendant:
-# odoo/A010-domain.sh
+# odoo-v20/A010-domain.sh
 #
 # Shopware-Pendant:
 # shopware/A010-domain.sh

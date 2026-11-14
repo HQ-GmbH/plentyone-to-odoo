@@ -20,7 +20,7 @@
 # F004
 #
 # Odoo-Pendant:
-# odoo/F004-stock-picking-incoming.sh
+# odoo-v20/F004-stock-picking-incoming.sh
 #
 # Plenty-Pendant:
 # plenty/F004-stock-picking-incoming.sh

@@ -20,7 +20,7 @@
 # A016
 #
 # Odoo-Pendant:
-# odoo/A016-invalid-model.sh
+# odoo-v20/A016-invalid-model.sh
 #
 # Shopware-Pendant:
 # shopware/A016-invalid-model.sh

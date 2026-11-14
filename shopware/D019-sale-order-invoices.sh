@@ -20,7 +20,7 @@
 # D019
 #
 # Odoo-Pendant:
-# odoo/D019-sale-order-invoices.sh
+# odoo-v20/D019-sale-order-invoices.sh
 #
 # Plenty-Pendant:
 # plenty/D019-sale-order-invoices.sh

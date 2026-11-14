@@ -20,7 +20,7 @@
 # A023
 #
 # Odoo-Pendant:
-# odoo/A023-read_group.sh
+# odoo-v20/A023-read_group.sh
 #
 # Shopware-Pendant:
 # shopware/A023-read_group.sh

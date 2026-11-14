@@ -20,7 +20,7 @@
 # C017
 #
 # Odoo-Pendant:
-# odoo/C017-product-active.sh
+# odoo-v20/C017-product-active.sh
 #
 # Shopware-Pendant:
 # shopware/C017-product-active.sh

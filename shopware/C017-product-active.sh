@@ -20,7 +20,7 @@
 # C017
 #
 # Odoo-Pendant:
-# odoo/C017-product-active.sh
+# odoo-v20/C017-product-active.sh
 #
 # Plenty-Pendant:
 # plenty/C017-product-active.sh

@@ -20,7 +20,7 @@
 # A018
 #
 # Odoo-Pendant:
-# odoo/A018-empty-result.sh
+# odoo-v20/A018-empty-result.sh
 #
 # Shopware-Pendant:
 # shopware/A018-empty-result.sh

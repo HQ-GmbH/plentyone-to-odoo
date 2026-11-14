@@ -20,7 +20,7 @@
 # B019
 #
 # Odoo-Pendant:
-# odoo/B019-partner-pagination.sh
+# odoo-v20/B019-partner-pagination.sh
 #
 # Plenty-Pendant:
 # plenty/B019-partner-pagination.sh

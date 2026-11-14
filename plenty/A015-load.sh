@@ -20,7 +20,7 @@
 # A015
 #
 # Odoo-Pendant:
-# odoo/A015-load.sh
+# odoo-v20/A015-load.sh
 #
 # Shopware-Pendant:
 # shopware/A015-load.sh

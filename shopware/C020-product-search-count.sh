@@ -20,7 +20,7 @@
 # C020
 #
 # Odoo-Pendant:
-# odoo/C020-product-search-count.sh
+# odoo-v20/C020-product-search-count.sh
 #
 # Plenty-Pendant:
 # plenty/C020-product-search-count.sh

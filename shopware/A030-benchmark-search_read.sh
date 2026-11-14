@@ -20,7 +20,7 @@
 # A030
 #
 # Odoo-Pendant:
-# odoo/A030-benchmark-search_read.sh
+# odoo-v20/A030-benchmark-search_read.sh
 #
 # Plenty-Pendant:
 # plenty/A030-benchmark-search_read.sh

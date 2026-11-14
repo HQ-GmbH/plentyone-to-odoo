@@ -20,7 +20,7 @@
 # E017
 #
 # Odoo-Pendant:
-# odoo/E017-purchase-order-company.sh
+# odoo-v20/E017-purchase-order-company.sh
 #
 # Plenty-Pendant:
 # plenty/E017-purchase-order-company.sh

@@ -20,7 +20,7 @@
 # D007
 #
 # Odoo-Pendant:
-# odoo/D007-sale-order-customer.sh
+# odoo-v20/D007-sale-order-customer.sh
 #
 # Plenty-Pendant:
 # plenty/D007-sale-order-customer.sh

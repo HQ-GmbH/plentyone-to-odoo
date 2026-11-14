@@ -20,7 +20,7 @@
 # A016
 #
 # Odoo-Pendant:
-# odoo/A016-invalid-model.sh
+# odoo-v20/A016-invalid-model.sh
 #
 # Plenty-Pendant:
 # plenty/A016-invalid-model.sh

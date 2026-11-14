@@ -20,7 +20,7 @@
 # B001
 #
 # Odoo-Pendant:
-# odoo/B001-partner-search.sh
+# odoo-v20/B001-partner-search.sh
 #
 # Shopware-Pendant:
 # shopware/B001-partner-search.sh

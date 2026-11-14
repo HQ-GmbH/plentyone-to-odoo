@@ -20,7 +20,7 @@
 # A015
 #
 # Odoo-Pendant:
-# odoo/A015-load.sh
+# odoo-v20/A015-load.sh
 #
 # Plenty-Pendant:
 # plenty/A015-load.sh

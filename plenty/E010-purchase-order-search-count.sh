@@ -20,7 +20,7 @@
 # E010
 #
 # Odoo-Pendant:
-# odoo/E010-purchase-order-search-count.sh
+# odoo-v20/E010-purchase-order-search-count.sh
 #
 # Shopware-Pendant:
 # shopware/E010-purchase-order-search-count.sh

@@ -20,7 +20,7 @@
 # B009
 #
 # Odoo-Pendant:
-# odoo/B009-partner-individuals.sh
+# odoo-v20/B009-partner-individuals.sh
 #
 # Plenty-Pendant:
 # plenty/B009-partner-individuals.sh

@@ -20,7 +20,7 @@
 # C016
 #
 # Odoo-Pendant:
-# odoo/C016-product-purchase-uom.sh
+# odoo-v20/C016-product-purchase-uom.sh
 #
 # Plenty-Pendant:
 # plenty/C016-product-purchase-uom.sh

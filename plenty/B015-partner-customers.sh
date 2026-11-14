@@ -20,7 +20,7 @@
 # B015
 #
 # Odoo-Pendant:
-# odoo/B015-partner-customers.sh
+# odoo-v20/B015-partner-customers.sh
 #
 # Shopware-Pendant:
 # shopware/B015-partner-customers.sh

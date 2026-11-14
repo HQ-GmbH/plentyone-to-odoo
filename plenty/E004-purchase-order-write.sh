@@ -20,7 +20,7 @@
 # E004
 #
 # Odoo-Pendant:
-# odoo/E004-purchase-order-write.sh
+# odoo-v20/E004-purchase-order-write.sh
 #
 # Shopware-Pendant:
 # shopware/E004-purchase-order-write.sh

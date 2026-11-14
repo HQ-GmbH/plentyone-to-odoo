@@ -20,7 +20,7 @@
 # B010
 #
 # Odoo-Pendant:
-# odoo/B010-partner-email.sh
+# odoo-v20/B010-partner-email.sh
 #
 # Shopware-Pendant:
 # shopware/B010-partner-email.sh

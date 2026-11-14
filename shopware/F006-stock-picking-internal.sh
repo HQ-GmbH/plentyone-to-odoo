@@ -20,7 +20,7 @@
 # F006
 #
 # Odoo-Pendant:
-# odoo/F006-stock-picking-internal.sh
+# odoo-v20/F006-stock-picking-internal.sh
 #
 # Plenty-Pendant:
 # plenty/F006-stock-picking-internal.sh

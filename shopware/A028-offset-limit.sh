@@ -20,7 +20,7 @@
 # A028
 #
 # Odoo-Pendant:
-# odoo/A028-offset-limit.sh
+# odoo-v20/A028-offset-limit.sh
 #
 # Plenty-Pendant:
 # plenty/A028-offset-limit.sh

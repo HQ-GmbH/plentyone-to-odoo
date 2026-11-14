@@ -1,6 +1,6 @@
 # Shopware 6.7 Admin API Reference Tests
 
-Drittes Gegenstück (nach [`../odoo`](../odoo) und [`../plenty`](../plenty)) -
+Drittes Gegenstück (nach [`../odoo-v19`](../odoo-v19)/[`../odoo-v20`](../odoo-v20) und [`../plenty`](../plenty)) -
 dieselben Test-IDs, dieselbe Struktur, aber gegen die Shopware 6.7 Admin API.
 
 ## Voraussetzungen
@@ -22,7 +22,7 @@ export SHOPWARE_CLIENT_SECRET="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 ## Ausführung
 
-Wie bei `../odoo` und `../plenty`: aus diesem Verzeichnis heraus ausführen.
+Wie bei `../plenty`: aus diesem Verzeichnis heraus ausführen.
 
 ```bash
 cd shopware
@@ -36,9 +36,9 @@ gültig** - deutlich kürzer als bei Odoo (kein Ablauf) oder Plenty (24h). Es
 gibt beim `client_credentials`-Grant kein Refresh-Token; `_login.sh` holt bei
 jedem Skriptlauf einfach einen frischen Token.
 
-## Warum nicht alle odoo/-Skripte eine (volle) Entsprechung haben
+## Warum nicht alle Odoo-Skripte eine (volle) Entsprechung haben
 
-* **Serien H (RabbitMQ), I (Checkmk), J (Prometheus)** aus `../odoo` fehlen
+* **Serien H (RabbitMQ), I (Checkmk), J (Prometheus)** aus `../odoo-v19` bzw. `../odoo-v20` fehlen
   hier aus demselben Grund wie bei `../plenty`: sie testen Infrastruktur
   hinter einer selbstgehosteten Odoo-Installation, keine Shop-/ERP-API.
 * **Serie E (Einkauf)** ist komplett `GAP`: Shopware Core hat kein

@@ -20,7 +20,7 @@
 # F001
 #
 # Odoo-Pendant:
-# odoo/F001-stock-picking-search.sh
+# odoo-v20/F001-stock-picking-search.sh
 #
 # Plenty-Pendant:
 # plenty/F001-stock-picking-search.sh

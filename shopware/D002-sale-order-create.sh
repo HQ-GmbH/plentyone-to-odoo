@@ -20,7 +20,7 @@
 # D002
 #
 # Odoo-Pendant:
-# odoo/D002-sale-order-create.sh
+# odoo-v20/D002-sale-order-create.sh
 #
 # Plenty-Pendant:
 # plenty/D002-sale-order-create.sh

@@ -3,13 +3,18 @@
 Technische Referenz für die Migration von PlentyONE zu Odoo 19 mit Shopware 6
 als bestehendem E-Commerce-Frontend.
 
-# Odoo 19 JSON-2 API Reference Tests
+# Odoo JSON-2 API Reference Tests (Odoo 19 und 20)
 
 ## Ziel
 
-Dieses Repository enthält praktisch validierte Referenzimplementierungen der Odoo 19 JSON-2 API.
+Dieses Repository enthält Referenzimplementierungen der Odoo JSON-2 API in zwei Fassungen:
 
-Alle Beispiele wurden gegen eine reale Odoo-19-Instanz getestet und bilden die Grundlage des Referenzwerks
+| Ordner | Odoo-Version | Stand |
+|---|---|---|
+| [`odoo-v19/`](odoo-v19/) | Odoo 19 | praktisch validiert gegen eine reale Odoo-19-Instanz |
+| [`odoo-v20/`](odoo-v20/) | Odoo 20 | aus `odoo-v19/` übernommen, Test gegen eine reale Odoo-20-Instanz steht aus |
+
+Die Beispiele bilden die Grundlage des Referenzwerks
 
 > **Technisches Referenzwerk: PlentyONE → Odoo 19 mit Shopware 6**
 
@@ -40,7 +45,7 @@ Die Beispiele dienen als reproduzierbare Referenz für
 
 # Voraussetzungen
 
-* Odoo 19
+* Odoo 19 oder Odoo 20
 * JSON-2 API aktiviert
 * API-Key
 * curl ≥ 8.x
@@ -50,20 +55,21 @@ Die Beispiele dienen als reproduzierbare Referenz für
 # Beispiel
 
 ```bash
-./odoo/A005-search_read.sh
+cp config/config.example.sh config.sh   # Werte eintragen
+./odoo-v19/A005-search_read.sh          # bzw. ./odoo-v20/A005-search_read.sh
 ```
 
 ---
 
 # Plenty REST API Reference Tests
 
-Im Ordner [`plenty/`](plenty/) liegt das Gegenstück zu `odoo/`: dieselben
+Im Ordner [`plenty/`](plenty/) liegt das Gegenstück zu `odoo-v19/` und `odoo-v20/`: dieselben
 Test-IDs (A001-G020), aber gegen die PlentyMarkets/PlentyONE REST API. Ziel ist
 es, für jeden Odoo-JSON-2-Testfall eine sinnvolle Plenty-Entsprechung zu
 dokumentieren - inklusive der Fälle, in denen es **keine** direkte
 Entsprechung gibt (z.B. Odoos Buchhaltungsmodell `account.move`).
 
-**Wichtiger Unterschied zu den `odoo/`-Skripten:** Die `plenty/`-Skripte wurden
+**Wichtiger Unterschied zu den Odoo-Skripten:** Die `plenty/`-Skripte wurden
 auf Basis der offiziellen Plenty-Dokumentation und des öffentlichen
 OpenAPI-Schemas erstellt und geprüft. Details und Migrationshinweise:
 [`plenty/README.md`](plenty/README.md) und [`MIGRATION_NOTES.md`](MIGRATION_NOTES.md).
@@ -92,7 +98,7 @@ Skripts:
 
 | Ordner | Review |
 |---|---|
-| [`odoo/`](odoo/) | [**Mathias Goldhan**](https://www.hqgmbh.de/autoren/mathias-goldhan/), Enterprise-Architekt |
+| [`odoo-v19/`](odoo-v19/), [`odoo-v20/`](odoo-v20/) | [**Mathias Goldhan**](https://www.hqgmbh.de/autoren/mathias-goldhan/), Enterprise-Architekt |
 | [`plenty/`](plenty/) | [**Lukas Ehrenberg**](https://www.hqgmbh.de/autoren/lukas-ehrenberg/), Senior Shopware Developer & Cluster-Spezialist |
 | [`shopware/`](shopware/) | [**Christopher Einenkel**](https://www.hqgmbh.de/autoren/christopher-einenkel/), Senior Integration Architect & API Specialist |
 
@@ -106,8 +112,9 @@ Apache-2.0 License
 
 # Haftung
 
-Die Beispiele unter `odoo/` wurden produktiv getestet, die unter `shopware/`
-gegen eine echte Shopware-Instanz. Die unter `plenty/` wurden geprüft und
+Die Beispiele unter `odoo-v19/` wurden produktiv getestet, die unter
+`odoo-v20/` bisher nur gegen einen lokalen Mock-Server (Format der Anfragen),
+die unter `shopware/` gegen eine echte Shopware-Instanz. Die unter `plenty/` wurden geprüft und
 zusätzlich systematisch gegen das offizielle OpenAPI-Schema abgeglichen (siehe
 [`plenty/README.md`](plenty/README.md)).
 

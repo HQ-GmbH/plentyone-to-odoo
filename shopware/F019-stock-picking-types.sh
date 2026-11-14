@@ -20,7 +20,7 @@
 # F019
 #
 # Odoo-Pendant:
-# odoo/F019-stock-picking-types.sh
+# odoo-v20/F019-stock-picking-types.sh
 #
 # Plenty-Pendant:
 # plenty/F019-stock-picking-types.sh

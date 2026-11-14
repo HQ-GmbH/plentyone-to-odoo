@@ -20,7 +20,7 @@
 # C004
 #
 # Odoo-Pendant:
-# odoo/C004-product-write.sh
+# odoo-v20/C004-product-write.sh
 #
 # Shopware-Pendant:
 # shopware/C004-product-write.sh

@@ -20,7 +20,7 @@
 # E008
 #
 # Odoo-Pendant:
-# odoo/E008-purchase-order-rfq.sh
+# odoo-v20/E008-purchase-order-rfq.sh
 #
 # Shopware-Pendant:
 # shopware/E008-purchase-order-rfq.sh
