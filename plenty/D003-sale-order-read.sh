@@ -20,7 +20,7 @@
 # D003
 #
 # Odoo-Pendant:
-# odoo/D003-sale-order-read.sh
+# odoo-v20/D003-sale-order-read.sh
 #
 # Shopware-Pendant:
 # shopware/D003-sale-order-read.sh

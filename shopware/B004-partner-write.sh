@@ -20,7 +20,7 @@
 # B004
 #
 # Odoo-Pendant:
-# odoo/B004-partner-write.sh
+# odoo-v20/B004-partner-write.sh
 #
 # Plenty-Pendant:
 # plenty/B004-partner-write.sh

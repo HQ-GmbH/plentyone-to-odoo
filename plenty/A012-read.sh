@@ -20,7 +20,7 @@
 # A012
 #
 # Odoo-Pendant:
-# odoo/A012-read.sh
+# odoo-v20/A012-read.sh
 #
 # Shopware-Pendant:
 # shopware/A012-read.sh

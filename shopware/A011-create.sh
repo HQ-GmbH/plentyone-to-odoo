@@ -20,7 +20,7 @@
 # A011
 #
 # Odoo-Pendant:
-# odoo/A011-create.sh
+# odoo-v20/A011-create.sh
 #
 # Plenty-Pendant:
 # plenty/A011-create.sh

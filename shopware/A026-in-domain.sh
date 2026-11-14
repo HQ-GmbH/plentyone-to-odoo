@@ -20,7 +20,7 @@
 # A026
 #
 # Odoo-Pendant:
-# odoo/A026-in-domain.sh
+# odoo-v20/A026-in-domain.sh
 #
 # Plenty-Pendant:
 # plenty/A026-in-domain.sh

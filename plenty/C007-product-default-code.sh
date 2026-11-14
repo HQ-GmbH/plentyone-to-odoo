@@ -20,7 +20,7 @@
 # C007
 #
 # Odoo-Pendant:
-# odoo/C007-product-default-code.sh
+# odoo-v20/C007-product-default-code.sh
 #
 # Shopware-Pendant:
 # shopware/C007-product-default-code.sh

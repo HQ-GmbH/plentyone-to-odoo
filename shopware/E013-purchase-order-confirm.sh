@@ -20,7 +20,7 @@
 # E013
 #
 # Odoo-Pendant:
-# odoo/E013-purchase-order-confirm.sh
+# odoo-v20/E013-purchase-order-confirm.sh
 #
 # Plenty-Pendant:
 # plenty/E013-purchase-order-confirm.sh

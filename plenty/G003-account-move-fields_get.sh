@@ -20,7 +20,7 @@
 # G003
 #
 # Odoo-Pendant:
-# odoo/G003-account-move-fields_get.sh
+# odoo-v20/G003-account-move-fields_get.sh
 #
 # Shopware-Pendant:
 # shopware/G003-account-move-fields_get.sh

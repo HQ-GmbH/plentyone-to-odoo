@@ -20,7 +20,7 @@
 # C002
 #
 # Odoo-Pendant:
-# odoo/C002-product-create.sh
+# odoo-v20/C002-product-create.sh
 #
 # Shopware-Pendant:
 # shopware/C002-product-create.sh

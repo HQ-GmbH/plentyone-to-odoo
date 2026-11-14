@@ -20,7 +20,7 @@
 # D012
 #
 # Odoo-Pendant:
-# odoo/D012-sale-order-lines.sh
+# odoo-v20/D012-sale-order-lines.sh
 #
 # Plenty-Pendant:
 # plenty/D012-sale-order-lines.sh

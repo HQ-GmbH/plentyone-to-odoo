@@ -20,7 +20,7 @@
 # A025
 #
 # Odoo-Pendant:
-# odoo/A025-ilike-domain.sh
+# odoo-v20/A025-ilike-domain.sh
 #
 # Plenty-Pendant:
 # plenty/A025-ilike-domain.sh

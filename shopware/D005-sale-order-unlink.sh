@@ -20,7 +20,7 @@
 # D005
 #
 # Odoo-Pendant:
-# odoo/D005-sale-order-unlink.sh
+# odoo-v20/D005-sale-order-unlink.sh
 #
 # Plenty-Pendant:
 # plenty/D005-sale-order-unlink.sh

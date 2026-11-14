@@ -20,7 +20,7 @@
 # B012
 #
 # Odoo-Pendant:
-# odoo/B012-partner-delivery-address.sh
+# odoo-v20/B012-partner-delivery-address.sh
 #
 # Plenty-Pendant:
 # plenty/B012-partner-delivery-address.sh

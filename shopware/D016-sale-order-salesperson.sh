@@ -20,7 +20,7 @@
 # D016
 #
 # Odoo-Pendant:
-# odoo/D016-sale-order-salesperson.sh
+# odoo-v20/D016-sale-order-salesperson.sh
 #
 # Plenty-Pendant:
 # plenty/D016-sale-order-salesperson.sh

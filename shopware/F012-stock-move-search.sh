@@ -20,7 +20,7 @@
 # F012
 #
 # Odoo-Pendant:
-# odoo/F012-stock-move-search.sh
+# odoo-v20/F012-stock-move-search.sh
 #
 # Plenty-Pendant:
 # plenty/F012-stock-move-search.sh

@@ -20,7 +20,7 @@
 # G019
 #
 # Odoo-Pendant:
-# odoo/G019-account-payable.sh
+# odoo-v20/G019-account-payable.sh
 #
 # Shopware-Pendant:
 # shopware/G019-account-payable.sh

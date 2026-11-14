@@ -20,7 +20,7 @@
 # A017
 #
 # Odoo-Pendant:
-# odoo/A017-invalid-field.sh
+# odoo-v20/A017-invalid-field.sh
 #
 # Plenty-Pendant:
 # plenty/A017-invalid-field.sh

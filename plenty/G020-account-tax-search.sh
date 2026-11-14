@@ -20,7 +20,7 @@
 # G020
 #
 # Odoo-Pendant:
-# odoo/G020-account-tax-search.sh
+# odoo-v20/G020-account-tax-search.sh
 #
 # Shopware-Pendant:
 # shopware/G020-account-tax-search.sh

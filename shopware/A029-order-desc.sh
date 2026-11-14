@@ -20,7 +20,7 @@
 # A029
 #
 # Odoo-Pendant:
-# odoo/A029-order-desc.sh
+# odoo-v20/A029-order-desc.sh
 #
 # Plenty-Pendant:
 # plenty/A029-order-desc.sh

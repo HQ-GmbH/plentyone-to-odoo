@@ -20,7 +20,7 @@
 # E012
 #
 # Odoo-Pendant:
-# odoo/E012-purchase-order-lines.sh
+# odoo-v20/E012-purchase-order-lines.sh
 #
 # Shopware-Pendant:
 # shopware/E012-purchase-order-lines.sh

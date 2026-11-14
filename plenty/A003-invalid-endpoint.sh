@@ -20,7 +20,7 @@
 # A003
 #
 # Odoo-Pendant:
-# odoo/A003-invalid-endpoint.sh
+# odoo-v20/A003-invalid-endpoint.sh
 #
 # Shopware-Pendant:
 # shopware/A003-invalid-endpoint.sh

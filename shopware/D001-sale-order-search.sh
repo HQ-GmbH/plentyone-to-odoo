@@ -20,7 +20,7 @@
 # D001
 #
 # Odoo-Pendant:
-# odoo/D001-sale-order-search.sh
+# odoo-v20/D001-sale-order-search.sh
 #
 # Plenty-Pendant:
 # plenty/D001-sale-order-search.sh

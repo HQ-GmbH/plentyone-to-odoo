@@ -20,7 +20,7 @@
 # A008
 #
 # Odoo-Pendant:
-# odoo/A008-order.sh
+# odoo-v20/A008-order.sh
 #
 # Shopware-Pendant:
 # shopware/A008-order.sh

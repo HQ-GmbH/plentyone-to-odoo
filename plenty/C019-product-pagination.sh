@@ -20,7 +20,7 @@
 # C019
 #
 # Odoo-Pendant:
-# odoo/C019-product-pagination.sh
+# odoo-v20/C019-product-pagination.sh
 #
 # Shopware-Pendant:
 # shopware/C019-product-pagination.sh

@@ -20,7 +20,7 @@
 # F013
 #
 # Odoo-Pendant:
-# odoo/F013-stock-move-available.sh
+# odoo-v20/F013-stock-move-available.sh
 #
 # Plenty-Pendant:
 # plenty/F013-stock-move-available.sh

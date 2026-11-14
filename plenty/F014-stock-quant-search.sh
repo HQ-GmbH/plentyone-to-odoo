@@ -20,7 +20,7 @@
 # F014
 #
 # Odoo-Pendant:
-# odoo/F014-stock-quant-search.sh
+# odoo-v20/F014-stock-quant-search.sh
 #
 # Shopware-Pendant:
 # shopware/F014-stock-quant-search.sh

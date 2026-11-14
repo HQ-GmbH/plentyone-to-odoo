@@ -20,7 +20,7 @@
 # C006
 #
 # Odoo-Pendant:
-# odoo/C006-product-fields_get.sh
+# odoo-v20/C006-product-fields_get.sh
 #
 # Plenty-Pendant:
 # plenty/C006-product-fields_get.sh

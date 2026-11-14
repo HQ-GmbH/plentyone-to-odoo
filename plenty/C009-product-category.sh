@@ -20,7 +20,7 @@
 # C009
 #
 # Odoo-Pendant:
-# odoo/C009-product-category.sh
+# odoo-v20/C009-product-category.sh
 #
 # Shopware-Pendant:
 # shopware/C009-product-category.sh

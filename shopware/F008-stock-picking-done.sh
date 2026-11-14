@@ -20,7 +20,7 @@
 # F008
 #
 # Odoo-Pendant:
-# odoo/F008-stock-picking-done.sh
+# odoo-v20/F008-stock-picking-done.sh
 #
 # Plenty-Pendant:
 # plenty/F008-stock-picking-done.sh

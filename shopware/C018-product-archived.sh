@@ -20,7 +20,7 @@
 # C018
 #
 # Odoo-Pendant:
-# odoo/C018-product-archived.sh
+# odoo-v20/C018-product-archived.sh
 #
 # Plenty-Pendant:
 # plenty/C018-product-archived.sh

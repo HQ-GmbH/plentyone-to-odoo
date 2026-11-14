@@ -20,7 +20,7 @@
 # G012
 #
 # Odoo-Pendant:
-# odoo/G012-account-move-lines.sh
+# odoo-v20/G012-account-move-lines.sh
 #
 # Shopware-Pendant:
 # shopware/G012-account-move-lines.sh

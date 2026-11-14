@@ -20,7 +20,7 @@
 # E015
 #
 # Odoo-Pendant:
-# odoo/E015-purchase-order-invoice-status.sh
+# odoo-v20/E015-purchase-order-invoice-status.sh
 #
 # Shopware-Pendant:
 # shopware/E015-purchase-order-invoice-status.sh

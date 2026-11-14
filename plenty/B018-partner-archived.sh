@@ -20,7 +20,7 @@
 # B018
 #
 # Odoo-Pendant:
-# odoo/B018-partner-archived.sh
+# odoo-v20/B018-partner-archived.sh
 #
 # Shopware-Pendant:
 # shopware/B018-partner-archived.sh

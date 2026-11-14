@@ -20,7 +20,7 @@
 # C015
 #
 # Odoo-Pendant:
-# odoo/C015-product-uom.sh
+# odoo-v20/C015-product-uom.sh
 #
 # Shopware-Pendant:
 # shopware/C015-product-uom.sh

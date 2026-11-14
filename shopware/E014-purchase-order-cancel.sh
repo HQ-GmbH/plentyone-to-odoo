@@ -20,7 +20,7 @@
 # E014
 #
 # Odoo-Pendant:
-# odoo/E014-purchase-order-cancel.sh
+# odoo-v20/E014-purchase-order-cancel.sh
 #
 # Plenty-Pendant:
 # plenty/E014-purchase-order-cancel.sh

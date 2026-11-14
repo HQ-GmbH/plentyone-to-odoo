@@ -20,7 +20,7 @@
 # A013
 #
 # Odoo-Pendant:
-# odoo/A013-write.sh
+# odoo-v20/A013-write.sh
 #
 # Plenty-Pendant:
 # plenty/A013-write.sh

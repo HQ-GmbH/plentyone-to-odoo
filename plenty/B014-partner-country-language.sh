@@ -20,7 +20,7 @@
 # B014
 #
 # Odoo-Pendant:
-# odoo/B014-partner-country-language.sh
+# odoo-v20/B014-partner-country-language.sh
 #
 # Shopware-Pendant:
 # shopware/B014-partner-country-language.sh

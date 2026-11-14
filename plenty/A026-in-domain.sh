@@ -20,7 +20,7 @@
 # A026
 #
 # Odoo-Pendant:
-# odoo/A026-in-domain.sh
+# odoo-v20/A026-in-domain.sh
 #
 # Shopware-Pendant:
 # shopware/A026-in-domain.sh

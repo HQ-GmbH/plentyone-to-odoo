@@ -20,7 +20,7 @@
 # E020
 #
 # Odoo-Pendant:
-# odoo/E020-purchase-order-bills.sh
+# odoo-v20/E020-purchase-order-bills.sh
 #
 # Shopware-Pendant:
 # shopware/E020-purchase-order-bills.sh

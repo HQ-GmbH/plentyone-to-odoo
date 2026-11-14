@@ -20,7 +20,7 @@
 # E011
 #
 # Odoo-Pendant:
-# odoo/E011-purchase-order-total.sh
+# odoo-v20/E011-purchase-order-total.sh
 #
 # Plenty-Pendant:
 # plenty/E011-purchase-order-total.sh

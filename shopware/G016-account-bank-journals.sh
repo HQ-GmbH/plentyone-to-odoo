@@ -20,7 +20,7 @@
 # G016
 #
 # Odoo-Pendant:
-# odoo/G016-account-bank-journals.sh
+# odoo-v20/G016-account-bank-journals.sh
 #
 # Plenty-Pendant:
 # plenty/G016-account-bank-journals.sh

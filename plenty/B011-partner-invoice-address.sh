@@ -20,7 +20,7 @@
 # B011
 #
 # Odoo-Pendant:
-# odoo/B011-partner-invoice-address.sh
+# odoo-v20/B011-partner-invoice-address.sh
 #
 # Shopware-Pendant:
 # shopware/B011-partner-invoice-address.sh

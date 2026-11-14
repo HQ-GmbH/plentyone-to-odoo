@@ -20,7 +20,7 @@
 # E018
 #
 # Odoo-Pendant:
-# odoo/E018-purchase-order-pagination.sh
+# odoo-v20/E018-purchase-order-pagination.sh
 #
 # Plenty-Pendant:
 # plenty/E018-purchase-order-pagination.sh

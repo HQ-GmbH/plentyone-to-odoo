@@ -20,7 +20,7 @@
 # A011
 #
 # Odoo-Pendant:
-# odoo/A011-create.sh
+# odoo-v20/A011-create.sh
 #
 # Shopware-Pendant:
 # shopware/A011-create.sh

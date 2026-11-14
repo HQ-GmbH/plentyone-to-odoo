@@ -20,7 +20,7 @@
 # G006
 #
 # Odoo-Pendant:
-# odoo/G006-account-credit-notes.sh
+# odoo-v20/G006-account-credit-notes.sh
 #
 # Plenty-Pendant:
 # plenty/G006-account-credit-notes.sh

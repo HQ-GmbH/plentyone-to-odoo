@@ -20,7 +20,7 @@
 # F017
 #
 # Odoo-Pendant:
-# odoo/F017-stock-location-internal.sh
+# odoo-v20/F017-stock-location-internal.sh
 #
 # Shopware-Pendant:
 # shopware/F017-stock-location-internal.sh

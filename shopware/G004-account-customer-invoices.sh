@@ -20,7 +20,7 @@
 # G004
 #
 # Odoo-Pendant:
-# odoo/G004-account-customer-invoices.sh
+# odoo-v20/G004-account-customer-invoices.sh
 #
 # Plenty-Pendant:
 # plenty/G004-account-customer-invoices.sh

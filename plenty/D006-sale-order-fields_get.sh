@@ -20,7 +20,7 @@
 # D006
 #
 # Odoo-Pendant:
-# odoo/D006-sale-order-fields_get.sh
+# odoo-v20/D006-sale-order-fields_get.sh
 #
 # Shopware-Pendant:
 # shopware/D006-sale-order-fields_get.sh

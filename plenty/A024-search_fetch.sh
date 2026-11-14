@@ -20,7 +20,7 @@
 # A024
 #
 # Odoo-Pendant:
-# odoo/A024-search_fetch.sh
+# odoo-v20/A024-search_fetch.sh
 #
 # Shopware-Pendant:
 # shopware/A024-search_fetch.sh

@@ -20,7 +20,7 @@
 # B008
 #
 # Odoo-Pendant:
-# odoo/B008-partner-companies.sh
+# odoo-v20/B008-partner-companies.sh
 #
 # Shopware-Pendant:
 # shopware/B008-partner-companies.sh

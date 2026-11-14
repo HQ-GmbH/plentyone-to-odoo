@@ -20,7 +20,7 @@
 # E016
 #
 # Odoo-Pendant:
-# odoo/E016-purchase-order-receipt-status.sh
+# odoo-v20/E016-purchase-order-receipt-status.sh
 #
 # Shopware-Pendant:
 # shopware/E016-purchase-order-receipt-status.sh

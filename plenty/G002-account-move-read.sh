@@ -20,7 +20,7 @@
 # G002
 #
 # Odoo-Pendant:
-# odoo/G002-account-move-read.sh
+# odoo-v20/G002-account-move-read.sh
 #
 # Shopware-Pendant:
 # shopware/G002-account-move-read.sh

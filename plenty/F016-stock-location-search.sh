@@ -20,7 +20,7 @@
 # F016
 #
 # Odoo-Pendant:
-# odoo/F016-stock-location-search.sh
+# odoo-v20/F016-stock-location-search.sh
 #
 # Shopware-Pendant:
 # shopware/F016-stock-location-search.sh

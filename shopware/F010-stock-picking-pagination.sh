@@ -20,7 +20,7 @@
 # F010
 #
 # Odoo-Pendant:
-# odoo/F010-stock-picking-pagination.sh
+# odoo-v20/F010-stock-picking-pagination.sh
 #
 # Plenty-Pendant:
 # plenty/F010-stock-picking-pagination.sh

@@ -20,7 +20,7 @@
 # E001
 #
 # Odoo-Pendant:
-# odoo/E001-purchase-order-search.sh
+# odoo-v20/E001-purchase-order-search.sh
 #
 # Shopware-Pendant:
 # shopware/E001-purchase-order-search.sh

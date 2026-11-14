@@ -20,7 +20,7 @@
 # G010
 #
 # Odoo-Pendant:
-# odoo/G010-account-move-pagination.sh
+# odoo-v20/G010-account-move-pagination.sh
 #
 # Shopware-Pendant:
 # shopware/G010-account-move-pagination.sh

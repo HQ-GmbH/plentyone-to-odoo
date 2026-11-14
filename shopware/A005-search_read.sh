@@ -20,7 +20,7 @@
 # A005
 #
 # Odoo-Pendant:
-# odoo/A005-search_read.sh
+# odoo-v20/A005-search_read.sh
 #
 # Plenty-Pendant:
 # plenty/A005-search_read.sh

@@ -20,7 +20,7 @@
 # G019
 #
 # Odoo-Pendant:
-# odoo/G019-account-payable.sh
+# odoo-v20/G019-account-payable.sh
 #
 # Plenty-Pendant:
 # plenty/G019-account-payable.sh

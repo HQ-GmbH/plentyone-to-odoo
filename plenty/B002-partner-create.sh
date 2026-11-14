@@ -20,7 +20,7 @@
 # B002
 #
 # Odoo-Pendant:
-# odoo/B002-partner-create.sh
+# odoo-v20/B002-partner-create.sh
 #
 # Shopware-Pendant:
 # shopware/B002-partner-create.sh

@@ -20,7 +20,7 @@
 # F016
 #
 # Odoo-Pendant:
-# odoo/F016-stock-location-search.sh
+# odoo-v20/F016-stock-location-search.sh
 #
 # Plenty-Pendant:
 # plenty/F016-stock-location-search.sh

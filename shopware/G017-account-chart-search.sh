@@ -20,7 +20,7 @@
 # G017
 #
 # Odoo-Pendant:
-# odoo/G017-account-chart-search.sh
+# odoo-v20/G017-account-chart-search.sh
 #
 # Plenty-Pendant:
 # plenty/G017-account-chart-search.sh

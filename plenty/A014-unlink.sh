@@ -20,7 +20,7 @@
 # A014
 #
 # Odoo-Pendant:
-# odoo/A014-unlink.sh
+# odoo-v20/A014-unlink.sh
 #
 # Shopware-Pendant:
 # shopware/A014-unlink.sh

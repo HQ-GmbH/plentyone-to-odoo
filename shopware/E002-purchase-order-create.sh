@@ -20,7 +20,7 @@
 # E002
 #
 # Odoo-Pendant:
-# odoo/E002-purchase-order-create.sh
+# odoo-v20/E002-purchase-order-create.sh
 #
 # Plenty-Pendant:
 # plenty/E002-purchase-order-create.sh

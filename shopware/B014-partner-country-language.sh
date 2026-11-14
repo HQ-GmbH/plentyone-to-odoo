@@ -20,7 +20,7 @@
 # B014
 #
 # Odoo-Pendant:
-# odoo/B014-partner-country-language.sh
+# odoo-v20/B014-partner-country-language.sh
 #
 # Plenty-Pendant:
 # plenty/B014-partner-country-language.sh

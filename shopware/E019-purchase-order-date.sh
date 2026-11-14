@@ -20,7 +20,7 @@
 # E019
 #
 # Odoo-Pendant:
-# odoo/E019-purchase-order-date.sh
+# odoo-v20/E019-purchase-order-date.sh
 #
 # Plenty-Pendant:
 # plenty/E019-purchase-order-date.sh

@@ -20,7 +20,7 @@
 # F018
 #
 # Odoo-Pendant:
-# odoo/F018-stock-warehouse-search.sh
+# odoo-v20/F018-stock-warehouse-search.sh
 #
 # Shopware-Pendant:
 # shopware/F018-stock-warehouse-search.sh

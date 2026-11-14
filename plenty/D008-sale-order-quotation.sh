@@ -20,7 +20,7 @@
 # D008
 #
 # Odoo-Pendant:
-# odoo/D008-sale-order-quotation.sh
+# odoo-v20/D008-sale-order-quotation.sh
 #
 # Shopware-Pendant:
 # shopware/D008-sale-order-quotation.sh

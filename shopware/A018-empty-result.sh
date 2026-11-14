@@ -20,7 +20,7 @@
 # A018
 #
 # Odoo-Pendant:
-# odoo/A018-empty-result.sh
+# odoo-v20/A018-empty-result.sh
 #
 # Plenty-Pendant:
 # plenty/A018-empty-result.sh

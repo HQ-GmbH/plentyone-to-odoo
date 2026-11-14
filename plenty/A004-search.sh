@@ -20,7 +20,7 @@
 # A004
 #
 # Odoo-Pendant:
-# odoo/A004-search.sh
+# odoo-v20/A004-search.sh
 #
 # Shopware-Pendant:
 # shopware/A004-search.sh

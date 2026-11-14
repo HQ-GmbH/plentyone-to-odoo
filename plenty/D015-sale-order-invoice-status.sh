@@ -20,7 +20,7 @@
 # D015
 #
 # Odoo-Pendant:
-# odoo/D015-sale-order-invoice-status.sh
+# odoo-v20/D015-sale-order-invoice-status.sh
 #
 # Shopware-Pendant:
 # shopware/D015-sale-order-invoice-status.sh

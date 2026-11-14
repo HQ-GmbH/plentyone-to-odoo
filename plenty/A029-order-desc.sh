@@ -20,7 +20,7 @@
 # A029
 #
 # Odoo-Pendant:
-# odoo/A029-order-desc.sh
+# odoo-v20/A029-order-desc.sh
 #
 # Shopware-Pendant:
 # shopware/A029-order-desc.sh

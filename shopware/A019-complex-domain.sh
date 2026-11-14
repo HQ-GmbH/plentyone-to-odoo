@@ -20,7 +20,7 @@
 # A019
 #
 # Odoo-Pendant:
-# odoo/A019-complex-domain.sh
+# odoo-v20/A019-complex-domain.sh
 #
 # Plenty-Pendant:
 # plenty/A019-complex-domain.sh

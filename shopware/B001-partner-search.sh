@@ -20,7 +20,7 @@
 # B001
 #
 # Odoo-Pendant:
-# odoo/B001-partner-search.sh
+# odoo-v20/B001-partner-search.sh
 #
 # Plenty-Pendant:
 # plenty/B001-partner-search.sh

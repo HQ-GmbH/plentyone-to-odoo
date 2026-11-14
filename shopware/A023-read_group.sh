@@ -20,7 +20,7 @@
 # A023
 #
 # Odoo-Pendant:
-# odoo/A023-read_group.sh
+# odoo-v20/A023-read_group.sh
 #
 # Plenty-Pendant:
 # plenty/A023-read_group.sh

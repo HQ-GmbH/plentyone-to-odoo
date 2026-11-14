@@ -20,7 +20,7 @@
 # C013
 #
 # Odoo-Pendant:
-# odoo/C013-product-sales-tax.sh
+# odoo-v20/C013-product-sales-tax.sh
 #
 # Shopware-Pendant:
 # shopware/C013-product-sales-tax.sh

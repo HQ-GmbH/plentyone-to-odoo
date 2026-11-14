@@ -20,7 +20,7 @@
 # C001
 #
 # Odoo-Pendant:
-# odoo/C001-product-search.sh
+# odoo-v20/C001-product-search.sh
 #
 # Plenty-Pendant:
 # plenty/C001-product-search.sh

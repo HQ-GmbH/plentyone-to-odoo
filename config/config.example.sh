@@ -32,6 +32,19 @@
 
 export ODOO_URL="https://odoo.example.com"
 export ODOO_API_KEY="YOUR_API_KEY"
+# Optional für odoo-v19/ und odoo-v20/: nur setzen, wenn mehrere Datenbanken
+# über denselben Host laufen (sendet den Header X-Odoo-Database).
+# export ODOO_DATABASE="YOUR_DATABASE"
+
+# Infrastruktur-Serien H/I/J in odoo-v19/ und odoo-v20/ (nur bei Bedarf).
+# export RABBITMQ_URL="https://rabbitmq.example.com:15672"
+# export RABBITMQ_USER="YOUR_RABBITMQ_USER"
+# export RABBITMQ_PASSWORD="YOUR_RABBITMQ_PASSWORD"
+# export CHECKMK_URL="https://checkmk.example.com"
+# export CHECKMK_SITE="YOUR_SITE"
+# export CHECKMK_USER="YOUR_AUTOMATION_USER"
+# export CHECKMK_AUTOMATION_SECRET="YOUR_AUTOMATION_SECRET"
+# export PROMETHEUS_URL="http://prometheus.example.com:9090"
 
 # Plenty REST API (siehe ../plenty) - Login statt statischem API-Key.
 export PLENTY_URL="https://p12345.my.plentysystems.com"

@@ -20,7 +20,7 @@
 # A002
 #
 # Odoo-Pendant:
-# odoo/A002-auth-invalid.sh
+# odoo-v20/A002-auth-invalid.sh
 #
 # Shopware-Pendant:
 # shopware/A002-auth-invalid.sh

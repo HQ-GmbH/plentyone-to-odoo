@@ -20,7 +20,7 @@
 # G008
 #
 # Odoo-Pendant:
-# odoo/G008-account-posted-moves.sh
+# odoo-v20/G008-account-posted-moves.sh
 #
 # Plenty-Pendant:
 # plenty/G008-account-posted-moves.sh

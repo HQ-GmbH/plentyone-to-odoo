@@ -20,7 +20,7 @@
 # C020
 #
 # Odoo-Pendant:
-# odoo/C020-product-search-count.sh
+# odoo-v20/C020-product-search-count.sh
 #
 # Shopware-Pendant:
 # shopware/C020-product-search-count.sh

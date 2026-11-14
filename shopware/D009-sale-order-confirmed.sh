@@ -20,7 +20,7 @@
 # D009
 #
 # Odoo-Pendant:
-# odoo/D009-sale-order-confirmed.sh
+# odoo-v20/D009-sale-order-confirmed.sh
 #
 # Plenty-Pendant:
 # plenty/D009-sale-order-confirmed.sh

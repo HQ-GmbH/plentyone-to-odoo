@@ -20,7 +20,7 @@
 # C012
 #
 # Odoo-Pendant:
-# odoo/C012-product-standard-price.sh
+# odoo-v20/C012-product-standard-price.sh
 #
 # Shopware-Pendant:
 # shopware/C012-product-standard-price.sh
